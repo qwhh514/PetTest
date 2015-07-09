@@ -1,0 +1,1689 @@
+fileFormatVersion: 2
+guid: 22e794f0f5d213f4db5931808dbfcd30
+timeCreated: 1436090144
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bone_BabyElekk_1
+    100002: Bone_BabyElekk_10
+    100004: Bone_BabyElekk_11
+    100006: Bone_BabyElekk_12
+    100008: Bone_BabyElekk_13
+    100010: Bone_BabyElekk_14
+    100012: Bone_BabyElekk_15
+    100014: Bone_BabyElekk_16
+    100016: Bone_BabyElekk_17
+    100018: Bone_BabyElekk_18
+    100020: Bone_BabyElekk_19
+    100022: Bone_BabyElekk_2
+    100024: Bone_BabyElekk_20
+    100026: Bone_BabyElekk_21
+    100028: Bone_BabyElekk_22
+    100030: Bone_BabyElekk_23
+    100032: Bone_BabyElekk_24
+    100034: Bone_BabyElekk_25
+    100036: Bone_BabyElekk_26
+    100038: Bone_BabyElekk_27
+    100040: Bone_BabyElekk_28
+    100042: Bone_BabyElekk_29
+    100044: Bone_BabyElekk_3
+    100046: Bone_BabyElekk_30
+    100048: Bone_BabyElekk_31
+    100050: Bone_BabyElekk_32
+    100052: Bone_BabyElekk_33
+    100054: Bone_BabyElekk_34
+    100056: Bone_BabyElekk_35
+    100058: Bone_BabyElekk_36
+    100060: Bone_BabyElekk_37
+    100062: Bone_BabyElekk_38
+    100064: Bone_BabyElekk_39
+    100066: Bone_BabyElekk_4
+    100068: Bone_BabyElekk_40
+    100070: Bone_BabyElekk_41
+    100072: Bone_BabyElekk_42
+    100074: Bone_BabyElekk_43
+    100076: Bone_BabyElekk_44
+    100078: Bone_BabyElekk_45
+    100080: Bone_BabyElekk_46
+    100082: Bone_BabyElekk_47
+    100084: Bone_BabyElekk_48
+    100086: Bone_BabyElekk_49
+    100088: Bone_BabyElekk_5
+    100090: Bone_BabyElekk_50
+    100092: Bone_BabyElekk_51
+    100094: Bone_BabyElekk_52
+    100096: Bone_BabyElekk_53
+    100098: Bone_BabyElekk_54
+    100100: Bone_BabyElekk_55
+    100102: Bone_BabyElekk_56
+    100104: Bone_BabyElekk_57
+    100106: Bone_BabyElekk_58
+    100108: Bone_BabyElekk_59
+    100110: Bone_BabyElekk_6
+    100112: Bone_BabyElekk_60
+    100114: Bone_BabyElekk_61
+    100116: Bone_BabyElekk_62
+    100118: Bone_BabyElekk_63
+    100120: Bone_BabyElekk_64
+    100122: Bone_BabyElekk_65
+    100124: Bone_BabyElekk_66
+    100126: Bone_BabyElekk_67
+    100128: Bone_BabyElekk_68
+    100130: Bone_BabyElekk_69
+    100132: Bone_BabyElekk_7
+    100134: Bone_BabyElekk_70
+    100136: Bone_BabyElekk_71
+    100138: Bone_BabyElekk_72
+    100140: Bone_BabyElekk_73
+    100142: Bone_BabyElekk_8
+    100144: Bone_BabyElekk_9
+    100146: Dummy_1
+    100148: Dummy_2
+    100150: Dummy_3
+    100152: //RootNode
+    100154: Mesh_BabyElekk
+    400000: Bone_BabyElekk_1
+    400002: Bone_BabyElekk_10
+    400004: Bone_BabyElekk_11
+    400006: Bone_BabyElekk_12
+    400008: Bone_BabyElekk_13
+    400010: Bone_BabyElekk_14
+    400012: Bone_BabyElekk_15
+    400014: Bone_BabyElekk_16
+    400016: Bone_BabyElekk_17
+    400018: Bone_BabyElekk_18
+    400020: Bone_BabyElekk_19
+    400022: Bone_BabyElekk_2
+    400024: Bone_BabyElekk_20
+    400026: Bone_BabyElekk_21
+    400028: Bone_BabyElekk_22
+    400030: Bone_BabyElekk_23
+    400032: Bone_BabyElekk_24
+    400034: Bone_BabyElekk_25
+    400036: Bone_BabyElekk_26
+    400038: Bone_BabyElekk_27
+    400040: Bone_BabyElekk_28
+    400042: Bone_BabyElekk_29
+    400044: Bone_BabyElekk_3
+    400046: Bone_BabyElekk_30
+    400048: Bone_BabyElekk_31
+    400050: Bone_BabyElekk_32
+    400052: Bone_BabyElekk_33
+    400054: Bone_BabyElekk_34
+    400056: Bone_BabyElekk_35
+    400058: Bone_BabyElekk_36
+    400060: Bone_BabyElekk_37
+    400062: Bone_BabyElekk_38
+    400064: Bone_BabyElekk_39
+    400066: Bone_BabyElekk_4
+    400068: Bone_BabyElekk_40
+    400070: Bone_BabyElekk_41
+    400072: Bone_BabyElekk_42
+    400074: Bone_BabyElekk_43
+    400076: Bone_BabyElekk_44
+    400078: Bone_BabyElekk_45
+    400080: Bone_BabyElekk_46
+    400082: Bone_BabyElekk_47
+    400084: Bone_BabyElekk_48
+    400086: Bone_BabyElekk_49
+    400088: Bone_BabyElekk_5
+    400090: Bone_BabyElekk_50
+    400092: Bone_BabyElekk_51
+    400094: Bone_BabyElekk_52
+    400096: Bone_BabyElekk_53
+    400098: Bone_BabyElekk_54
+    400100: Bone_BabyElekk_55
+    400102: Bone_BabyElekk_56
+    400104: Bone_BabyElekk_57
+    400106: Bone_BabyElekk_58
+    400108: Bone_BabyElekk_59
+    400110: Bone_BabyElekk_6
+    400112: Bone_BabyElekk_60
+    400114: Bone_BabyElekk_61
+    400116: Bone_BabyElekk_62
+    400118: Bone_BabyElekk_63
+    400120: Bone_BabyElekk_64
+    400122: Bone_BabyElekk_65
+    400124: Bone_BabyElekk_66
+    400126: Bone_BabyElekk_67
+    400128: Bone_BabyElekk_68
+    400130: Bone_BabyElekk_69
+    400132: Bone_BabyElekk_7
+    400134: Bone_BabyElekk_70
+    400136: Bone_BabyElekk_71
+    400138: Bone_BabyElekk_72
+    400140: Bone_BabyElekk_73
+    400142: Bone_BabyElekk_8
+    400144: Bone_BabyElekk_9
+    400146: Dummy_1
+    400148: Dummy_2
+    400150: Dummy_3
+    400152: //RootNode
+    400154: Mesh_BabyElekk
+    4300000: Mesh_BabyElekk
+    7400000: move
+    7400002: idle1
+    7400004: idle2
+    7400006: attack1
+    7400008: attack2
+    7400010: attack3
+    7400012: hurt
+    7400014: die
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Mesh_BabyElekk
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: move
+      takeName: Take 001
+      firstFrame: 635
+      lastFrame: 652
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_BabyElekk_1
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_4
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_4/Bone_BabyElekk_8
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14/Bone_BabyElekk_54
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14/Bone_BabyElekk_55
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14/Bone_BabyElekk_56
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_51
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49/Bone_BabyElekk_57
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49/Bone_BabyElekk_58
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49/Bone_BabyElekk_59
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_50
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_43
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_44
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_62
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_66
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_67
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_68
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20/Bone_BabyElekk_63
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20/Bone_BabyElekk_69
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20/Bone_BabyElekk_70
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18/Bone_BabyElekk_61
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18/Bone_BabyElekk_64
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18/Bone_BabyElekk_65
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23/Bone_BabyElekk_71
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23/Bone_BabyElekk_72
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23/Bone_BabyElekk_73
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_60
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_60/Dummy_1
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_52
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_53
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_45
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_46
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_47
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_48
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Dummy_3
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_41
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_41/Bone_BabyElekk_42
+        weight: 1
+      - path: Bone_BabyElekk_24
+        weight: 1
+      - path: Bone_BabyElekk_25
+        weight: 1
+      - path: Bone_BabyElekk_26
+        weight: 1
+      - path: Bone_BabyElekk_27
+        weight: 1
+      - path: Bone_BabyElekk_28
+        weight: 1
+      - path: Bone_BabyElekk_29
+        weight: 1
+      - path: Bone_BabyElekk_30
+        weight: 1
+      - path: Bone_BabyElekk_31
+        weight: 1
+      - path: Bone_BabyElekk_32
+        weight: 1
+      - path: Bone_BabyElekk_33
+        weight: 1
+      - path: Bone_BabyElekk_34
+        weight: 1
+      - path: Bone_BabyElekk_35
+        weight: 1
+      - path: Bone_BabyElekk_36
+        weight: 1
+      - path: Bone_BabyElekk_37
+        weight: 1
+      - path: Bone_BabyElekk_38
+        weight: 1
+      - path: Bone_BabyElekk_39
+        weight: 1
+      - path: Bone_BabyElekk_40
+        weight: 1
+      - path: Dummy_2
+        weight: 1
+      - path: Mesh_BabyElekk
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle1
+      takeName: Take 001
+      firstFrame: 740
+      lastFrame: 821
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_BabyElekk_1
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_4
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_4/Bone_BabyElekk_8
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14/Bone_BabyElekk_54
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14/Bone_BabyElekk_55
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14/Bone_BabyElekk_56
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_51
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49/Bone_BabyElekk_57
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49/Bone_BabyElekk_58
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49/Bone_BabyElekk_59
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_50
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_43
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_44
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_62
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_66
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_67
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_68
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20/Bone_BabyElekk_63
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20/Bone_BabyElekk_69
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20/Bone_BabyElekk_70
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18/Bone_BabyElekk_61
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18/Bone_BabyElekk_64
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18/Bone_BabyElekk_65
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23/Bone_BabyElekk_71
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23/Bone_BabyElekk_72
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23/Bone_BabyElekk_73
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_60
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_60/Dummy_1
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_52
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_53
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_45
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_46
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_47
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_48
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Dummy_3
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_41
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_41/Bone_BabyElekk_42
+        weight: 1
+      - path: Bone_BabyElekk_24
+        weight: 1
+      - path: Bone_BabyElekk_25
+        weight: 1
+      - path: Bone_BabyElekk_26
+        weight: 1
+      - path: Bone_BabyElekk_27
+        weight: 1
+      - path: Bone_BabyElekk_28
+        weight: 1
+      - path: Bone_BabyElekk_29
+        weight: 1
+      - path: Bone_BabyElekk_30
+        weight: 1
+      - path: Bone_BabyElekk_31
+        weight: 1
+      - path: Bone_BabyElekk_32
+        weight: 1
+      - path: Bone_BabyElekk_33
+        weight: 1
+      - path: Bone_BabyElekk_34
+        weight: 1
+      - path: Bone_BabyElekk_35
+        weight: 1
+      - path: Bone_BabyElekk_36
+        weight: 1
+      - path: Bone_BabyElekk_37
+        weight: 1
+      - path: Bone_BabyElekk_38
+        weight: 1
+      - path: Bone_BabyElekk_39
+        weight: 1
+      - path: Bone_BabyElekk_40
+        weight: 1
+      - path: Dummy_2
+        weight: 1
+      - path: Mesh_BabyElekk
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle2
+      takeName: Take 001
+      firstFrame: 2330
+      lastFrame: 2410
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_BabyElekk_1
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_4
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_4/Bone_BabyElekk_8
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14/Bone_BabyElekk_54
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14/Bone_BabyElekk_55
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14/Bone_BabyElekk_56
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_51
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49/Bone_BabyElekk_57
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49/Bone_BabyElekk_58
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49/Bone_BabyElekk_59
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_50
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_43
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_44
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_62
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_66
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_67
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_68
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20/Bone_BabyElekk_63
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20/Bone_BabyElekk_69
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20/Bone_BabyElekk_70
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18/Bone_BabyElekk_61
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18/Bone_BabyElekk_64
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18/Bone_BabyElekk_65
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23/Bone_BabyElekk_71
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23/Bone_BabyElekk_72
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23/Bone_BabyElekk_73
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_60
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_60/Dummy_1
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_52
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_53
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_45
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_46
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_47
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_48
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Dummy_3
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_41
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_41/Bone_BabyElekk_42
+        weight: 1
+      - path: Bone_BabyElekk_24
+        weight: 1
+      - path: Bone_BabyElekk_25
+        weight: 1
+      - path: Bone_BabyElekk_26
+        weight: 1
+      - path: Bone_BabyElekk_27
+        weight: 1
+      - path: Bone_BabyElekk_28
+        weight: 1
+      - path: Bone_BabyElekk_29
+        weight: 1
+      - path: Bone_BabyElekk_30
+        weight: 1
+      - path: Bone_BabyElekk_31
+        weight: 1
+      - path: Bone_BabyElekk_32
+        weight: 1
+      - path: Bone_BabyElekk_33
+        weight: 1
+      - path: Bone_BabyElekk_34
+        weight: 1
+      - path: Bone_BabyElekk_35
+        weight: 1
+      - path: Bone_BabyElekk_36
+        weight: 1
+      - path: Bone_BabyElekk_37
+        weight: 1
+      - path: Bone_BabyElekk_38
+        weight: 1
+      - path: Bone_BabyElekk_39
+        weight: 1
+      - path: Bone_BabyElekk_40
+        weight: 1
+      - path: Dummy_2
+        weight: 1
+      - path: Mesh_BabyElekk
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack1
+      takeName: Take 001
+      firstFrame: 295
+      lastFrame: 335
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_BabyElekk_1
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_4
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_4/Bone_BabyElekk_8
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14/Bone_BabyElekk_54
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14/Bone_BabyElekk_55
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14/Bone_BabyElekk_56
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_51
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49/Bone_BabyElekk_57
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49/Bone_BabyElekk_58
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49/Bone_BabyElekk_59
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_50
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_43
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_44
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_62
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_66
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_67
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_68
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20/Bone_BabyElekk_63
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20/Bone_BabyElekk_69
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20/Bone_BabyElekk_70
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18/Bone_BabyElekk_61
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18/Bone_BabyElekk_64
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18/Bone_BabyElekk_65
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23/Bone_BabyElekk_71
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23/Bone_BabyElekk_72
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23/Bone_BabyElekk_73
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_60
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_60/Dummy_1
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_52
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_53
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_45
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_46
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_47
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_48
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Dummy_3
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_41
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_41/Bone_BabyElekk_42
+        weight: 1
+      - path: Bone_BabyElekk_24
+        weight: 1
+      - path: Bone_BabyElekk_25
+        weight: 1
+      - path: Bone_BabyElekk_26
+        weight: 1
+      - path: Bone_BabyElekk_27
+        weight: 1
+      - path: Bone_BabyElekk_28
+        weight: 1
+      - path: Bone_BabyElekk_29
+        weight: 1
+      - path: Bone_BabyElekk_30
+        weight: 1
+      - path: Bone_BabyElekk_31
+        weight: 1
+      - path: Bone_BabyElekk_32
+        weight: 1
+      - path: Bone_BabyElekk_33
+        weight: 1
+      - path: Bone_BabyElekk_34
+        weight: 1
+      - path: Bone_BabyElekk_35
+        weight: 1
+      - path: Bone_BabyElekk_36
+        weight: 1
+      - path: Bone_BabyElekk_37
+        weight: 1
+      - path: Bone_BabyElekk_38
+        weight: 1
+      - path: Bone_BabyElekk_39
+        weight: 1
+      - path: Bone_BabyElekk_40
+        weight: 1
+      - path: Dummy_2
+        weight: 1
+      - path: Mesh_BabyElekk
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack2
+      takeName: Take 001
+      firstFrame: 1350
+      lastFrame: 1415
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_BabyElekk_1
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_4
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_4/Bone_BabyElekk_8
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14/Bone_BabyElekk_54
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14/Bone_BabyElekk_55
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14/Bone_BabyElekk_56
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_51
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49/Bone_BabyElekk_57
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49/Bone_BabyElekk_58
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49/Bone_BabyElekk_59
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_50
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_43
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_44
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_62
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_66
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_67
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_68
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20/Bone_BabyElekk_63
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20/Bone_BabyElekk_69
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20/Bone_BabyElekk_70
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18/Bone_BabyElekk_61
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18/Bone_BabyElekk_64
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18/Bone_BabyElekk_65
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23/Bone_BabyElekk_71
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23/Bone_BabyElekk_72
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23/Bone_BabyElekk_73
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_60
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_60/Dummy_1
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_52
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_53
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_45
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_46
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_47
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_48
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Dummy_3
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_41
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_41/Bone_BabyElekk_42
+        weight: 1
+      - path: Bone_BabyElekk_24
+        weight: 1
+      - path: Bone_BabyElekk_25
+        weight: 1
+      - path: Bone_BabyElekk_26
+        weight: 1
+      - path: Bone_BabyElekk_27
+        weight: 1
+      - path: Bone_BabyElekk_28
+        weight: 1
+      - path: Bone_BabyElekk_29
+        weight: 1
+      - path: Bone_BabyElekk_30
+        weight: 1
+      - path: Bone_BabyElekk_31
+        weight: 1
+      - path: Bone_BabyElekk_32
+        weight: 1
+      - path: Bone_BabyElekk_33
+        weight: 1
+      - path: Bone_BabyElekk_34
+        weight: 1
+      - path: Bone_BabyElekk_35
+        weight: 1
+      - path: Bone_BabyElekk_36
+        weight: 1
+      - path: Bone_BabyElekk_37
+        weight: 1
+      - path: Bone_BabyElekk_38
+        weight: 1
+      - path: Bone_BabyElekk_39
+        weight: 1
+      - path: Bone_BabyElekk_40
+        weight: 1
+      - path: Dummy_2
+        weight: 1
+      - path: Mesh_BabyElekk
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack3
+      takeName: Take 001
+      firstFrame: 2210
+      lastFrame: 2255
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_BabyElekk_1
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_4
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_4/Bone_BabyElekk_8
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14/Bone_BabyElekk_54
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14/Bone_BabyElekk_55
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14/Bone_BabyElekk_56
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_51
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49/Bone_BabyElekk_57
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49/Bone_BabyElekk_58
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49/Bone_BabyElekk_59
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_50
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_43
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_44
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_62
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_66
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_67
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_68
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20/Bone_BabyElekk_63
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20/Bone_BabyElekk_69
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20/Bone_BabyElekk_70
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18/Bone_BabyElekk_61
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18/Bone_BabyElekk_64
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18/Bone_BabyElekk_65
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23/Bone_BabyElekk_71
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23/Bone_BabyElekk_72
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23/Bone_BabyElekk_73
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_60
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_60/Dummy_1
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_52
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_53
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_45
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_46
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_47
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_48
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Dummy_3
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_41
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_41/Bone_BabyElekk_42
+        weight: 1
+      - path: Bone_BabyElekk_24
+        weight: 1
+      - path: Bone_BabyElekk_25
+        weight: 1
+      - path: Bone_BabyElekk_26
+        weight: 1
+      - path: Bone_BabyElekk_27
+        weight: 1
+      - path: Bone_BabyElekk_28
+        weight: 1
+      - path: Bone_BabyElekk_29
+        weight: 1
+      - path: Bone_BabyElekk_30
+        weight: 1
+      - path: Bone_BabyElekk_31
+        weight: 1
+      - path: Bone_BabyElekk_32
+        weight: 1
+      - path: Bone_BabyElekk_33
+        weight: 1
+      - path: Bone_BabyElekk_34
+        weight: 1
+      - path: Bone_BabyElekk_35
+        weight: 1
+      - path: Bone_BabyElekk_36
+        weight: 1
+      - path: Bone_BabyElekk_37
+        weight: 1
+      - path: Bone_BabyElekk_38
+        weight: 1
+      - path: Bone_BabyElekk_39
+        weight: 1
+      - path: Bone_BabyElekk_40
+        weight: 1
+      - path: Dummy_2
+        weight: 1
+      - path: Mesh_BabyElekk
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: hurt
+      takeName: Take 001
+      firstFrame: 520
+      lastFrame: 555
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_BabyElekk_1
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_4
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_4/Bone_BabyElekk_8
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14/Bone_BabyElekk_54
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14/Bone_BabyElekk_55
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14/Bone_BabyElekk_56
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_51
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49/Bone_BabyElekk_57
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49/Bone_BabyElekk_58
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49/Bone_BabyElekk_59
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_50
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_43
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_44
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_62
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_66
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_67
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_68
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20/Bone_BabyElekk_63
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20/Bone_BabyElekk_69
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20/Bone_BabyElekk_70
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18/Bone_BabyElekk_61
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18/Bone_BabyElekk_64
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18/Bone_BabyElekk_65
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23/Bone_BabyElekk_71
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23/Bone_BabyElekk_72
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23/Bone_BabyElekk_73
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_60
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_60/Dummy_1
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_52
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_53
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_45
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_46
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_47
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_48
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Dummy_3
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_41
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_41/Bone_BabyElekk_42
+        weight: 1
+      - path: Bone_BabyElekk_24
+        weight: 1
+      - path: Bone_BabyElekk_25
+        weight: 1
+      - path: Bone_BabyElekk_26
+        weight: 1
+      - path: Bone_BabyElekk_27
+        weight: 1
+      - path: Bone_BabyElekk_28
+        weight: 1
+      - path: Bone_BabyElekk_29
+        weight: 1
+      - path: Bone_BabyElekk_30
+        weight: 1
+      - path: Bone_BabyElekk_31
+        weight: 1
+      - path: Bone_BabyElekk_32
+        weight: 1
+      - path: Bone_BabyElekk_33
+        weight: 1
+      - path: Bone_BabyElekk_34
+        weight: 1
+      - path: Bone_BabyElekk_35
+        weight: 1
+      - path: Bone_BabyElekk_36
+        weight: 1
+      - path: Bone_BabyElekk_37
+        weight: 1
+      - path: Bone_BabyElekk_38
+        weight: 1
+      - path: Bone_BabyElekk_39
+        weight: 1
+      - path: Bone_BabyElekk_40
+        weight: 1
+      - path: Dummy_2
+        weight: 1
+      - path: Mesh_BabyElekk
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: die
+      takeName: Take 001
+      firstFrame: 1185
+      lastFrame: 1270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_BabyElekk_1
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_4
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_4/Bone_BabyElekk_8
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14/Bone_BabyElekk_54
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14/Bone_BabyElekk_55
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_14/Bone_BabyElekk_56
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_5/Bone_BabyElekk_9/Bone_BabyElekk_51
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49/Bone_BabyElekk_57
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49/Bone_BabyElekk_58
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_49/Bone_BabyElekk_59
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_6/Bone_BabyElekk_10/Bone_BabyElekk_50
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_43
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_2/Bone_BabyElekk_44
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_62
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_66
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_67
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_11/Bone_BabyElekk_16/Bone_BabyElekk_19/Bone_BabyElekk_68
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20/Bone_BabyElekk_63
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20/Bone_BabyElekk_69
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_12/Bone_BabyElekk_17/Bone_BabyElekk_20/Bone_BabyElekk_70
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18/Bone_BabyElekk_61
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18/Bone_BabyElekk_64
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_18/Bone_BabyElekk_65
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23/Bone_BabyElekk_71
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23/Bone_BabyElekk_72
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_21/Bone_BabyElekk_22/Bone_BabyElekk_23/Bone_BabyElekk_73
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_60
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_15/Bone_BabyElekk_60/Dummy_1
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_52
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_13/Bone_BabyElekk_53
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_45
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_46
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_47
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Bone_BabyElekk_48
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_3/Bone_BabyElekk_7/Dummy_3
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_41
+        weight: 1
+      - path: Bone_BabyElekk_1/Bone_BabyElekk_41/Bone_BabyElekk_42
+        weight: 1
+      - path: Bone_BabyElekk_24
+        weight: 1
+      - path: Bone_BabyElekk_25
+        weight: 1
+      - path: Bone_BabyElekk_26
+        weight: 1
+      - path: Bone_BabyElekk_27
+        weight: 1
+      - path: Bone_BabyElekk_28
+        weight: 1
+      - path: Bone_BabyElekk_29
+        weight: 1
+      - path: Bone_BabyElekk_30
+        weight: 1
+      - path: Bone_BabyElekk_31
+        weight: 1
+      - path: Bone_BabyElekk_32
+        weight: 1
+      - path: Bone_BabyElekk_33
+        weight: 1
+      - path: Bone_BabyElekk_34
+        weight: 1
+      - path: Bone_BabyElekk_35
+        weight: 1
+      - path: Bone_BabyElekk_36
+        weight: 1
+      - path: Bone_BabyElekk_37
+        weight: 1
+      - path: Bone_BabyElekk_38
+        weight: 1
+      - path: Bone_BabyElekk_39
+        weight: 1
+      - path: Bone_BabyElekk_40
+        weight: 1
+      - path: Dummy_2
+        weight: 1
+      - path: Mesh_BabyElekk
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

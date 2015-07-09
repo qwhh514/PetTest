@@ -1,0 +1,32 @@
+{
+    "401000": {
+        "SkillsParticle_name": "HelixHealing"
+    }, 
+    "401001": {
+        "SkillsParticle_name": "FireExplosion"
+    }, 
+    "402000": {
+        "SkillsParticle_name": "EarthSpikes"
+    }, 
+    "402001": {
+        "SkillsParticle_name": "VanishEffect"
+    }, 
+    "403000": {
+        "SkillsParticle_name": "ShieldEffect"
+    }, 
+    "403001": {
+        "SkillsParticle_name": "FireSpray"
+    }, 
+    "411000": {
+        "SkillsParticle_name": "3D_CriticalHit_01"
+    }, 
+    "411001": {
+        "SkillsParticle_name": "BigBang"
+    }, 
+    "411002": {
+        "SkillsParticle_name": "MeteorStorm"
+    }, 
+    "411003": {
+        "SkillsParticle_name": "3D_hit_03"
+    }
+}

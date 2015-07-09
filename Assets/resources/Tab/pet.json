@@ -1,0 +1,38 @@
+{
+    "101000": {
+        "Name": "死亡之翼", 
+        "Type": 1, 
+        "Quality": 1, 
+        "ICON": 1, 
+        "HP": 3850, 
+        "Model_ID": "Boss_E", 
+        "Skills_ID": "301000|301001|301002"
+    }, 
+    "101001": {
+        "Name": "蛋蛋", 
+        "Type": 1, 
+        "Quality": 1, 
+        "ICON": 2, 
+        "HP": 1481, 
+        "Model_ID": "Bird", 
+        "Skills_ID": "302000|302001|303002"
+    }, 
+    "101002": {
+        "Name": "小飞象", 
+        "Type": 1, 
+        "Quality": 1, 
+        "ICON": 3, 
+        "HP": 1400, 
+        "Model_ID": "Elephant", 
+        "Skills_ID": "303000|303001|303002"
+    }, 
+    "101003": {
+        "Name": "虚空幼龙", 
+        "Type": 1, 
+        "Quality": 1, 
+        "ICON": 4, 
+        "HP": 1546, 
+        "Model_ID": "Dragon", 
+        "Skills_ID": "304000|304001|304002"
+    }
+}

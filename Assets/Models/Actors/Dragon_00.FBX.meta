@@ -1,0 +1,1788 @@
+fileFormatVersion: 2
+guid: 6060c39fbee2d5c488d12568800e4aff
+timeCreated: 1434949238
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Base
+    100002: //RootNode
+    100004: DragonWhelpOutlandCute0_Mesh
+    100006: DragonWhelpOutlandCute_Bone00
+    100008: DragonWhelpOutlandCute_Bone01_Root
+    100010: DragonWhelpOutlandCute_Bone02
+    100012: DragonWhelpOutlandCute_Bone03_SpineLow
+    100014: DragonWhelpOutlandCute_Bone04_Waist
+    100016: DragonWhelpOutlandCute_Bone05_ArmL
+    100018: DragonWhelpOutlandCute_Bone06_ArmR
+    100020: DragonWhelpOutlandCute_Bone07
+    100022: DragonWhelpOutlandCute_Bone08
+    100024: DragonWhelpOutlandCute_Bone10
+    100026: DragonWhelpOutlandCute_Bone11
+    100028: DragonWhelpOutlandCute_Bone12
+    100030: DragonWhelpOutlandCute_Bone13
+    100032: DragonWhelpOutlandCute_Bone14
+    100034: DragonWhelpOutlandCute_Bone15
+    100036: DragonWhelpOutlandCute_Bone16
+    100038: DragonWhelpOutlandCute_Bone17
+    100040: DragonWhelpOutlandCute_Bone18
+    100042: DragonWhelpOutlandCute_Bone19
+    100044: DragonWhelpOutlandCute_Bone20
+    100046: DragonWhelpOutlandCute_Bone21_Head
+    100048: DragonWhelpOutlandCute_Bone22
+    100050: DragonWhelpOutlandCute_Bone23
+    100052: DragonWhelpOutlandCute_Bone24
+    100054: DragonWhelpOutlandCute_Bone25
+    100056: DragonWhelpOutlandCute_Bone26
+    100058: DragonWhelpOutlandCute_Bone27_Jaw
+    100060: DragonWhelpOutlandCute_Bone28
+    100062: DragonWhelpOutlandCute_Bone29
+    100064: DragonWhelpOutlandCute_Bone30
+    100066: DragonWhelpOutlandCute_Bone31
+    100068: DragonWhelpOutlandCute_Bone32
+    100070: DragonWhelpOutlandCute_Bone33
+    100072: DragonWhelpOutlandCute_Bone35
+    100074: DragonWhelpOutlandCute_Bone37
+    100076: DragonWhelpOutlandCute_Bone38
+    100078: DragonWhelpOutlandCute_Bone39
+    100080: DragonWhelpOutlandCute_Bone40
+    100082: DragonWhelpOutlandCute_Bone41
+    100084: DragonWhelpOutlandCute_Bone42
+    100086: DragonWhelpOutlandCute_Bone43
+    100088: DragonWhelpOutlandCute_Bone44
+    100090: DragonWhelpOutlandCute_Bone45
+    100092: DragonWhelpOutlandCute_Bone46
+    100094: DragonWhelpOutlandCute_Bone47
+    100096: DragonWhelpOutlandCute_Bone48_$CCH
+    100098: DragonWhelpOutlandCute_Bone49
+    100100: DragonWhelpOutlandCute_Bone50
+    100102: DragonWhelpOutlandCute_Bone51__Breath
+    100104: DragonWhelpOutlandCute_Bone52
+    100106: DragonWhelpOutlandCute_Bone53
+    100108: DragonWhelpOutlandCute_Bone54
+    100110: DragonWhelpOutlandCute_Bone55
+    100112: DragonWhelpOutlandCute_Bone56
+    100114: DragonWhelpOutlandCute_Bone57
+    100116: DragonWhelpOutlandCute_Bone58_$CHD
+    100118: DragonWhelpOutlandCute_Bone59
+    100120: DragonWhelpOutlandCute_Bone60_$CSR
+    100122: DragonWhelpOutlandCute_Bone61_$CSL
+    100124: DragonWhelpOutlandCute_Bone9
+    100126: Dummy_1
+    100128: Dummy_3
+    100130: Front Hit Region
+    100132: Left Palm
+    100134: Pre-Cast 1 L
+    100136: Pre-Cast 1 R
+    100138: Rear Hit Region
+    100140: Right Palm
+    400000: Base
+    400002: //RootNode
+    400004: DragonWhelpOutlandCute0_Mesh
+    400006: DragonWhelpOutlandCute_Bone00
+    400008: DragonWhelpOutlandCute_Bone01_Root
+    400010: DragonWhelpOutlandCute_Bone02
+    400012: DragonWhelpOutlandCute_Bone03_SpineLow
+    400014: DragonWhelpOutlandCute_Bone04_Waist
+    400016: DragonWhelpOutlandCute_Bone05_ArmL
+    400018: DragonWhelpOutlandCute_Bone06_ArmR
+    400020: DragonWhelpOutlandCute_Bone07
+    400022: DragonWhelpOutlandCute_Bone08
+    400024: DragonWhelpOutlandCute_Bone10
+    400026: DragonWhelpOutlandCute_Bone11
+    400028: DragonWhelpOutlandCute_Bone12
+    400030: DragonWhelpOutlandCute_Bone13
+    400032: DragonWhelpOutlandCute_Bone14
+    400034: DragonWhelpOutlandCute_Bone15
+    400036: DragonWhelpOutlandCute_Bone16
+    400038: DragonWhelpOutlandCute_Bone17
+    400040: DragonWhelpOutlandCute_Bone18
+    400042: DragonWhelpOutlandCute_Bone19
+    400044: DragonWhelpOutlandCute_Bone20
+    400046: DragonWhelpOutlandCute_Bone21_Head
+    400048: DragonWhelpOutlandCute_Bone22
+    400050: DragonWhelpOutlandCute_Bone23
+    400052: DragonWhelpOutlandCute_Bone24
+    400054: DragonWhelpOutlandCute_Bone25
+    400056: DragonWhelpOutlandCute_Bone26
+    400058: DragonWhelpOutlandCute_Bone27_Jaw
+    400060: DragonWhelpOutlandCute_Bone28
+    400062: DragonWhelpOutlandCute_Bone29
+    400064: DragonWhelpOutlandCute_Bone30
+    400066: DragonWhelpOutlandCute_Bone31
+    400068: DragonWhelpOutlandCute_Bone32
+    400070: DragonWhelpOutlandCute_Bone33
+    400072: DragonWhelpOutlandCute_Bone35
+    400074: DragonWhelpOutlandCute_Bone37
+    400076: DragonWhelpOutlandCute_Bone38
+    400078: DragonWhelpOutlandCute_Bone39
+    400080: DragonWhelpOutlandCute_Bone40
+    400082: DragonWhelpOutlandCute_Bone41
+    400084: DragonWhelpOutlandCute_Bone42
+    400086: DragonWhelpOutlandCute_Bone43
+    400088: DragonWhelpOutlandCute_Bone44
+    400090: DragonWhelpOutlandCute_Bone45
+    400092: DragonWhelpOutlandCute_Bone46
+    400094: DragonWhelpOutlandCute_Bone47
+    400096: DragonWhelpOutlandCute_Bone48_$CCH
+    400098: DragonWhelpOutlandCute_Bone49
+    400100: DragonWhelpOutlandCute_Bone50
+    400102: DragonWhelpOutlandCute_Bone51__Breath
+    400104: DragonWhelpOutlandCute_Bone52
+    400106: DragonWhelpOutlandCute_Bone53
+    400108: DragonWhelpOutlandCute_Bone54
+    400110: DragonWhelpOutlandCute_Bone55
+    400112: DragonWhelpOutlandCute_Bone56
+    400114: DragonWhelpOutlandCute_Bone57
+    400116: DragonWhelpOutlandCute_Bone58_$CHD
+    400118: DragonWhelpOutlandCute_Bone59
+    400120: DragonWhelpOutlandCute_Bone60_$CSR
+    400122: DragonWhelpOutlandCute_Bone61_$CSL
+    400124: DragonWhelpOutlandCute_Bone9
+    400126: Dummy_1
+    400128: Dummy_3
+    400130: Front Hit Region
+    400132: Left Palm
+    400134: Pre-Cast 1 L
+    400136: Pre-Cast 1 R
+    400138: Rear Hit Region
+    400140: Right Palm
+    4300000: DragonWhelpOutlandCute0_Mesh
+    7400000: move
+    7400002: idle1
+    7400004: idle2
+    7400006: attack1
+    7400008: attack2
+    7400010: attack3
+    7400012: hurt
+    7400014: die
+    7400016: Take 0017
+    7400018: Take 0018
+    7400020: turn
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: DragonWhelpOutlandCute0_Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: move
+      takeName: Take 001
+      firstFrame: 500
+      lastFrame: 520
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DragonWhelpOutlandCute0_Mesh
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02/DragonWhelpOutlandCute_Bone38
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02/DragonWhelpOutlandCute_Bone38/Front
+          Hit Region
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone05_ArmL
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone05_ArmL/DragonWhelpOutlandCute_Bone13
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone06_ArmR
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone06_ArmR/DragonWhelpOutlandCute_Bone14
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw/DragonWhelpOutlandCute_Bone60_$CSR
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw/DragonWhelpOutlandCute_Bone61_$CSL
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone28
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone29
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone51__Breath
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone51__Breath/Dummy_1
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone58_$CHD
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45/DragonWhelpOutlandCute_Bone48_$CCH
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45/Dummy_3
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone50
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone50/Left
+          Palm
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone52
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone52/Pre-Cast
+          1 L
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone54
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone55
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone46
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone49
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone49/Right
+          Palm
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone53
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone53/Pre-Cast
+          1 R
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone56
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone57
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone59
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone47
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone39
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone39/Rear
+          Hit Region
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone40
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone41
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone42
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone43
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone44
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17/DragonWhelpOutlandCute_Bone24
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17/DragonWhelpOutlandCute_Bone24/DragonWhelpOutlandCute_Bone30
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18/DragonWhelpOutlandCute_Bone25
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18/DragonWhelpOutlandCute_Bone25/DragonWhelpOutlandCute_Bone31
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26/DragonWhelpOutlandCute_Bone32
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26/DragonWhelpOutlandCute_Bone32/DragonWhelpOutlandCute_Bone33
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone35
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone35/Base
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone37
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle1
+      takeName: Take 001
+      firstFrame: 3
+      lastFrame: 38
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DragonWhelpOutlandCute0_Mesh
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02/DragonWhelpOutlandCute_Bone38
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02/DragonWhelpOutlandCute_Bone38/Front
+          Hit Region
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone05_ArmL
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone05_ArmL/DragonWhelpOutlandCute_Bone13
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone06_ArmR
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone06_ArmR/DragonWhelpOutlandCute_Bone14
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw/DragonWhelpOutlandCute_Bone60_$CSR
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw/DragonWhelpOutlandCute_Bone61_$CSL
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone28
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone29
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone51__Breath
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone51__Breath/Dummy_1
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone58_$CHD
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45/DragonWhelpOutlandCute_Bone48_$CCH
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45/Dummy_3
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone50
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone50/Left
+          Palm
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone52
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone52/Pre-Cast
+          1 L
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone54
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone55
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone46
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone49
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone49/Right
+          Palm
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone53
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone53/Pre-Cast
+          1 R
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone56
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone57
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone59
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone47
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone39
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone39/Rear
+          Hit Region
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone40
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone41
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone42
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone43
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone44
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17/DragonWhelpOutlandCute_Bone24
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17/DragonWhelpOutlandCute_Bone24/DragonWhelpOutlandCute_Bone30
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18/DragonWhelpOutlandCute_Bone25
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18/DragonWhelpOutlandCute_Bone25/DragonWhelpOutlandCute_Bone31
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26/DragonWhelpOutlandCute_Bone32
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26/DragonWhelpOutlandCute_Bone32/DragonWhelpOutlandCute_Bone33
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone35
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone35/Base
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone37
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle2
+      takeName: Take 001
+      firstFrame: 1200
+      lastFrame: 1270
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DragonWhelpOutlandCute0_Mesh
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02/DragonWhelpOutlandCute_Bone38
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02/DragonWhelpOutlandCute_Bone38/Front
+          Hit Region
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone05_ArmL
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone05_ArmL/DragonWhelpOutlandCute_Bone13
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone06_ArmR
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone06_ArmR/DragonWhelpOutlandCute_Bone14
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw/DragonWhelpOutlandCute_Bone60_$CSR
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw/DragonWhelpOutlandCute_Bone61_$CSL
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone28
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone29
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone51__Breath
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone51__Breath/Dummy_1
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone58_$CHD
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45/DragonWhelpOutlandCute_Bone48_$CCH
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45/Dummy_3
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone50
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone50/Left
+          Palm
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone52
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone52/Pre-Cast
+          1 L
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone54
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone55
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone46
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone49
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone49/Right
+          Palm
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone53
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone53/Pre-Cast
+          1 R
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone56
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone57
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone59
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone47
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone39
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone39/Rear
+          Hit Region
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone40
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone41
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone42
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone43
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone44
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17/DragonWhelpOutlandCute_Bone24
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17/DragonWhelpOutlandCute_Bone24/DragonWhelpOutlandCute_Bone30
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18/DragonWhelpOutlandCute_Bone25
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18/DragonWhelpOutlandCute_Bone25/DragonWhelpOutlandCute_Bone31
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26/DragonWhelpOutlandCute_Bone32
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26/DragonWhelpOutlandCute_Bone32/DragonWhelpOutlandCute_Bone33
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone35
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone35/Base
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone37
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack1
+      takeName: Take 001
+      firstFrame: 900
+      lastFrame: 930
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DragonWhelpOutlandCute0_Mesh
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02/DragonWhelpOutlandCute_Bone38
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02/DragonWhelpOutlandCute_Bone38/Front
+          Hit Region
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone05_ArmL
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone05_ArmL/DragonWhelpOutlandCute_Bone13
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone06_ArmR
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone06_ArmR/DragonWhelpOutlandCute_Bone14
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw/DragonWhelpOutlandCute_Bone60_$CSR
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw/DragonWhelpOutlandCute_Bone61_$CSL
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone28
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone29
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone51__Breath
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone51__Breath/Dummy_1
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone58_$CHD
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45/DragonWhelpOutlandCute_Bone48_$CCH
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45/Dummy_3
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone50
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone50/Left
+          Palm
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone52
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone52/Pre-Cast
+          1 L
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone54
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone55
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone46
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone49
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone49/Right
+          Palm
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone53
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone53/Pre-Cast
+          1 R
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone56
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone57
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone59
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone47
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone39
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone39/Rear
+          Hit Region
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone40
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone41
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone42
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone43
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone44
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17/DragonWhelpOutlandCute_Bone24
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17/DragonWhelpOutlandCute_Bone24/DragonWhelpOutlandCute_Bone30
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18/DragonWhelpOutlandCute_Bone25
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18/DragonWhelpOutlandCute_Bone25/DragonWhelpOutlandCute_Bone31
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26/DragonWhelpOutlandCute_Bone32
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26/DragonWhelpOutlandCute_Bone32/DragonWhelpOutlandCute_Bone33
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone35
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone35/Base
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone37
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack2
+      takeName: Take 001
+      firstFrame: 660
+      lastFrame: 680
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DragonWhelpOutlandCute0_Mesh
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02/DragonWhelpOutlandCute_Bone38
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02/DragonWhelpOutlandCute_Bone38/Front
+          Hit Region
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone05_ArmL
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone05_ArmL/DragonWhelpOutlandCute_Bone13
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone06_ArmR
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone06_ArmR/DragonWhelpOutlandCute_Bone14
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw/DragonWhelpOutlandCute_Bone60_$CSR
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw/DragonWhelpOutlandCute_Bone61_$CSL
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone28
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone29
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone51__Breath
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone51__Breath/Dummy_1
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone58_$CHD
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45/DragonWhelpOutlandCute_Bone48_$CCH
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45/Dummy_3
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone50
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone50/Left
+          Palm
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone52
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone52/Pre-Cast
+          1 L
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone54
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone55
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone46
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone49
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone49/Right
+          Palm
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone53
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone53/Pre-Cast
+          1 R
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone56
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone57
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone59
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone47
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone39
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone39/Rear
+          Hit Region
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone40
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone41
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone42
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone43
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone44
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17/DragonWhelpOutlandCute_Bone24
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17/DragonWhelpOutlandCute_Bone24/DragonWhelpOutlandCute_Bone30
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18/DragonWhelpOutlandCute_Bone25
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18/DragonWhelpOutlandCute_Bone25/DragonWhelpOutlandCute_Bone31
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26/DragonWhelpOutlandCute_Bone32
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26/DragonWhelpOutlandCute_Bone32/DragonWhelpOutlandCute_Bone33
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone35
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone35/Base
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone37
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack3
+      takeName: Take 001
+      firstFrame: 580
+      lastFrame: 600
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DragonWhelpOutlandCute0_Mesh
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02/DragonWhelpOutlandCute_Bone38
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02/DragonWhelpOutlandCute_Bone38/Front
+          Hit Region
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone05_ArmL
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone05_ArmL/DragonWhelpOutlandCute_Bone13
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone06_ArmR
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone06_ArmR/DragonWhelpOutlandCute_Bone14
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw/DragonWhelpOutlandCute_Bone60_$CSR
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw/DragonWhelpOutlandCute_Bone61_$CSL
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone28
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone29
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone51__Breath
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone51__Breath/Dummy_1
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone58_$CHD
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45/DragonWhelpOutlandCute_Bone48_$CCH
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45/Dummy_3
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone50
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone50/Left
+          Palm
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone52
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone52/Pre-Cast
+          1 L
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone54
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone55
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone46
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone49
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone49/Right
+          Palm
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone53
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone53/Pre-Cast
+          1 R
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone56
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone57
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone59
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone47
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone39
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone39/Rear
+          Hit Region
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone40
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone41
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone42
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone43
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone44
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17/DragonWhelpOutlandCute_Bone24
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17/DragonWhelpOutlandCute_Bone24/DragonWhelpOutlandCute_Bone30
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18/DragonWhelpOutlandCute_Bone25
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18/DragonWhelpOutlandCute_Bone25/DragonWhelpOutlandCute_Bone31
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26/DragonWhelpOutlandCute_Bone32
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26/DragonWhelpOutlandCute_Bone32/DragonWhelpOutlandCute_Bone33
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone35
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone35/Base
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone37
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: hurt
+      takeName: Take 001
+      firstFrame: 990
+      lastFrame: 1000
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DragonWhelpOutlandCute0_Mesh
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02/DragonWhelpOutlandCute_Bone38
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02/DragonWhelpOutlandCute_Bone38/Front
+          Hit Region
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone05_ArmL
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone05_ArmL/DragonWhelpOutlandCute_Bone13
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone06_ArmR
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone06_ArmR/DragonWhelpOutlandCute_Bone14
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw/DragonWhelpOutlandCute_Bone60_$CSR
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw/DragonWhelpOutlandCute_Bone61_$CSL
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone28
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone29
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone51__Breath
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone51__Breath/Dummy_1
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone58_$CHD
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45/DragonWhelpOutlandCute_Bone48_$CCH
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45/Dummy_3
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone50
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone50/Left
+          Palm
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone52
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone52/Pre-Cast
+          1 L
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone54
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone55
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone46
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone49
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone49/Right
+          Palm
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone53
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone53/Pre-Cast
+          1 R
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone56
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone57
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone59
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone47
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone39
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone39/Rear
+          Hit Region
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone40
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone41
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone42
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone43
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone44
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17/DragonWhelpOutlandCute_Bone24
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17/DragonWhelpOutlandCute_Bone24/DragonWhelpOutlandCute_Bone30
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18/DragonWhelpOutlandCute_Bone25
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18/DragonWhelpOutlandCute_Bone25/DragonWhelpOutlandCute_Bone31
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26/DragonWhelpOutlandCute_Bone32
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26/DragonWhelpOutlandCute_Bone32/DragonWhelpOutlandCute_Bone33
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone35
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone35/Base
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone37
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: die
+      takeName: Take 001
+      firstFrame: 740
+      lastFrame: 840
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DragonWhelpOutlandCute0_Mesh
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02/DragonWhelpOutlandCute_Bone38
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02/DragonWhelpOutlandCute_Bone38/Front
+          Hit Region
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone05_ArmL
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone05_ArmL/DragonWhelpOutlandCute_Bone13
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone06_ArmR
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone06_ArmR/DragonWhelpOutlandCute_Bone14
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw/DragonWhelpOutlandCute_Bone60_$CSR
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw/DragonWhelpOutlandCute_Bone61_$CSL
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone28
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone29
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone51__Breath
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone51__Breath/Dummy_1
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone58_$CHD
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45/DragonWhelpOutlandCute_Bone48_$CCH
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45/Dummy_3
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone50
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone50/Left
+          Palm
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone52
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone52/Pre-Cast
+          1 L
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone54
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone55
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone46
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone49
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone49/Right
+          Palm
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone53
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone53/Pre-Cast
+          1 R
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone56
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone57
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone59
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone47
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone39
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone39/Rear
+          Hit Region
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone40
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone41
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone42
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone43
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone44
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17/DragonWhelpOutlandCute_Bone24
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17/DragonWhelpOutlandCute_Bone24/DragonWhelpOutlandCute_Bone30
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18/DragonWhelpOutlandCute_Bone25
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18/DragonWhelpOutlandCute_Bone25/DragonWhelpOutlandCute_Bone31
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26/DragonWhelpOutlandCute_Bone32
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26/DragonWhelpOutlandCute_Bone32/DragonWhelpOutlandCute_Bone33
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone35
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone35/Base
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone37
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: turn
+      takeName: Take 001
+      firstFrame: 1067
+      lastFrame: 1130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DragonWhelpOutlandCute0_Mesh
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02/DragonWhelpOutlandCute_Bone38
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone02/DragonWhelpOutlandCute_Bone38/Front
+          Hit Region
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone05_ArmL
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone05_ArmL/DragonWhelpOutlandCute_Bone13
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone06_ArmR
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone06_ArmR/DragonWhelpOutlandCute_Bone14
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw/DragonWhelpOutlandCute_Bone60_$CSR
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone27_Jaw/DragonWhelpOutlandCute_Bone61_$CSL
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone28
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone29
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone51__Breath
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone51__Breath/Dummy_1
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone20/DragonWhelpOutlandCute_Bone21_Head/DragonWhelpOutlandCute_Bone58_$CHD
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45/DragonWhelpOutlandCute_Bone48_$CCH
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone07/DragonWhelpOutlandCute_Bone45/Dummy_3
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone50
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone50/Left
+          Palm
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone52
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone52/Pre-Cast
+          1 L
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone54
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone22/DragonWhelpOutlandCute_Bone55
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone08/DragonWhelpOutlandCute_Bone15/DragonWhelpOutlandCute_Bone46
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone49
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone49/Right
+          Palm
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone53
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone53/Pre-Cast
+          1 R
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone56
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone57
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone23/DragonWhelpOutlandCute_Bone59
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone9/DragonWhelpOutlandCute_Bone16/DragonWhelpOutlandCute_Bone47
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone39
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone39/Rear
+          Hit Region
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone40
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone41
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone42
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone43
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone03_SpineLow/DragonWhelpOutlandCute_Bone44
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17/DragonWhelpOutlandCute_Bone24
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone10/DragonWhelpOutlandCute_Bone17/DragonWhelpOutlandCute_Bone24/DragonWhelpOutlandCute_Bone30
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18/DragonWhelpOutlandCute_Bone25
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone11/DragonWhelpOutlandCute_Bone18/DragonWhelpOutlandCute_Bone25/DragonWhelpOutlandCute_Bone31
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26/DragonWhelpOutlandCute_Bone32
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone00/DragonWhelpOutlandCute_Bone01_Root/DragonWhelpOutlandCute_Bone04_Waist/DragonWhelpOutlandCute_Bone12/DragonWhelpOutlandCute_Bone19/DragonWhelpOutlandCute_Bone26/DragonWhelpOutlandCute_Bone32/DragonWhelpOutlandCute_Bone33
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone35
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone35/Base
+        weight: 1
+      - path: DragonWhelpOutlandCute_Bone37
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 120
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

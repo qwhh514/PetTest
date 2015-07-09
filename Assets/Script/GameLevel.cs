@@ -1,0 +1,230 @@
+﻿
+using UnityEngine;
+using System;
+using System.Collections;
+
+public enum GameActorMessage
+{
+	GAM_NONE = 0,
+	GAM_SPAWN,
+	GAM_IDLE,
+	GAM_MOVE,
+	GAM_ATTACK,
+	GAM_HEAL,
+	GAM_HURT,
+	GAM_DIE,
+	GAM_COUNT
+}
+
+public enum BattleResult
+{
+	BATTLE_RESULT_NONE = 0,
+	BATTLE_RESULT_WIN,
+	BATTLE_RESULT_LOSR,
+}
+
+public struct GameMessage
+{
+	public int Value;
+	public GameObject obj;
+}
+
+public class GameLevel : MonoBehaviour {
+
+	private static GameLevel m_instance = null;
+	
+	private Hashtable ActorHash;
+	private Player m_leftPlayer;
+	private Player m_rightPlayer;
+
+	private BattleResult m_battleResult;
+
+	private E_PLAYER_SIDE m_curBout;
+	public E_PLAYER_SIDE Bout
+	{
+		get { return m_curBout; }
+	}
+
+	private UIProgressBar m_leftBloodBar;
+	private UIProgressBar m_rightBloodBar;
+
+	private GameObject m_skillBtn;
+
+	public static GameLevel Singleton
+	{
+		get
+		{
+			if (m_instance == null)
+			{
+				GameObject obj = new GameObject (typeof(GameLevel).FullName);
+				obj.hideFlags = HideFlags.HideAndDontSave;
+				UnityEngine.Object.DontDestroyOnLoad(obj);
+				m_instance = obj.AddComponent(typeof(GameLevel)) as GameLevel;
+			}
+			
+			return m_instance;
+		}
+	}
+
+	protected GameLevel()
+	{
+		m_instance = this;
+	}
+
+	private void Awake()
+	{
+		m_leftPlayer = Player.Create;
+		m_leftPlayer.Side = E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT;
+		m_leftPlayer.SetPets (new string[]{"101001", "101002", "101003"}, new EventHandler(RefreshBloodBar));
+
+		m_rightPlayer = Player.Create;
+		m_rightPlayer.Side = E_PLAYER_SIDE.E_PLAYER_PLACE_RIGHT;
+		m_rightPlayer.SetPets (new string[]{"101000"}, new EventHandler(RefreshBloodBar));
+
+		m_leftPlayer.Opponent = m_rightPlayer;
+		m_rightPlayer.Opponent = m_leftPlayer;
+
+		m_battleResult = BattleResult.BATTLE_RESULT_NONE;
+		m_curBout = E_PLAYER_SIDE.E_PLAYER_PLACE_NONE;
+		SwitchBout ();
+
+		m_leftBloodBar = GameObject.Find ("BloodBG_Left").GetComponent<UIProgressBar>();
+		m_rightBloodBar = GameObject.Find ("BloodBG_Right").GetComponent<UIProgressBar>();
+
+		m_skillBtn = GameObject.Find ("SkillBtn");
+
+//		GameObject skill = GameObject.Find ("Skill0");
+//		UIButton button = skill.GetComponent<UIButton> ();
+//		button.enabled = true;
+//
+//		skill = GameObject.Find ("Skill1");
+//		button = skill.GetComponent<UIButton> ();
+//		button.enabled = true;
+//
+//		skill = GameObject.Find ("Skill2");
+//		button = skill.GetComponent<UIButton> ();
+//		button.enabled = true;
+	}
+
+	public void OnSpawnActor(uint key, GameObject obj)
+	{
+		ActorHash.Add (key, obj);
+	}
+	
+	public void OnRemoveActor(uint key)
+	{
+		ActorHash.Remove (key);
+	}
+	
+	public void SendGameMessage<T>(GameObject obj, GameActorMessage type, int value, GameObject hookObj)  
+	{  
+		GameMessage msg;
+		msg.Value = value;
+		msg.obj = hookObj;
+
+		switch (type)
+		{  
+			case GameActorMessage.GAM_ATTACK:  
+			{
+				obj.SendMessage ("ReleaseSkill", msg);
+			}
+			break;
+
+			case GameActorMessage.GAM_HURT:  
+			{
+				obj.SendMessage ("BeHurt", msg);
+			}
+			break;
+
+			case GameActorMessage.GAM_HEAL:
+			{
+				obj.SendMessage ("BeHeal", msg);
+			}
+			break;
+
+			default: break;
+		}
+	}
+
+	public void PetSkill(GameObject button)
+	{
+		if (button.name == "Skill0")
+		{
+			this.SendGameMessage<GameObject> (m_leftPlayer.gameObject, GameActorMessage.GAM_ATTACK, 0, null);
+		}
+		else if (button.name == "Skill1")
+		{
+			this.SendGameMessage<GameObject> (m_leftPlayer.gameObject, GameActorMessage.GAM_ATTACK, 1, null);
+		}
+		else if (button.name == "Skill2")
+		{
+			this.SendGameMessage<GameObject> (m_leftPlayer.gameObject, GameActorMessage.GAM_ATTACK, 2, null);
+		}
+	}
+
+	public void SwitchBout()
+	{
+		m_curBout = (m_curBout == E_PLAYER_SIDE.E_PLAYER_PLACE_NONE || m_curBout == E_PLAYER_SIDE.E_PLAYER_PLACE_RIGHT) ? E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT : E_PLAYER_SIDE.E_PLAYER_PLACE_RIGHT;
+		if (m_curBout == E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT && m_leftPlayer != null)
+		{
+//			StartCoroutine(AutoSkill(m_leftPlayer.gameObject, 3.0f));
+		}
+		else if (m_curBout == E_PLAYER_SIDE.E_PLAYER_PLACE_RIGHT && m_rightPlayer != null)
+		{
+			StartCoroutine(AutoSkill(m_rightPlayer.gameObject, 0.0f));
+		}
+
+//		if (m_skillBtn != null)
+//		{
+//			m_skillBtn.SetActive(m_curBout == E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT);
+//		}
+
+		m_leftPlayer.Skilled = false;
+		m_rightPlayer.Skilled = false;
+	}
+
+	private IEnumerator AutoSkill(GameObject player, float delay)
+	{
+		yield return new WaitForSeconds (delay);
+		this.SendGameMessage<GameObject> (player, GameActorMessage.GAM_ATTACK, -1, null);
+	}
+
+	void Update()
+	{
+		if (m_leftPlayer.CurPet == null)
+		{
+			m_battleResult = BattleResult.BATTLE_RESULT_LOSR;
+		}
+		else if (m_rightPlayer.CurPet == null)
+		{
+			m_battleResult = BattleResult.BATTLE_RESULT_WIN;
+		}
+	}
+
+	public void RefreshBloodBar(object obj, EventArgs args)
+	{
+		NormalActor actor = null;
+		if (m_leftPlayer != null)
+		{
+			actor = m_leftPlayer.CurPet;
+			float value = 0.0f;
+			if (actor != null)
+			{
+				value = (float)(actor.HP) / (float)(actor.MaxHP);
+			}
+			m_leftBloodBar.value = value;
+		}
+
+		if (m_rightPlayer != null && m_rightPlayer.CurPet != null)
+		{
+			actor = m_rightPlayer.CurPet;
+			float value = 0.0f;
+			if (actor != null)
+			{
+				value = (float)(actor.HP) / (float)(actor.MaxHP);
+			}
+			m_rightBloodBar.value = value;
+		}
+	}
+
+}

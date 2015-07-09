@@ -1,0 +1,1609 @@
+fileFormatVersion: 2
+guid: 82684012cf55a9145b1fe51ab00f0228
+timeCreated: 1434949248
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Above
+    100002: babyhawkstrider0_Mesh
+    100004: babyhawkstrider_Bone00
+    100006: babyhawkstrider_Bone01_Root
+    100008: babyhawkstrider_Bone02_SpineLow
+    100010: babyhawkstrider_Bone03_Waist
+    100012: babyhawkstrider_Bone04
+    100014: babyhawkstrider_Bone05
+    100016: babyhawkstrider_Bone06
+    100018: babyhawkstrider_Bone07
+    100020: babyhawkstrider_Bone08
+    100022: babyhawkstrider_Bone10
+    100024: babyhawkstrider_Bone11
+    100026: babyhawkstrider_Bone12
+    100028: babyhawkstrider_Bone13
+    100030: babyhawkstrider_Bone14_Head
+    100032: babyhawkstrider_Bone15
+    100034: babyhawkstrider_Bone16
+    100036: babyhawkstrider_Bone17
+    100038: babyhawkstrider_Bone18_Jaw
+    100040: babyhawkstrider_Bone19
+    100042: babyhawkstrider_Bone20
+    100044: babyhawkstrider_Bone21
+    100046: babyhawkstrider_Bone22__Name
+    100048: babyhawkstrider_Bone23
+    100050: babyhawkstrider_Bone24
+    100052: babyhawkstrider_Bone25
+    100054: babyhawkstrider_Bone26
+    100056: babyhawkstrider_Bone27
+    100058: babyhawkstrider_Bone28
+    100060: babyhawkstrider_Bone29
+    100062: babyhawkstrider_Bone30
+    100064: babyhawkstrider_Bone31
+    100066: babyhawkstrider_Bone32
+    100068: babyhawkstrider_Bone33
+    100070: babyhawkstrider_Bone34
+    100072: babyhawkstrider_Bone35
+    100074: babyhawkstrider_Bone36
+    100076: babyhawkstrider_Bone37
+    100078: babyhawkstrider_Bone38_ArmL
+    100080: babyhawkstrider_Bone39_ArmR
+    100082: babyhawkstrider_Bone40
+    100084: babyhawkstrider_Bone41
+    100086: babyhawkstrider_Bone42
+    100088: babyhawkstrider_Bone43
+    100090: babyhawkstrider_Bone44
+    100092: babyhawkstrider_Bone45
+    100094: babyhawkstrider_Bone46_$CCH
+    100096: babyhawkstrider_Bone47
+    100098: babyhawkstrider_Bone48
+    100100: babyhawkstrider_Bone49__Breath
+    100102: babyhawkstrider_Bone50
+    100104: babyhawkstrider_Bone51
+    100106: babyhawkstrider_Bone52_$CHD
+    100108: babyhawkstrider_Bone9
+    100110: Base
+    100112: //RootNode
+    100114: Dummy_1
+    100116: Dummy_2
+    100118: Dummy_3
+    100120: Front Hit Region
+    100122: Head Region
+    100124: Left Palm
+    100126: Left wrist (shield) / Mount
+    100128: Mouth
+    100130: Pre-Cast 1 L
+    100132: Pre-Cast 1 R
+    100134: Rear Hit Region
+    100136: Right Palm
+    100138: Spell Impact
+    400000: Above
+    400002: babyhawkstrider0_Mesh
+    400004: babyhawkstrider_Bone00
+    400006: babyhawkstrider_Bone01_Root
+    400008: babyhawkstrider_Bone02_SpineLow
+    400010: babyhawkstrider_Bone03_Waist
+    400012: babyhawkstrider_Bone04
+    400014: babyhawkstrider_Bone05
+    400016: babyhawkstrider_Bone06
+    400018: babyhawkstrider_Bone07
+    400020: babyhawkstrider_Bone08
+    400022: babyhawkstrider_Bone10
+    400024: babyhawkstrider_Bone11
+    400026: babyhawkstrider_Bone12
+    400028: babyhawkstrider_Bone13
+    400030: babyhawkstrider_Bone14_Head
+    400032: babyhawkstrider_Bone15
+    400034: babyhawkstrider_Bone16
+    400036: babyhawkstrider_Bone17
+    400038: babyhawkstrider_Bone18_Jaw
+    400040: babyhawkstrider_Bone19
+    400042: babyhawkstrider_Bone20
+    400044: babyhawkstrider_Bone21
+    400046: babyhawkstrider_Bone22__Name
+    400048: babyhawkstrider_Bone23
+    400050: babyhawkstrider_Bone24
+    400052: babyhawkstrider_Bone25
+    400054: babyhawkstrider_Bone26
+    400056: babyhawkstrider_Bone27
+    400058: babyhawkstrider_Bone28
+    400060: babyhawkstrider_Bone29
+    400062: babyhawkstrider_Bone30
+    400064: babyhawkstrider_Bone31
+    400066: babyhawkstrider_Bone32
+    400068: babyhawkstrider_Bone33
+    400070: babyhawkstrider_Bone34
+    400072: babyhawkstrider_Bone35
+    400074: babyhawkstrider_Bone36
+    400076: babyhawkstrider_Bone37
+    400078: babyhawkstrider_Bone38_ArmL
+    400080: babyhawkstrider_Bone39_ArmR
+    400082: babyhawkstrider_Bone40
+    400084: babyhawkstrider_Bone41
+    400086: babyhawkstrider_Bone42
+    400088: babyhawkstrider_Bone43
+    400090: babyhawkstrider_Bone44
+    400092: babyhawkstrider_Bone45
+    400094: babyhawkstrider_Bone46_$CCH
+    400096: babyhawkstrider_Bone47
+    400098: babyhawkstrider_Bone48
+    400100: babyhawkstrider_Bone49__Breath
+    400102: babyhawkstrider_Bone50
+    400104: babyhawkstrider_Bone51
+    400106: babyhawkstrider_Bone52_$CHD
+    400108: babyhawkstrider_Bone9
+    400110: Base
+    400112: //RootNode
+    400114: Dummy_1
+    400116: Dummy_2
+    400118: Dummy_3
+    400120: Front Hit Region
+    400122: Head Region
+    400124: Left Palm
+    400126: Left wrist (shield) / Mount
+    400128: Mouth
+    400130: Pre-Cast 1 L
+    400132: Pre-Cast 1 R
+    400134: Rear Hit Region
+    400136: Right Palm
+    400138: Spell Impact
+    4300000: babyhawkstrider0_Mesh
+    7400000: move
+    7400002: idle1
+    7400004: idle2
+    7400006: attack1
+    7400008: attack2
+    7400010: attack3
+    7400012: hurt
+    7400014: die
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: babyhawkstrider0_Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: move
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: babyhawkstrider0_Mesh
+        weight: 1
+      - path: babyhawkstrider_Bone00
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone17
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone18_Jaw
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone19
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone49__Breath
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone49__Breath/Mouth
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone49__Breath/Mouth/Dummy_1
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone52_$CHD
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone43
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone43/babyhawkstrider_Bone46_$CCH
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone43/Spell
+          Impact
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone48
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone48/Left
+          Palm
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone50
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone50/Pre-Cast
+          1 L
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone47
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone47/Right
+          Palm
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone51
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone51/Pre-Cast
+          1 R
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone40
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone40/Front
+          Hit Region
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/Dummy_3
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone31
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone31/Left
+          wrist (shield) / Mount
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone33
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone34
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone35
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone36
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone37
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone04
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08/babyhawkstrider_Bone11
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08/babyhawkstrider_Bone11/babyhawkstrider_Bone15
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08/babyhawkstrider_Bone11/babyhawkstrider_Bone15/babyhawkstrider_Bone20
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9/babyhawkstrider_Bone12
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9/babyhawkstrider_Bone12/babyhawkstrider_Bone16
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9/babyhawkstrider_Bone12/babyhawkstrider_Bone16/babyhawkstrider_Bone21
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone32
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone32/Rear
+          Hit Region
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone30
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone30/Base
+        weight: 1
+      - path: babyhawkstrider_Bone22__Name
+        weight: 1
+      - path: babyhawkstrider_Bone22__Name/Head Region
+        weight: 1
+      - path: babyhawkstrider_Bone23
+        weight: 1
+      - path: babyhawkstrider_Bone23/Above
+        weight: 1
+      - path: babyhawkstrider_Bone24
+        weight: 1
+      - path: babyhawkstrider_Bone25
+        weight: 1
+      - path: babyhawkstrider_Bone26
+        weight: 1
+      - path: babyhawkstrider_Bone27
+        weight: 1
+      - path: babyhawkstrider_Bone28
+        weight: 1
+      - path: babyhawkstrider_Bone29
+        weight: 1
+      - path: Dummy_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle1
+      takeName: Take 001
+      firstFrame: 190
+      lastFrame: 250
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: babyhawkstrider0_Mesh
+        weight: 1
+      - path: babyhawkstrider_Bone00
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone17
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone18_Jaw
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone19
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone49__Breath
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone49__Breath/Mouth
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone49__Breath/Mouth/Dummy_1
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone52_$CHD
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone43
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone43/babyhawkstrider_Bone46_$CCH
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone43/Spell
+          Impact
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone48
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone48/Left
+          Palm
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone50
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone50/Pre-Cast
+          1 L
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone47
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone47/Right
+          Palm
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone51
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone51/Pre-Cast
+          1 R
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone40
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone40/Front
+          Hit Region
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/Dummy_3
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone31
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone31/Left
+          wrist (shield) / Mount
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone33
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone34
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone35
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone36
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone37
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone04
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08/babyhawkstrider_Bone11
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08/babyhawkstrider_Bone11/babyhawkstrider_Bone15
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08/babyhawkstrider_Bone11/babyhawkstrider_Bone15/babyhawkstrider_Bone20
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9/babyhawkstrider_Bone12
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9/babyhawkstrider_Bone12/babyhawkstrider_Bone16
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9/babyhawkstrider_Bone12/babyhawkstrider_Bone16/babyhawkstrider_Bone21
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone32
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone32/Rear
+          Hit Region
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone30
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone30/Base
+        weight: 1
+      - path: babyhawkstrider_Bone22__Name
+        weight: 1
+      - path: babyhawkstrider_Bone22__Name/Head Region
+        weight: 1
+      - path: babyhawkstrider_Bone23
+        weight: 1
+      - path: babyhawkstrider_Bone23/Above
+        weight: 1
+      - path: babyhawkstrider_Bone24
+        weight: 1
+      - path: babyhawkstrider_Bone25
+        weight: 1
+      - path: babyhawkstrider_Bone26
+        weight: 1
+      - path: babyhawkstrider_Bone27
+        weight: 1
+      - path: babyhawkstrider_Bone28
+        weight: 1
+      - path: babyhawkstrider_Bone29
+        weight: 1
+      - path: Dummy_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle2
+      takeName: Take 001
+      firstFrame: 840
+      lastFrame: 950
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: babyhawkstrider0_Mesh
+        weight: 1
+      - path: babyhawkstrider_Bone00
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone17
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone18_Jaw
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone19
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone49__Breath
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone49__Breath/Mouth
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone49__Breath/Mouth/Dummy_1
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone52_$CHD
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone43
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone43/babyhawkstrider_Bone46_$CCH
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone43/Spell
+          Impact
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone48
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone48/Left
+          Palm
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone50
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone50/Pre-Cast
+          1 L
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone47
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone47/Right
+          Palm
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone51
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone51/Pre-Cast
+          1 R
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone40
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone40/Front
+          Hit Region
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/Dummy_3
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone31
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone31/Left
+          wrist (shield) / Mount
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone33
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone34
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone35
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone36
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone37
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone04
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08/babyhawkstrider_Bone11
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08/babyhawkstrider_Bone11/babyhawkstrider_Bone15
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08/babyhawkstrider_Bone11/babyhawkstrider_Bone15/babyhawkstrider_Bone20
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9/babyhawkstrider_Bone12
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9/babyhawkstrider_Bone12/babyhawkstrider_Bone16
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9/babyhawkstrider_Bone12/babyhawkstrider_Bone16/babyhawkstrider_Bone21
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone32
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone32/Rear
+          Hit Region
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone30
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone30/Base
+        weight: 1
+      - path: babyhawkstrider_Bone22__Name
+        weight: 1
+      - path: babyhawkstrider_Bone22__Name/Head Region
+        weight: 1
+      - path: babyhawkstrider_Bone23
+        weight: 1
+      - path: babyhawkstrider_Bone23/Above
+        weight: 1
+      - path: babyhawkstrider_Bone24
+        weight: 1
+      - path: babyhawkstrider_Bone25
+        weight: 1
+      - path: babyhawkstrider_Bone26
+        weight: 1
+      - path: babyhawkstrider_Bone27
+        weight: 1
+      - path: babyhawkstrider_Bone28
+        weight: 1
+      - path: babyhawkstrider_Bone29
+        weight: 1
+      - path: Dummy_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack1
+      takeName: Take 001
+      firstFrame: 585
+      lastFrame: 615
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: babyhawkstrider0_Mesh
+        weight: 1
+      - path: babyhawkstrider_Bone00
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone17
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone18_Jaw
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone19
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone49__Breath
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone49__Breath/Mouth
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone49__Breath/Mouth/Dummy_1
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone52_$CHD
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone43
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone43/babyhawkstrider_Bone46_$CCH
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone43/Spell
+          Impact
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone48
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone48/Left
+          Palm
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone50
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone50/Pre-Cast
+          1 L
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone47
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone47/Right
+          Palm
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone51
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone51/Pre-Cast
+          1 R
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone40
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone40/Front
+          Hit Region
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/Dummy_3
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone31
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone31/Left
+          wrist (shield) / Mount
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone33
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone34
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone35
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone36
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone37
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone04
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08/babyhawkstrider_Bone11
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08/babyhawkstrider_Bone11/babyhawkstrider_Bone15
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08/babyhawkstrider_Bone11/babyhawkstrider_Bone15/babyhawkstrider_Bone20
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9/babyhawkstrider_Bone12
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9/babyhawkstrider_Bone12/babyhawkstrider_Bone16
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9/babyhawkstrider_Bone12/babyhawkstrider_Bone16/babyhawkstrider_Bone21
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone32
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone32/Rear
+          Hit Region
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone30
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone30/Base
+        weight: 1
+      - path: babyhawkstrider_Bone22__Name
+        weight: 1
+      - path: babyhawkstrider_Bone22__Name/Head Region
+        weight: 1
+      - path: babyhawkstrider_Bone23
+        weight: 1
+      - path: babyhawkstrider_Bone23/Above
+        weight: 1
+      - path: babyhawkstrider_Bone24
+        weight: 1
+      - path: babyhawkstrider_Bone25
+        weight: 1
+      - path: babyhawkstrider_Bone26
+        weight: 1
+      - path: babyhawkstrider_Bone27
+        weight: 1
+      - path: babyhawkstrider_Bone28
+        weight: 1
+      - path: babyhawkstrider_Bone29
+        weight: 1
+      - path: Dummy_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack2
+      takeName: Take 001
+      firstFrame: 760
+      lastFrame: 790
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: babyhawkstrider0_Mesh
+        weight: 1
+      - path: babyhawkstrider_Bone00
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone17
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone18_Jaw
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone19
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone49__Breath
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone49__Breath/Mouth
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone49__Breath/Mouth/Dummy_1
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone52_$CHD
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone43
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone43/babyhawkstrider_Bone46_$CCH
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone43/Spell
+          Impact
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone48
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone48/Left
+          Palm
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone50
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone50/Pre-Cast
+          1 L
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone47
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone47/Right
+          Palm
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone51
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone51/Pre-Cast
+          1 R
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone40
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone40/Front
+          Hit Region
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/Dummy_3
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone31
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone31/Left
+          wrist (shield) / Mount
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone33
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone34
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone35
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone36
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone37
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone04
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08/babyhawkstrider_Bone11
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08/babyhawkstrider_Bone11/babyhawkstrider_Bone15
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08/babyhawkstrider_Bone11/babyhawkstrider_Bone15/babyhawkstrider_Bone20
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9/babyhawkstrider_Bone12
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9/babyhawkstrider_Bone12/babyhawkstrider_Bone16
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9/babyhawkstrider_Bone12/babyhawkstrider_Bone16/babyhawkstrider_Bone21
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone32
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone32/Rear
+          Hit Region
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone30
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone30/Base
+        weight: 1
+      - path: babyhawkstrider_Bone22__Name
+        weight: 1
+      - path: babyhawkstrider_Bone22__Name/Head Region
+        weight: 1
+      - path: babyhawkstrider_Bone23
+        weight: 1
+      - path: babyhawkstrider_Bone23/Above
+        weight: 1
+      - path: babyhawkstrider_Bone24
+        weight: 1
+      - path: babyhawkstrider_Bone25
+        weight: 1
+      - path: babyhawkstrider_Bone26
+        weight: 1
+      - path: babyhawkstrider_Bone27
+        weight: 1
+      - path: babyhawkstrider_Bone28
+        weight: 1
+      - path: babyhawkstrider_Bone29
+        weight: 1
+      - path: Dummy_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack3
+      takeName: Take 001
+      firstFrame: 670
+      lastFrame: 705
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: babyhawkstrider0_Mesh
+        weight: 1
+      - path: babyhawkstrider_Bone00
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone17
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone18_Jaw
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone19
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone49__Breath
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone49__Breath/Mouth
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone49__Breath/Mouth/Dummy_1
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone52_$CHD
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone43
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone43/babyhawkstrider_Bone46_$CCH
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone43/Spell
+          Impact
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone48
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone48/Left
+          Palm
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone50
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone50/Pre-Cast
+          1 L
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone47
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone47/Right
+          Palm
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone51
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone51/Pre-Cast
+          1 R
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone40
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone40/Front
+          Hit Region
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/Dummy_3
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone31
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone31/Left
+          wrist (shield) / Mount
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone33
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone34
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone35
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone36
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone37
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone04
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08/babyhawkstrider_Bone11
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08/babyhawkstrider_Bone11/babyhawkstrider_Bone15
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08/babyhawkstrider_Bone11/babyhawkstrider_Bone15/babyhawkstrider_Bone20
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9/babyhawkstrider_Bone12
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9/babyhawkstrider_Bone12/babyhawkstrider_Bone16
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9/babyhawkstrider_Bone12/babyhawkstrider_Bone16/babyhawkstrider_Bone21
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone32
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone32/Rear
+          Hit Region
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone30
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone30/Base
+        weight: 1
+      - path: babyhawkstrider_Bone22__Name
+        weight: 1
+      - path: babyhawkstrider_Bone22__Name/Head Region
+        weight: 1
+      - path: babyhawkstrider_Bone23
+        weight: 1
+      - path: babyhawkstrider_Bone23/Above
+        weight: 1
+      - path: babyhawkstrider_Bone24
+        weight: 1
+      - path: babyhawkstrider_Bone25
+        weight: 1
+      - path: babyhawkstrider_Bone26
+        weight: 1
+      - path: babyhawkstrider_Bone27
+        weight: 1
+      - path: babyhawkstrider_Bone28
+        weight: 1
+      - path: babyhawkstrider_Bone29
+        weight: 1
+      - path: Dummy_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: hurt
+      takeName: Take 001
+      firstFrame: 310
+      lastFrame: 335
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: babyhawkstrider0_Mesh
+        weight: 1
+      - path: babyhawkstrider_Bone00
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone17
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone18_Jaw
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone19
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone49__Breath
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone49__Breath/Mouth
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone49__Breath/Mouth/Dummy_1
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone52_$CHD
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone43
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone43/babyhawkstrider_Bone46_$CCH
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone43/Spell
+          Impact
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone48
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone48/Left
+          Palm
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone50
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone50/Pre-Cast
+          1 L
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone47
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone47/Right
+          Palm
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone51
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone51/Pre-Cast
+          1 R
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone40
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone40/Front
+          Hit Region
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/Dummy_3
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone31
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone31/Left
+          wrist (shield) / Mount
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone33
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone34
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone35
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone36
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone37
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone04
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08/babyhawkstrider_Bone11
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08/babyhawkstrider_Bone11/babyhawkstrider_Bone15
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08/babyhawkstrider_Bone11/babyhawkstrider_Bone15/babyhawkstrider_Bone20
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9/babyhawkstrider_Bone12
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9/babyhawkstrider_Bone12/babyhawkstrider_Bone16
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9/babyhawkstrider_Bone12/babyhawkstrider_Bone16/babyhawkstrider_Bone21
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone32
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone32/Rear
+          Hit Region
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone30
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone30/Base
+        weight: 1
+      - path: babyhawkstrider_Bone22__Name
+        weight: 1
+      - path: babyhawkstrider_Bone22__Name/Head Region
+        weight: 1
+      - path: babyhawkstrider_Bone23
+        weight: 1
+      - path: babyhawkstrider_Bone23/Above
+        weight: 1
+      - path: babyhawkstrider_Bone24
+        weight: 1
+      - path: babyhawkstrider_Bone25
+        weight: 1
+      - path: babyhawkstrider_Bone26
+        weight: 1
+      - path: babyhawkstrider_Bone27
+        weight: 1
+      - path: babyhawkstrider_Bone28
+        weight: 1
+      - path: babyhawkstrider_Bone29
+        weight: 1
+      - path: Dummy_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: die
+      takeName: Take 001
+      firstFrame: 393
+      lastFrame: 524
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: babyhawkstrider0_Mesh
+        weight: 1
+      - path: babyhawkstrider_Bone00
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone17
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone18_Jaw
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone19
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone49__Breath
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone49__Breath/Mouth
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone49__Breath/Mouth/Dummy_1
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone13/babyhawkstrider_Bone14_Head/babyhawkstrider_Bone52_$CHD
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone43
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone43/babyhawkstrider_Bone46_$CCH
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone10/babyhawkstrider_Bone43/Spell
+          Impact
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone48
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone48/Left
+          Palm
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone50
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone38_ArmL/babyhawkstrider_Bone41/babyhawkstrider_Bone44/babyhawkstrider_Bone50/Pre-Cast
+          1 L
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone47
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone47/Right
+          Palm
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone51
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone39_ArmR/babyhawkstrider_Bone42/babyhawkstrider_Bone45/babyhawkstrider_Bone51/Pre-Cast
+          1 R
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone40
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/babyhawkstrider_Bone40/Front
+          Hit Region
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone05/Dummy_3
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone31
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone31/Left
+          wrist (shield) / Mount
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone33
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone34
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone35
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone36
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone02_SpineLow/babyhawkstrider_Bone37
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone04
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08/babyhawkstrider_Bone11
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08/babyhawkstrider_Bone11/babyhawkstrider_Bone15
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone06/babyhawkstrider_Bone08/babyhawkstrider_Bone11/babyhawkstrider_Bone15/babyhawkstrider_Bone20
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9/babyhawkstrider_Bone12
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9/babyhawkstrider_Bone12/babyhawkstrider_Bone16
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone07/babyhawkstrider_Bone9/babyhawkstrider_Bone12/babyhawkstrider_Bone16/babyhawkstrider_Bone21
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone32
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone01_Root/babyhawkstrider_Bone03_Waist/babyhawkstrider_Bone32/Rear
+          Hit Region
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone30
+        weight: 1
+      - path: babyhawkstrider_Bone00/babyhawkstrider_Bone30/Base
+        weight: 1
+      - path: babyhawkstrider_Bone22__Name
+        weight: 1
+      - path: babyhawkstrider_Bone22__Name/Head Region
+        weight: 1
+      - path: babyhawkstrider_Bone23
+        weight: 1
+      - path: babyhawkstrider_Bone23/Above
+        weight: 1
+      - path: babyhawkstrider_Bone24
+        weight: 1
+      - path: babyhawkstrider_Bone25
+        weight: 1
+      - path: babyhawkstrider_Bone26
+        weight: 1
+      - path: babyhawkstrider_Bone27
+        weight: 1
+      - path: babyhawkstrider_Bone28
+        weight: 1
+      - path: babyhawkstrider_Bone29
+        weight: 1
+      - path: Dummy_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

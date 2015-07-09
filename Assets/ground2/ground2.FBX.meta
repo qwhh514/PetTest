@@ -1,0 +1,137 @@
+fileFormatVersion: 2
+guid: d60968b511904c14988a45a13ef56c08
+timeCreated: 1435165038
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: ground
+    100002: //RootNode
+    100004: leitai
+    100006: long
+    100008: mutou
+    100010: shitou
+    100012: shixiang
+    100014: shizhu
+    100016: shu
+    100018: shuijing
+    100020: shuijing001
+    100022: shuijing002
+    100024: xiaoshu
+    100026: xiaowu
+    100028: zhangpeng
+    400000: ground
+    400002: //RootNode
+    400004: leitai
+    400006: long
+    400008: mutou
+    400010: shitou
+    400012: shixiang
+    400014: shizhu
+    400016: shu
+    400018: shuijing
+    400020: shuijing001
+    400022: shuijing002
+    400024: xiaoshu
+    400026: xiaowu
+    400028: zhangpeng
+    2300000: ground
+    2300002: leitai
+    2300004: long
+    2300006: mutou
+    2300008: shitou
+    2300010: shixiang
+    2300012: shizhu
+    2300014: shu
+    2300016: shuijing
+    2300018: shuijing001
+    2300020: shuijing002
+    2300022: xiaoshu
+    2300024: xiaowu
+    2300026: zhangpeng
+    3300000: ground
+    3300002: leitai
+    3300004: long
+    3300006: mutou
+    3300008: shitou
+    3300010: shixiang
+    3300012: shizhu
+    3300014: shu
+    3300016: shuijing
+    3300018: shuijing001
+    3300020: shuijing002
+    3300022: xiaoshu
+    3300024: xiaowu
+    3300026: zhangpeng
+    4300000: shitou
+    4300002: zhangpeng
+    4300004: xiaowu
+    4300006: mutou
+    4300008: leitai
+    4300010: shixiang
+    4300012: long
+    4300014: shizhu
+    4300016: shuijing
+    4300018: shu
+    4300020: shuijing001
+    4300022: shuijing002
+    4300024: xiaoshu
+    4300026: ground
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

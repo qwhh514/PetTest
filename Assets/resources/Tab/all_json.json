@@ -1,0 +1,14 @@
+[
+    {
+        "key": "pet.json", 
+        "path": "Tab/pet.json"
+    }, 
+    {
+        "key": "skill.json", 
+        "path": "Tab/skill.json"
+    },
+	{
+        "key": "particle.json", 
+        "path": "Tab/particle.json"
+    }
+]

@@ -1,0 +1,54 @@
+﻿
+using UnityEngine;
+using System.Collections;
+
+public class TouchObject : MonoBehaviour
+{
+	private Transform m_transform = null;
+
+	// Use this for initialization
+	void Start ()
+	{
+		m_transform = transform;
+	}
+	
+	// Update is called once per frame
+	void Update ()
+	{
+#if UNITY_EDITOR
+		if(Input.GetMouseButtonUp(0))
+		{
+			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+			RaycastHit hit;
+			
+			if (Physics.Raycast(ray, out hit))
+			{
+				if (hit.transform.name == m_transform.name)
+				{
+					Application.LoadLevel("GameLevel");
+				}
+			}
+		}
+#else
+		if (Input.touchCount != 1 )
+		{
+			return;
+		}
+		
+		if (Input.GetTouch(0).phase == TouchPhase.Began)
+		{
+			RaycastHit hit;
+			Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
+			
+			if (Physics.Raycast(ray, out hit))
+			{
+				if (hit.transform.name == m_transform.name)
+				{
+					Application.LoadLevel("Pet");
+				}
+			}
+		}
+#endif
+	}
+	
+}
