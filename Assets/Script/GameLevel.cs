@@ -3,6 +3,8 @@ using UnityEngine;
 using System;
 using System.Collections;
 
+using UnityStandardAssets.ImageEffects;
+
 public enum GameActorMessage
 {
 	GAM_NONE = 0,
@@ -45,9 +47,12 @@ public class GameLevel : MonoBehaviour {
 		get { return m_curBout; }
 	}
 
+	private Camera m_mainCamera;
+
 	private UIProgressBar m_leftBloodBar;
 	private UIProgressBar m_rightBloodBar;
 
+	private GameObject m_readygo;
 	private GameObject m_skillBtn;
 
 	public static GameLevel Singleton
@@ -86,11 +91,13 @@ public class GameLevel : MonoBehaviour {
 
 		m_battleResult = BattleResult.BATTLE_RESULT_NONE;
 		m_curBout = E_PLAYER_SIDE.E_PLAYER_PLACE_NONE;
-		SwitchBout ();
+
+		m_mainCamera = Camera.main;
 
 		m_leftBloodBar = GameObject.Find ("BloodBG_Left").GetComponent<UIProgressBar>();
 		m_rightBloodBar = GameObject.Find ("BloodBG_Right").GetComponent<UIProgressBar>();
 
+		m_readygo = GameObject.Find("ReadyGo");
 		m_skillBtn = GameObject.Find ("SkillBtn");
 
 //		GameObject skill = GameObject.Find ("Skill0");
@@ -104,6 +111,16 @@ public class GameLevel : MonoBehaviour {
 //		skill = GameObject.Find ("Skill2");
 //		button = skill.GetComponent<UIButton> ();
 //		button.enabled = true;
+	}
+
+	private void Start()
+	{
+		m_mainCamera.gameObject.AddMissingComponent<BlurOptimized>();
+		LeanTween.scale(m_readygo, new Vector3(1.0f, 1.0f, 1.0f), 1.0f).setEase(LeanTweenType.easeInQuad).setOnComplete(
+			() => {
+				LeanTween.alpha(m_readygo, 0.0f, 1.0f).setDestroyOnComplete(true).setOnComplete(StartLevel);
+			}
+		);
 	}
 
 	public void OnSpawnActor(uint key, GameObject obj)
@@ -162,8 +179,15 @@ public class GameLevel : MonoBehaviour {
 		}
 	}
 
+	private void StartLevel()
+	{
+		m_mainCamera.gameObject.GetComponent<BlurOptimized>().enabled = false;
+		SwitchBout();
+	}
+
 	public void SwitchBout()
 	{
+		E_PLAYER_SIDE preBout = m_curBout;
 		m_curBout = (m_curBout == E_PLAYER_SIDE.E_PLAYER_PLACE_NONE || m_curBout == E_PLAYER_SIDE.E_PLAYER_PLACE_RIGHT) ? E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT : E_PLAYER_SIDE.E_PLAYER_PLACE_RIGHT;
 		if (m_curBout == E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT && m_leftPlayer != null)
 		{
@@ -174,10 +198,22 @@ public class GameLevel : MonoBehaviour {
 			StartCoroutine(AutoSkill(m_rightPlayer.gameObject, 0.0f));
 		}
 
-//		if (m_skillBtn != null)
-//		{
-//			m_skillBtn.SetActive(m_curBout == E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT);
-//		}
+		if (m_skillBtn != null)
+		{
+			Transform transform = GameObject.Find("SkillBtn").transform;
+			int count = transform.childCount;
+			for (int i = 0; i < count; i++)
+			{
+				GameObject obj = transform.GetChild(i).gameObject;
+				float offset = (m_curBout == E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT)? 0.42f : -0.42f;
+				offset = (preBout == E_PLAYER_SIDE.E_PLAYER_PLACE_NONE)? 0.0f : offset;
+				Vector3 position = obj.transform.position;
+				Vector3 target = position + new Vector3(0.0f, offset, 0.0f);
+
+				TweenPosition tc = TweenPosition.Begin(obj, 0.3f, target, true);
+				tc.method = UITweener.Method.Linear;
+			}
+		}
 
 		m_leftPlayer.Skilled = false;
 		m_rightPlayer.Skilled = false;

@@ -9,6 +9,7 @@ public class MainMenu : MonoBehaviour
 {
 	private GameObject m_logoObj = null;
 	private GameObject m_hintObj = null;
+	private GameObject m_levelObj = null;
 
 	private List<GameObject> m_menuItem = new List<GameObject>();
 
@@ -23,6 +24,14 @@ public class MainMenu : MonoBehaviour
 		m_logoObj = GameObject.Find ("logo");
 		m_hintObj = GameObject.Find ("hint");
 		m_hintObj.SetActive (false);
+
+		GameObject btn_start = GameObject.Find("btn_ok");
+		UIEventListener.Get(btn_start).onClick += StartLevel;
+		GameObject btn_cancel = GameObject.Find("btn_cancel");
+		UIEventListener.Get(btn_cancel).onClick += CancelLevel;
+
+		m_levelObj = GameObject.Find("SelectLevel");
+		m_levelObj.SetActive(false);
 
 		GameObject item = GameObject.Find ("BattleHall");
 		m_menuItem.Add (item);
@@ -77,9 +86,32 @@ public class MainMenu : MonoBehaviour
 				GameObject obj = m_menuItem[i];
 				if (obj != null)
 				{
-					obj.AddMissingComponent<TouchObject>();
+					TouchObject touch = obj.AddMissingComponent<TouchObject>();
+					touch.m_action += BuildingClick;
 				}
 			}
 		}
 	}
+
+	private void BuildingClick()
+	{
+		if (m_levelObj != null)
+		{
+			m_levelObj.SetActive(true);
+		}
+	}
+
+	private void StartLevel(GameObject go)
+	{
+		Application.LoadLevel("GameLevel");
+	}
+
+	private void CancelLevel(GameObject go)
+	{
+		if (m_levelObj != null)
+		{
+			m_levelObj.SetActive(false);
+		}
+	}
+
 }

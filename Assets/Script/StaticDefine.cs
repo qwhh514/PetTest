@@ -13,6 +13,7 @@ namespace StaticDefine
         public const string UI_PATH = "UI/";
         public const string PARTICLE_PATH = "Particle/";
         public const string PREFAB_PATH = "Prefab/";
+        public const string FONT_PATH = "Font/";
 
 
         //************************************************************************************************

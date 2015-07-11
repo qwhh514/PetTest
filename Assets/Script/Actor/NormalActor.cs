@@ -81,6 +81,9 @@ public class NormalActor : MonoBehaviour
 	private int[] SkillKey;
 	private JsonObject[] SkillJson;
 
+	private UIDamageNum m_damageNum;
+	private UIHealNum m_healNum;
+
 	public int CurrentSkillId
 	{
 		set { currentSkillIdx = value; }
@@ -109,6 +112,9 @@ public class NormalActor : MonoBehaviour
 		
 		Skills = null;
 		SkillJson = null;
+
+		m_damageNum = null;
+		m_healNum = null;
 	}
 
 	void Awake ()
@@ -120,6 +126,9 @@ public class NormalActor : MonoBehaviour
 //		SkillNum = Skills.Length;
 		Guid = Game.GetInstance().actorGuid++;
 		string guidStr = Guid.ToString ();
+
+		m_damageNum = gameObject.AddMissingComponent<UIDamageNum>();
+		m_healNum = gameObject.AddMissingComponent<UIHealNum>();
 	}
 
 	// Use this for initialization
@@ -292,6 +301,8 @@ public class NormalActor : MonoBehaviour
 		
 		m_HP += healHP;
 		m_HP = Math.Min (m_HP, m_MaxHP);
+
+		m_healNum.AddHealNum(healHP);
 		StartCoroutine (SwitchBout(0.0f));
 	}
 
@@ -429,7 +440,8 @@ public class NormalActor : MonoBehaviour
 		{
 			onHurtCallBack(this, EventArgs.Empty);
 		}
-		
+
+		m_damageNum.AddDamageNum(hurtHP);
 		if (m_HP <= 0)
 		{
 //			float percent = 1.0f - animator.GetCurrentAnimatorStateInfo(0).normalizedTime;

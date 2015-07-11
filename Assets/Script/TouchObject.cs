@@ -1,10 +1,17 @@
 ﻿
 using UnityEngine;
+using System;
 using System.Collections;
 
 public class TouchObject : MonoBehaviour
 {
 	private Transform m_transform = null;
+	public Action m_action;
+
+	void Awake()
+	{
+		m_action = null;
+	}
 
 	// Use this for initialization
 	void Start ()
@@ -23,9 +30,9 @@ public class TouchObject : MonoBehaviour
 			
 			if (Physics.Raycast(ray, out hit))
 			{
-				if (hit.transform.name == m_transform.name)
+				if (hit.transform.name == m_transform.name && m_action != null)
 				{
-					Application.LoadLevel("GameLevel");
+					m_action();
 				}
 			}
 		}
@@ -42,9 +49,9 @@ public class TouchObject : MonoBehaviour
 			
 			if (Physics.Raycast(ray, out hit))
 			{
-				if (hit.transform.name == m_transform.name)
+				if (hit.transform.name == m_transform.name && m_action != null)
 				{
-					Application.LoadLevel("Pet");
+					m_action();
 				}
 			}
 		}
