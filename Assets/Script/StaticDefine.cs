@@ -32,6 +32,25 @@ namespace StaticDefine
 
     }
     
+	public static class CameraSetting
+	{
+		public const float ROTATEX = 0.0f;
+		public const float ROTATEY = 0.0f;
+		public const float ROTATEX_SPEED = 0.36f;
+		public const float ROTATEY_SPEED = 0.36f;
+		
+		public const int FOV = 0;
+		public const float FOV_SPEED = 0.1f;
+		
+		public const short MOVE_SPEED = 100;
+		
+//		public const Vector3 DISTANCE_TARGET = ;
+		
+		public const float SHAKE_TIME = 0.5f;
+		public const float SHAKE_DELTA = 0.07f/30.0f;
+		public const float SHAKE_RANGE = 0.05f;
+	}
+
 }
 
 

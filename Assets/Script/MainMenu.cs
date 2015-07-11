@@ -1,5 +1,7 @@
 
 using UnityEngine;
+
+using System;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -24,6 +26,14 @@ public class MainMenu : MonoBehaviour
 
 		GameObject item = GameObject.Find ("BattleHall");
 		m_menuItem.Add (item);
+
+		CameraManager.Singleton.RunMainCamera();
+		CameraManager.Singleton.LookTarget(item.transform);
+		Vector3 distance = CameraManager.Singleton.GetDistanceFromCamera(item.transform.position);
+		CameraManager.Singleton.m_vec3Distancetarget = distance;
+
+		CameraManager.Singleton.RotateCameraToY(-10.0f, 100.0f);
+		CameraManager.Singleton.ZoomIn(42.0f, 100.0f, true);
 	}
 	
 	// Update is called once per frame
@@ -40,6 +50,28 @@ public class MainMenu : MonoBehaviour
 				m_hintObj.SetActive(false);
 			}
 
+			CameraManager.Singleton.RotateSpeedX = 100.0f;
+			m_bInit = true;
+		}
+	}
+
+	public void FadeInFinish()
+	{
+		m_hintObj.SetActive (true);
+
+		LookOverScene();
+		CameraManager.Singleton.onRotXComplete += LookOverScene;
+	}
+
+	public void LookOverScene()
+	{
+		if (!m_bInit)
+		{
+			CameraManager.Singleton.ResetRotateSpeed();
+			CameraManager.Singleton.RotateCameraToX(360.0f, 0.08f, true, false);
+		}
+		else
+		{
 			for (int i = 0; i < m_menuItem.Count; i++)
 			{
 				GameObject obj = m_menuItem[i];
@@ -48,13 +80,6 @@ public class MainMenu : MonoBehaviour
 					obj.AddMissingComponent<TouchObject>();
 				}
 			}
-
-			m_bInit = true;
 		}
-	}
-
-	public void FadeInFinish()
-	{
-		m_hintObj.SetActive (true);
 	}
 }
