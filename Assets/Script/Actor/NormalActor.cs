@@ -63,6 +63,20 @@ public class NormalActor : MonoBehaviour
 	private int m_HP = 0;
 	private int m_MaxHP = 0;
 
+	private string name;
+	public string Name
+	{
+		get { return name; }
+		set { name = value; }
+	}
+
+	private string icon;
+	public string Icon
+	{
+		get { return icon; }
+		set { icon = value; }
+	}
+
 	private GameObject obj = null;
 	private uint Guid = 0;
 
@@ -121,6 +135,9 @@ public class NormalActor : MonoBehaviour
 
 	protected NormalActor()
 	{
+		name = "";
+		icon = "";
+
 		m_master = null;
 		m_target = null;
 		

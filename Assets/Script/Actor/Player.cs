@@ -22,6 +22,10 @@ public class Player : Factory<Player>
 	private E_PLAYER_SIDE m_eSide;
 	private ArrayList m_pets;
 	private NormalActor m_curPet;
+	public ArrayList Pets
+	{
+		get { return m_pets; }
+	}
 
 	private bool m_bSkilled;
 	public bool Skilled
