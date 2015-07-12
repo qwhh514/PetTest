@@ -57,6 +57,7 @@ public class GameLevel : MonoBehaviour {
 	private UILabel m_rightBlood;
 
 	private GameObject m_readygo;
+	private GameObject m_reslut;
 	private GameObject m_skillBtn;
 
 	public static GameLevel Singleton
@@ -93,6 +94,9 @@ public class GameLevel : MonoBehaviour {
 		m_readygo = GameObject.Find("ReadyGo");
 		m_skillBtn = GameObject.Find ("SkillBtn");
 
+		m_reslut = GameObject.Find("LevelResult");
+		m_reslut.SetActive(false);
+		
 		m_leftPlayer = Player.Create;
 		m_leftPlayer.Side = E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT;
 		m_leftPlayer.SetPets (new string[]{"101001", "101002", "101003"}, new EventHandler(RefreshBloodBar));
@@ -252,6 +256,12 @@ public class GameLevel : MonoBehaviour {
 		else if (m_rightPlayer.CurPet == null)
 		{
 			m_battleResult = BattleResult.BATTLE_RESULT_WIN;
+		}
+
+		if (m_battleResult != BattleResult.BATTLE_RESULT_NONE)
+		{
+			m_reslut.SetActive(true);
+			BlurCamera(true);
 		}
 	}
 
