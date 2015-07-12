@@ -3,7 +3,7 @@
         "Name": "死亡之翼", 
         "Type": 1, 
         "Quality": 1, 
-        "ICON": 1, 
+        "ICON": "boss", 
         "HP": 3850, 
         "Model_ID": "Boss_E", 
         "Skills_ID": "301000|301001|301002"
@@ -12,7 +12,7 @@
         "Name": "蛋蛋", 
         "Type": 1, 
         "Quality": 1, 
-        "ICON": 2, 
+        "ICON": "bird", 
         "HP": 1481, 
         "Model_ID": "Bird", 
         "Skills_ID": "302000|302001|303002"
@@ -21,7 +21,7 @@
         "Name": "小飞象", 
         "Type": 1, 
         "Quality": 1, 
-        "ICON": 3, 
+        "ICON": "elephant", 
         "HP": 1400, 
         "Model_ID": "Elephant", 
         "Skills_ID": "303000|303001|303002"
@@ -30,7 +30,7 @@
         "Name": "虚空幼龙", 
         "Type": 1, 
         "Quality": 1, 
-        "ICON": 4, 
+        "ICON": "dragon", 
         "HP": 1546, 
         "Model_ID": "Dragon", 
         "Skills_ID": "304000|304001|304002"

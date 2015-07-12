@@ -117,6 +117,7 @@ public class Player : Factory<Player>
 			}
 
 			int hp = JsonDataParser.GetInt(petInfo, "HP");
+			string icon = JsonDataParser.GetString(petInfo, "ICON");
 			string[] skill = JsonDataParser.GetString(petInfo, "Skills_ID").Split("|"[0]);
 			string res = JsonDataParser.GetString(petInfo, "Model_ID") + ".prefab";
 
@@ -125,6 +126,7 @@ public class Player : Factory<Player>
 			NormalActor actor = ins.AddMissingComponent<NormalActor>();
 			ins.SetActive(false);
 
+			actor.Icon = icon;
 			actor.onHurtCallBack += handle;
 			actor.Setup(this, hp, skill);
 			m_pets.Add(actor);
@@ -145,11 +147,12 @@ public class Player : Factory<Player>
 		if (m_eSide == E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT) {
 			m_curPet.transform.position = m_curPet.transform.position + new Vector3 (9, 0, 0);
 		}
-		else
-			if (m_eSide == E_PLAYER_SIDE.E_PLAYER_PLACE_RIGHT) {
-				m_curPet.transform.position = m_curPet.transform.position + new Vector3 (-9, 0, 0);
-			}
+		else if (m_eSide == E_PLAYER_SIDE.E_PLAYER_PLACE_RIGHT) {
+			m_curPet.transform.position = m_curPet.transform.position + new Vector3 (-9, 0, 0);
+		}
 		m_curPet.MoveTo (tar, 0.5f);
+
+		GameLevel.Singleton.RefreshPetIcon (this);
 	}
 
 	public void SwitchPet(bool force = false)
@@ -182,6 +185,33 @@ public class Player : Factory<Player>
 		if (!force) {
 			GameLevel.Singleton.SwitchBout ();
 		}
+		GameLevel.Singleton.RefreshBloodBar(m_curPet, EventArgs.Empty);
+	}
+
+	public void SwitchPet(NormalActor pet)
+	{
+		if (pet == m_curPet)
+		{
+			return;
+		}
+
+		if (m_curPet != null)
+		{
+			m_curPet.gameObject.SetActive(false);
+		}
+		
+		m_curPet = pet;
+		
+		if (m_curPet != null)
+		{
+			m_curPet.gameObject.SetActive(true);
+			m_curPet.Target = m_opponent.CurPet;
+			GoToPlayGround ();
+			
+		}
+
+		m_opponent.m_curPet.Target = m_curPet;
+		GameLevel.Singleton.SwitchBout ();
 		GameLevel.Singleton.RefreshBloodBar(m_curPet, EventArgs.Empty);
 	}
 

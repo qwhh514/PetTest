@@ -31,6 +31,14 @@ public struct GameMessage
 	public GameObject obj;
 }
 
+class SortPet : IComparer 
+{
+	int IComparer.Compare( object a, object b ) 
+	{
+		return ((NormalActor)a).HP - ((NormalActor)b).HP;
+	}
+}
+
 public class GameLevel : MonoBehaviour {
 
 	private static GameLevel m_instance = null;
@@ -65,6 +73,8 @@ public class GameLevel : MonoBehaviour {
 	private GameObject m_skillBtn;
 
 	private CameraShake m_cameraShake;
+
+	private NormalActor m_replacePet;
 
 	public static GameLevel Singleton
 	{
@@ -130,6 +140,8 @@ public class GameLevel : MonoBehaviour {
 
 		m_mainCamera = Camera.main;
 		m_mainUICamera = GameObject.Find("UICamera_Main");
+
+		m_replacePet = null;
 
 //		GameObject skill = GameObject.Find ("Skill0");
 //		UIButton button = skill.GetComponent<UIButton> ();
@@ -271,7 +283,7 @@ public class GameLevel : MonoBehaviour {
 			for (int i = 0; i < count; i++)
 			{
 				GameObject obj = transform.GetChild(i).gameObject;
-				float offset = (m_curBout == E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT)? 0.42f : -0.42f;
+				float offset = (m_curBout == E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT)? 0.5f : -0.5f;
 				offset = (preBout == E_PLAYER_SIDE.E_PLAYER_PLACE_NONE)? 0.0f : offset;
 				Vector3 position = obj.transform.position;
 				Vector3 target = position + new Vector3(0.0f, offset, 0.0f);
@@ -304,8 +316,7 @@ public class GameLevel : MonoBehaviour {
 
 		if (m_battleResult != BattleResult.BATTLE_RESULT_NONE)
 		{
-			m_reslut.SetActive(true);
-			BlurCamera(true);
+			OpenResult();
 		}
 	}
 
@@ -357,7 +368,24 @@ public class GameLevel : MonoBehaviour {
 		if (hudObj != null)
 		{
 			ArrayList pets = player.Pets;
-			int count = (pets == null)? 0 : pets.Count;
+			ArrayList temp = new ArrayList();
+			for(int i = 0; i < pets.Count; i++)
+			{
+				temp.Add(pets[i]);
+			}
+
+			NormalActor pet = player.CurPet;
+			temp.Remove(pet);
+			temp.Sort(new SortPet());
+			int count = temp.Count;
+
+			ArrayList allPets = new ArrayList();
+			allPets.Add(pet);
+			for (int i = 0; i < count; i++)
+			{
+				allPets.Add(temp[i]);
+			}
+			count = allPets.Count;
 
 			for (int i = 0; i < 3; i++)
 			{
@@ -372,12 +400,17 @@ public class GameLevel : MonoBehaviour {
 				{
 					icon.SetActive(true);
 
-					NormalActor pet = pets[i] as NormalActor;
+					pet = allPets[i] as NormalActor;
+					bool isAlive = pet.HP > 0;
 					string spriteName = "head_" + pet.Icon;
-					UISprite sprite = icon.GetComponent<UISprite>();
-					if (sprite != null)
+					UIButton button = icon.GetComponent<UIButton>();
+					if (button != null)
 					{
-						sprite.spriteName = spriteName;
+						button.normalSprite = spriteName;
+						button.hoverSprite = spriteName;
+						button.pressedSprite = spriteName;
+						button.disabledSprite = spriteName;
+						button.isEnabled = isAlive;
 					}
 				}
 				else
@@ -388,14 +421,147 @@ public class GameLevel : MonoBehaviour {
 		}
 	}
 
+	private void RefreshChangePet()
+	{
+		ArrayList pets = m_leftPlayer.Pets;
+		for (int i = 0; i < pets.Count; i++)
+		{
+			string contentName = "btn_change" + i.ToString();
+			NormalActor pet = pets[i] as NormalActor;
+			GameObject content = m_changePet.transform.FindChild(contentName).gameObject;
+			
+			float percent = (float)pet.HP / (float)pet.MaxHP;
+			content.transform.FindChild("BloodContent").GetComponent<UIProgressBar>().value = percent;
+			content.transform.FindChild("BloodContent").FindChild("Blood").GetComponent<UILabel>().text = pet.HP.ToString() + "/" + pet.MaxHP.ToString();
+			
+			string state = "";
+			if (pet.HP <= 0)
+			{
+				state = "icon_no";
+			}
+			else if (pet != m_replacePet)
+			{
+				state = "icon_change";
+			}
+
+			GameObject petState = content.transform.FindChild("PetState").gameObject;
+			if (state == "")
+			{
+				petState.SetActive(false);
+			}
+			else
+			{
+				petState.GetComponent<UISprite>().spriteName = state;
+				petState.SetActive(true);
+			}
+			
+			state = "";
+			bool isAlive = true;
+			if (pet.HP <= 0)
+			{
+				state = "_die";
+				isAlive = false;
+			}
+			else if (pet == m_replacePet)
+			{
+				state = "_sel";
+			}
+			
+			string spriteName = "icon_" + pet.Icon + state;
+			UIButton button = content.GetComponent<UIButton>();
+			if (button != null)
+			{
+				button.normalSprite = spriteName;
+				button.hoverSprite = spriteName;
+				button.pressedSprite = spriteName;
+				button.disabledSprite = spriteName;
+				
+				if (isAlive)
+				{
+					UIEventListener.Get(button.gameObject).onClick += SelectPet;
+				}
+			}
+		}
+	}
+
 	private void OpenChangePet(GameObject go)
 	{
+		BlurCamera (true);
+
 		m_changePet.SetActive(true);
+		m_replacePet = m_leftPlayer.CurPet;
+		RefreshChangePet ();
+	}
+
+	private void SelectPet(GameObject go)
+	{
+		int index = 0;
+		if (go.name == "btn_change0")
+		{
+			index = 0;
+		}
+		else if (go.name == "btn_change1")
+		{
+			index = 1;
+		}
+		else if (go.name == "btn_change2")
+		{
+			index = 2;
+		}
+		
+		NormalActor replacePet = m_leftPlayer.Pets[index] as NormalActor;
+		if (replacePet.HP > 0)
+		{
+			m_replacePet = replacePet;
+			RefreshChangePet ();
+		}
 	}
 
 	private void CloseChangePet(GameObject go)
 	{
+		if (go.name == "Btn_Change_OK" && m_replacePet != m_leftPlayer.CurPet)
+		{
+			m_leftPlayer.SwitchPet (m_replacePet);
+		}
+
 		m_changePet.SetActive(false);
+		BlurCamera (false);
+		m_replacePet = null;
+	}
+
+	private void OpenResult()
+	{
+		m_reslut.SetActive(true);
+		BlurCamera(true);
+
+		GameObject button = GameObject.Find ("BackToMenu");
+		UIEventListener.Get (button).onClick += BackMainMenu;
+
+		ArrayList pets = m_leftPlayer.Pets;
+		for (int i = 0; i < pets.Count; i++)
+		{
+			string contentName = "reslut_pet" + i.ToString();
+			NormalActor pet = pets[i] as NormalActor;
+			GameObject content = m_reslut.transform.FindChild(contentName).gameObject;
+
+			string state = "";
+			if (pet.HP <= 0)
+			{
+				state = "_die";
+			}
+			
+			string spriteName = "icon_" + pet.Icon + state;
+			UISprite sprite = content.GetComponent<UISprite>();
+			if (sprite != null)
+			{
+				sprite.spriteName = spriteName;
+			}
+		}
+	}
+
+	private void BackMainMenu(GameObject go)
+	{
+		Application.LoadLevel("MainScene");
 	}
 
 }
