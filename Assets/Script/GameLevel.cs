@@ -48,6 +48,7 @@ public class GameLevel : MonoBehaviour {
 	}
 
 	private Camera m_mainCamera;
+	private GameObject m_mainUICamera;
 
 	private UIProgressBar m_leftBloodBar;
 	private UILabel m_leftBlood;
@@ -56,6 +57,7 @@ public class GameLevel : MonoBehaviour {
 	private UILabel m_rightBlood;
 
 	private GameObject m_readygo;
+	private GameObject m_reslut;
 	private GameObject m_skillBtn;
 
 	private CameraShake m_cameraShake;
@@ -97,6 +99,10 @@ public class GameLevel : MonoBehaviour {
 		m_cameraShake = CameraShake.Create;
 		m_cameraShake.SetTargetObj(Camera.main.transform);
 
+
+		m_reslut = GameObject.Find("LevelResult");
+		m_reslut.SetActive(false);
+		
 		m_leftPlayer = Player.Create;
 		m_leftPlayer.Side = E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT;
 		m_leftPlayer.SetPets (new string[]{"101001", "101002", "101003"}, new EventHandler(RefreshBloodBar));
@@ -113,6 +119,7 @@ public class GameLevel : MonoBehaviour {
 		m_curBout = E_PLAYER_SIDE.E_PLAYER_PLACE_NONE;
 
 		m_mainCamera = Camera.main;
+		m_mainUICamera = GameObject.Find("UICamera_Main");
 
 //		GameObject skill = GameObject.Find ("Skill0");
 //		UIButton button = skill.GetComponent<UIButton> ();
@@ -129,7 +136,8 @@ public class GameLevel : MonoBehaviour {
 
 	private void Start()
 	{
-		m_mainCamera.gameObject.AddMissingComponent<BlurOptimized>();
+		BlurCamera(true);
+
 		LeanTween.scale(m_readygo, new Vector3(1.0f, 1.0f, 1.0f), 1.0f).setEase(LeanTweenType.easeInQuad).setOnComplete(
 			() => {
 				LeanTween.alpha(m_readygo, 0.0f, 1.0f).setDestroyOnComplete(true).setOnComplete(StartLevel);
@@ -140,6 +148,12 @@ public class GameLevel : MonoBehaviour {
 	public void ShakeCamera (float shake)
 	{
 		m_cameraShake.Shake (shake);
+	}
+
+	private void BlurCamera(bool blur)
+	{
+		m_mainCamera.gameObject.GetComponent<BlurOptimized>().enabled = blur;
+		m_mainUICamera.GetComponent<BlurOptimized>().enabled = blur;
 	}
 
 	public void OnSpawnActor(uint key, GameObject obj)
@@ -204,7 +218,8 @@ public class GameLevel : MonoBehaviour {
 
 	private void StartLevel()
 	{
-		m_mainCamera.gameObject.GetComponent<BlurOptimized>().enabled = false;
+		BlurCamera(false);
+
 		SwitchBout();
 	}
 
@@ -257,6 +272,12 @@ public class GameLevel : MonoBehaviour {
 		else if (m_rightPlayer.CurPet == null)
 		{
 			m_battleResult = BattleResult.BATTLE_RESULT_WIN;
+		}
+
+		if (m_battleResult != BattleResult.BATTLE_RESULT_NONE)
+		{
+			m_reslut.SetActive(true);
+			BlurCamera(true);
 		}
 	}
 

@@ -323,6 +323,10 @@ public class NormalActor : MonoBehaviour
 		
 		m_HP += healHP;
 		m_HP = Math.Min (m_HP, m_MaxHP);
+		if (onHurtCallBack != null)
+		{
+			onHurtCallBack(this, EventArgs.Empty);
+		}
 
 		m_healNum.AddHealNum(healHP);
 		//StartCoroutine (SwitchBout(0.0f));
