@@ -58,6 +58,8 @@ public class GameLevel : MonoBehaviour {
 	private GameObject m_readygo;
 	private GameObject m_skillBtn;
 
+	private CameraShake m_cameraShake;
+
 	public static GameLevel Singleton
 	{
 		get
@@ -92,6 +94,9 @@ public class GameLevel : MonoBehaviour {
 		m_readygo = GameObject.Find("ReadyGo");
 		m_skillBtn = GameObject.Find ("SkillBtn");
 
+		m_cameraShake = CameraShake.Create;
+		m_cameraShake.SetTargetObj(Camera.main.transform);
+
 		m_leftPlayer = Player.Create;
 		m_leftPlayer.Side = E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT;
 		m_leftPlayer.SetPets (new string[]{"101001", "101002", "101003"}, new EventHandler(RefreshBloodBar));
@@ -102,6 +107,7 @@ public class GameLevel : MonoBehaviour {
 
 		m_leftPlayer.Opponent = m_rightPlayer;
 		m_rightPlayer.Opponent = m_leftPlayer;
+
 
 		m_battleResult = BattleResult.BATTLE_RESULT_NONE;
 		m_curBout = E_PLAYER_SIDE.E_PLAYER_PLACE_NONE;
@@ -129,6 +135,11 @@ public class GameLevel : MonoBehaviour {
 				LeanTween.alpha(m_readygo, 0.0f, 1.0f).setDestroyOnComplete(true).setOnComplete(StartLevel);
 			}
 		);
+	}
+
+	public void ShakeCamera (float shake)
+	{
+		m_cameraShake.Shake (shake);
 	}
 
 	public void OnSpawnActor(uint key, GameObject obj)
@@ -173,6 +184,10 @@ public class GameLevel : MonoBehaviour {
 
 	public void PetSkill(GameObject button)
 	{
+		if (m_leftPlayer.CurPet.Moving ()) {
+			return;
+		}
+
 		if (button.name == "Skill0")
 		{
 			this.SendGameMessage<GameObject> (m_leftPlayer.gameObject, GameActorMessage.GAM_ATTACK, 0, null);

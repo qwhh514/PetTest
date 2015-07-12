@@ -1,4 +1,4 @@
-﻿
+
 using UnityEngine;
 using System;
 using System.Collections;
@@ -80,10 +80,24 @@ public class NormalActor : MonoBehaviour
 	private int currentSkillIdx;
 	private int[] SkillKey;
 	private JsonObject[] SkillJson;
+	private Vector3 m_originPosition;
+	private Quaternion m_originRotation;
+	private Vector3 m_targetPosition;
+	private Quaternion m_targetRotation;
+	private float m_fMoveSpeed;
+	private float m_fTurnSpeed;
+	float m_fMoveTime = 0.5f;
+	private bool m_bMoving;
+	private bool m_bResetRotationAfter;
+	float m_fTurnTimeScale = 0.25f;
 
 	private UIDamageNum m_damageNum;
 	private UIHealNum m_healNum;
 
+	public bool Moving()
+	{
+		return m_bMoving;
+	}
 	public int CurrentSkillId
 	{
 		set { currentSkillIdx = value; }
@@ -129,6 +143,14 @@ public class NormalActor : MonoBehaviour
 
 		m_damageNum = gameObject.AddMissingComponent<UIDamageNum>();
 		m_healNum = gameObject.AddMissingComponent<UIHealNum>();
+		m_originPosition = transform.position;
+		m_targetPosition = m_originPosition;
+		m_originRotation = transform.rotation;
+		m_targetRotation = m_originRotation;
+		m_fMoveSpeed = 0;
+		m_fTurnSpeed = 0;
+		m_bResetRotationAfter = false;
+		m_bMoving = false;
 	}
 
 	// Use this for initialization
@@ -278,8 +300,8 @@ public class NormalActor : MonoBehaviour
 		playedTimes = Mathf.Max (0, playedTimes);
 		StartCoroutine (onHurt(playedTimes, skillId));
 
-		float delay = m_animation ["die"].length;
-		StartCoroutine (SwitchBout(delay));
+		//float delay = m_animation ["die"].length;
+		//StartCoroutine (SwitchBout(delay));
 	}
 
 	public void BeHeal(GameMessage msg)
@@ -303,7 +325,7 @@ public class NormalActor : MonoBehaviour
 		m_HP = Math.Min (m_HP, m_MaxHP);
 
 		m_healNum.AddHealNum(healHP);
-		StartCoroutine (SwitchBout(0.0f));
+		//StartCoroutine (SwitchBout(0.0f));
 	}
 
 	void OnMouseDown()  
@@ -330,12 +352,85 @@ public class NormalActor : MonoBehaviour
 //		{
 //			animator.SetInteger("ActorState", state);
 //		}
+		if (m_bMoving && m_HP > 0) {
+			if((!m_animation.isPlaying || m_curAnim != "move") && m_curAnim != "die")
+			{
+				m_curAnim = "move";
+				m_animation.Play("move");
+			}
 
-		if (m_curAnim != "idle1" && m_curAnim != "die" && !m_animation.isPlaying)
+			var rollRotation = transform.rotation;
+			if(transform.position != m_targetPosition)
+			{
+				rollRotation = Quaternion.LookRotation((m_targetPosition - transform.position), Vector3.up);
+				transform.position = Vector3.MoveTowards(transform.position, m_targetPosition, Time.deltaTime*m_fMoveSpeed);
+			}
+
+			if(transform.position == m_targetPosition && m_bResetRotationAfter){
+				rollRotation = m_originRotation; 
+			}
+
+			transform.rotation = Quaternion.RotateTowards(transform.rotation, rollRotation, Time.deltaTime*m_fTurnSpeed);
+
+			if(m_fMoveSpeed <= 0)
+			{
+				transform.position = m_targetPosition;
+				transform.rotation = rollRotation;
+			}
+
+			if(transform.position == m_targetPosition && transform.rotation == rollRotation)
+			{
+				m_bMoving = false;
+				m_bResetRotationAfter = false;
+				m_curAnim = "idle1";
+				m_animation.Play("idle1");
+			}
+		}
+		else if (m_curAnim != "idle1" && m_curAnim != "die" && !m_animation.isPlaying)
 		{
 			m_curAnim = "idle1";
 			m_animation.Play("idle1");
 		}
+	}
+
+	void SkillBeginAfterMove (object sender, EventArgs e)
+	{
+		string skillName = "attack" + (currentSkillIdx+1).ToString ();
+		m_curAnim = skillName;
+		m_animation.Play (skillName);
+
+		float playedTimes = JsonDataParser.GetFloat (SkillJson [currentSkillIdx], "SkillsParticle_PlayTime");
+		playedTimes = Mathf.Max (0, playedTimes);
+		StartCoroutine (DelayToInvoke (playedTimes, SkillBegin));
+		currentSkillIdx++;
+		currentSkillIdx = currentSkillIdx % SkillNum;
+
+		float animTime = m_animation [skillName].length;
+		StartCoroutine (DelayToInvoke (Mathf.Max (animTime, playedTimes), MoveBackToOrigin));
+	}
+
+	public void MoveTo (Vector3 targetPosition, float moveTime, bool resetOriginRotationAfter = false)
+	{
+		m_targetPosition = targetPosition;
+		if (moveTime <= 0) {
+			if(transform.position != m_targetPosition)
+			{
+				transform.rotation = Quaternion.LookRotation((m_targetPosition - transform.position), Vector3.up);
+			}
+			if(resetOriginRotationAfter)
+			{
+				transform.rotation = m_originRotation;
+			}
+			transform.position = m_targetPosition;
+			m_bMoving = false;
+			return;
+		}
+		float distance = (m_targetPosition - transform.position).magnitude;
+		m_fMoveSpeed = distance / moveTime;
+		m_fTurnSpeed = 180.0f / (moveTime * m_fTurnTimeScale);
+		m_bMoving = true;
+		m_bResetRotationAfter = resetOriginRotationAfter;
+		//transform.position = Vector3.MoveTowards(transform.position, m_targetPosition, Time.deltaTime*m_fMoveSpeed);
 	}
 
 	public void ReleaseSkill(GameMessage msg)
@@ -346,19 +441,56 @@ public class NormalActor : MonoBehaviour
 		state = (int)ActorState.ACTORSTATE_ATTACK1 + currentSkillIdx;
 //		animator.SetInteger("ActorState", state);
 
-		string skillName = "attack" + (currentSkillIdx+1).ToString ();
-		m_curAnim = skillName;
-		m_animation.Play (skillName);
-
 //		float percent = 1.0f - animator.GetCurrentAnimatorStateInfo(0).normalizedTime;
 //		percent = Mathf.Clamp (percent, 0.0f, 1.0f);
 //		float playedTimes = animator.GetCurrentAnimatorStateInfo(0).length * percent;
-		float playedTimes = JsonDataParser.GetFloat(SkillJson [currentSkillIdx], "SkillsParticle_PlayTime");
-		playedTimes = Mathf.Max (0, playedTimes);
-		StartCoroutine(DelayToInvoke (playedTimes, SkillBegin));
+		int moveType = JsonDataParser.GetInt(SkillJson [currentSkillIdx], "Move");
+		float moveTime = 0;
+		if (moveType != 0) {
+			moveTime = m_fMoveTime;
+			Vector3 targetPosition = m_target.transform.position;
+			Vector3 offset = targetPosition - transform.position;
+			float distance = offset.magnitude;
+			Vector3 targetDirection = offset.normalized;
+			float bodySize = 1.0f + (GetBodySizeX(transform) + GetBodySizeX(m_target.transform)) * 0.5f;
+			if(bodySize >= distance)
+			{
+				moveTime = 0;
+			}
+			else
+			{
+				targetPosition = transform.position + targetDirection * (distance - bodySize);
+				MoveTo(targetPosition, moveTime);
+			}
+		}
+		StartCoroutine (DelayToInvoke (moveTime, SkillBeginAfterMove));
+	}
 
-		currentSkillIdx++;
-		currentSkillIdx = currentSkillIdx % SkillNum;
+	public static float GetBodySizeX(Transform obj)
+	{
+		// get the maximum bounds extent of object, including all child renderers,
+		// but excluding particles and trails, for FOV zooming effect.
+		
+		var renderers = obj.GetComponentsInChildren<Renderer>();
+		
+		Bounds bounds = new Bounds();
+		bool initBounds = false;
+		foreach (Renderer r in renderers)
+		{
+			if (!((r is TrailRenderer) || (r is ParticleRenderer) || (r is ParticleSystemRenderer)))
+			{
+				if (!initBounds)
+				{
+					initBounds = true;
+					bounds = r.bounds;
+				}
+				else
+				{
+					bounds.Encapsulate(r.bounds);
+				}
+			}
+		}
+		return bounds.extents.x;
 	}
 
 	IEnumerator DelayToInvoke(float delaySeconds, EventHandler action)
@@ -373,6 +505,21 @@ public class NormalActor : MonoBehaviour
 		GameLevel.Singleton.SwitchBout ();
 	}
 
+	void MoveBackToOrigin (object sender, EventArgs e)
+	{
+		if (transform.position != m_originPosition) {
+			MoveTo (m_originPosition, m_fMoveTime, true);
+		}
+		float delay = 2.0f;
+		if (transform.position != m_originPosition) {
+			delay += m_fMoveTime + m_fTurnTimeScale * m_fMoveTime;
+		} else if (transform.rotation != m_originRotation) {
+			delay += m_fTurnTimeScale * m_fMoveTime;
+		}
+		//m_animation ["die"].length;
+		StartCoroutine (SwitchBout (delay));
+	}
+
 	void SkillBegin(object sender, EventArgs e)
 	{
 		int skillId = (currentSkillIdx + SkillNum - 1) % SkillNum;
@@ -382,17 +529,24 @@ public class NormalActor : MonoBehaviour
 		if (SkillEffect.TryGetValue(key, out attackEff))
 		{
 			GameObject eff = Instantiate(attackEff);
+			Vector3 position = transform.position;
 			string boneName = JsonDataParser.GetString (SkillJson [skillId], "SkillsParticle_Position");
-			Transform bone = transform.Find (boneName);
-			if (bone != null)
+			if(boneName != "")
 			{
-				eff.transform.parent = bone;
-			}
-			else
-			{
-				eff.transform.parent = transform;
+				Transform bone = transform.Find (boneName);
+				if (bone != null)
+				{
+					eff.transform.SetParent(bone);
+				}
+				else
+				{
+					eff.transform.SetParent(transform);
+				}
+				position = eff.transform.parent.position;
 			}
 			eff.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
+			float yOffset = JsonDataParser.GetFloat (SkillJson [skillId], "Offset");
+			eff.transform.position = position + new Vector3(0.0f, yOffset, 0.0f);
 			eff.SetActive(true);
 		}
 
@@ -404,6 +558,7 @@ public class NormalActor : MonoBehaviour
 		}
 		if (heal > 0)
 		{
+
 			GameLevel.Singleton.SendGameMessage<GameObject>(gameObject, GameActorMessage.GAM_HEAL, heal, null);
 		}
 	}
@@ -415,24 +570,38 @@ public class NormalActor : MonoBehaviour
 		JsonObject skillJson = DataManager.Singleton.GetData ("skill.json");
 		JsonObject skillInfo = JsonDataParser.GetJsonObject(skillJson, skillId);
 		string key = JsonDataParser.GetString (skillInfo, "HurtParticle_id");
+		float shake = JsonDataParser.GetFloat (skillInfo, "Shake");
+
+		if (shake > 0f) {
+			GameLevel.Singleton.ShakeCamera(shake);
+		}
 
 		GameObject hurtEff = null;
 		if (SkillEffect.TryGetValue(key, out hurtEff))
 		{
 			GameObject eff = Instantiate(hurtEff);
+			Vector3 position = transform.position;
 			string boneName = JsonDataParser.GetString (skillInfo, "HurtParticle_Position");
-			Transform bone = transform.Find (boneName);
-			if (bone != null)
+			if(boneName != "")
 			{
-				eff.transform.parent = bone;
+				Transform bone = transform.Find (boneName);
+				if (bone != null)
+				{
+					eff.transform.SetParent(bone);
+				}
+				else
+				{
+					eff.transform.SetParent(transform);
+				}
+				position = eff.transform.parent.position;
 			}
-			else
-			{
-				eff.transform.parent = transform;
-			}
+
 			eff.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
+			float yOffset = JsonDataParser.GetFloat (skillInfo, "HurtOffset");
+			eff.transform.position = position + new Vector3(0.0f, yOffset, 0.0f);
 			eff.SetActive(true);
 		}
+
 		int hurtHP = JsonDataParser.GetInt (skillInfo, "damage");
 		m_HP -= hurtHP;
 		m_HP = Math.Max (0, m_HP);
@@ -471,7 +640,7 @@ public class NormalActor : MonoBehaviour
 		yield return new WaitForSeconds(delay);
 		if (m_master != null)
 		{
-			m_master.SwitchPet();
+			m_master.SwitchPet(true);
 		}
 	}
 

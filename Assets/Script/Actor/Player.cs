@@ -130,11 +130,25 @@ public class Player : Factory<Player>
 		{
 			m_curPet = m_pets[0] as NormalActor;
 			m_curPet.gameObject.SetActive(true);
-			GameLevel.Singleton.RefreshBloodBar(m_curPet, EventArgs.Empty);
+			GoToPlayGround();
+			//GameLevel.Singleton.RefreshBloodBar(m_curPet, EventArgs.Empty);
 		}
 	}
 
-	public void SwitchPet()
+	public void GoToPlayGround ()
+	{
+		Vector3 tar = m_curPet.transform.position;
+		if (m_eSide == E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT) {
+			m_curPet.transform.position = m_curPet.transform.position + new Vector3 (9, 0, 0);
+		}
+		else
+			if (m_eSide == E_PLAYER_SIDE.E_PLAYER_PLACE_RIGHT) {
+				m_curPet.transform.position = m_curPet.transform.position + new Vector3 (-9, 0, 0);
+			}
+		m_curPet.MoveTo (tar, 0.5f);
+	}
+
+	public void SwitchPet(bool force = false)
 	{
 		if (m_curPet != null)
 		{
@@ -156,9 +170,15 @@ public class Player : Factory<Player>
 		{
 			m_curPet.gameObject.SetActive(true);
 			m_curPet.Target = m_opponent.CurPet;
+			GoToPlayGround ();
+
 		}
 		m_opponent.m_curPet.Target = m_curPet;
-		GameLevel.Singleton.SwitchBout ();
+		//被干死了不跳过回合
+		if (!force) {
+			GameLevel.Singleton.SwitchBout ();
+		}
+		GameLevel.Singleton.RefreshBloodBar(m_curPet, EventArgs.Empty);
 	}
 
 	public void ReleaseSkill(GameMessage msg)
