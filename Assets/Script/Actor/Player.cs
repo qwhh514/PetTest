@@ -120,8 +120,9 @@ public class Player : Factory<Player>
 			GameObject ins = Instantiate(prefab, position, quat) as GameObject;
 			NormalActor actor = ins.AddMissingComponent<NormalActor>();
 			ins.SetActive(false);
-			actor.Setup(this, hp, skill);
+
 			actor.onHurtCallBack += handle;
+			actor.Setup(this, hp, skill);
 			m_pets.Add(actor);
 		}
 
@@ -129,6 +130,7 @@ public class Player : Factory<Player>
 		{
 			m_curPet = m_pets[0] as NormalActor;
 			m_curPet.gameObject.SetActive(true);
+			GameLevel.Singleton.RefreshBloodBar(m_curPet, EventArgs.Empty);
 		}
 	}
 

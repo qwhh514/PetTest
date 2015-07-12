@@ -50,7 +50,10 @@ public class GameLevel : MonoBehaviour {
 	private Camera m_mainCamera;
 
 	private UIProgressBar m_leftBloodBar;
+	private UILabel m_leftBlood;
+
 	private UIProgressBar m_rightBloodBar;
+	private UILabel m_rightBlood;
 
 	private GameObject m_readygo;
 	private GameObject m_skillBtn;
@@ -78,6 +81,17 @@ public class GameLevel : MonoBehaviour {
 
 	private void Awake()
 	{
+		GameObject obj = GameObject.Find ("BloodBG_Left");
+		m_leftBloodBar = obj.GetComponent<UIProgressBar>();
+		m_leftBlood = obj.GetComponentInChildren<UILabel>();
+		
+		obj = GameObject.Find ("BloodBG_Right");
+		m_rightBloodBar = obj.GetComponent<UIProgressBar>();
+		m_rightBlood = obj.GetComponentInChildren<UILabel>();
+		
+		m_readygo = GameObject.Find("ReadyGo");
+		m_skillBtn = GameObject.Find ("SkillBtn");
+
 		m_leftPlayer = Player.Create;
 		m_leftPlayer.Side = E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT;
 		m_leftPlayer.SetPets (new string[]{"101001", "101002", "101003"}, new EventHandler(RefreshBloodBar));
@@ -93,12 +107,6 @@ public class GameLevel : MonoBehaviour {
 		m_curBout = E_PLAYER_SIDE.E_PLAYER_PLACE_NONE;
 
 		m_mainCamera = Camera.main;
-
-		m_leftBloodBar = GameObject.Find ("BloodBG_Left").GetComponent<UIProgressBar>();
-		m_rightBloodBar = GameObject.Find ("BloodBG_Right").GetComponent<UIProgressBar>();
-
-		m_readygo = GameObject.Find("ReadyGo");
-		m_skillBtn = GameObject.Find ("SkillBtn");
 
 //		GameObject skill = GameObject.Find ("Skill0");
 //		UIButton button = skill.GetComponent<UIButton> ();
@@ -239,27 +247,37 @@ public class GameLevel : MonoBehaviour {
 
 	public void RefreshBloodBar(object obj, EventArgs args)
 	{
+		int curHp = 0;
+		int maxHp = 0;
+		float value = 0.0f;
+
 		NormalActor actor = null;
-		if (m_leftPlayer != null)
+		if (m_leftPlayer != null && m_leftPlayer.CurPet != null)
 		{
 			actor = m_leftPlayer.CurPet;
-			float value = 0.0f;
+
 			if (actor != null)
 			{
-				value = (float)(actor.HP) / (float)(actor.MaxHP);
+				curHp = actor.HP;
+				maxHp = actor.MaxHP;
+				value = (float)(curHp) / (float)(maxHp);
 			}
 			m_leftBloodBar.value = value;
+			m_leftBlood.text = curHp.ToString() + "/" + maxHp.ToString();
 		}
 
 		if (m_rightPlayer != null && m_rightPlayer.CurPet != null)
 		{
 			actor = m_rightPlayer.CurPet;
-			float value = 0.0f;
+
 			if (actor != null)
 			{
-				value = (float)(actor.HP) / (float)(actor.MaxHP);
+				curHp = actor.HP;
+				maxHp = actor.MaxHP;
+				value = (float)(curHp) / (float)(maxHp);
 			}
 			m_rightBloodBar.value = value;
+			m_rightBlood.text = curHp.ToString() + "/" + maxHp.ToString();
 		}
 	}
 
