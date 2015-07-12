@@ -13,9 +13,11 @@
         "HurtParticle_id": 411000, 
         "HurtParticle_PlayTime": 0.00902777777777778, 
         "HurtParticle_Position": "Dummy_2", 
-        "Offset": 1, 
+        "Offset": 0,
+		"HurtOffset": 0,		
         "Shake": 0, 
-        "Camera": 0
+        "Camera": 0,
+		"Move": 1
     }, 
     "301001": {
         "name": "吐息", 
@@ -31,9 +33,11 @@
         "HurtParticle_id": 411001, 
         "HurtParticle_PlayTime": 0.00694444444444444, 
         "HurtParticle_Position": "Dummy_2", 
-        "Offset": 0, 
+        "Offset": 0,
+		"HurtOffset": 0,	 
         "Shake": 0, 
-        "Camera": 0
+        "Camera": 0,
+		"Move": 0
     }, 
     "301002": {
         "name": "超▪吐息", 
@@ -48,10 +52,12 @@
         "SkillsParticle_Position": "", 
         "HurtParticle_id": 411002, 
         "HurtParticle_PlayTime": 0.00694444444444444, 
-        "HurtParticle_Position": "Dummy_2", 
-        "Offset": 0, 
-        "Shake": 1, 
-        "Camera": 0
+        "HurtParticle_Position": "", 
+        "Offset": 0,
+		"HurtOffset": 10,	 
+        "Shake": 0.5, 
+        "Camera": 0,
+		"Move": 0
     }, 
     "302000": {
         "name": "啄击", 
@@ -67,32 +73,36 @@
         "HurtParticle_id": 411003, 
         "HurtParticle_PlayTime": 0.00555555555555556, 
         "HurtParticle_Position": "Bip01/Bip01_gupen/Bip01 Spine/Dummy_3", 
-        "Offset": 1, 
+        "Offset": 0,
+		"HurtOffset": 0,	
         "Shake": 0, 
         "Camera": 0
+		"Move": 1
     }, 
     "302001": {
         "name": "回复", 
         "ICON": 2, 
-        "type": 2, 
+        "type": 1, 
         "desc": "使用魔法给自己加血", 
         "animation": "attack2", 
         "damage": 0, 
         "heal": 370, 
         "SkillsParticle_id": 401000, 
-        "SkillsParticle_PlayTime": 0.005555555555555556, 
+        "SkillsParticle_PlayTime": 0.00555555555555556, 
         "SkillsParticle_Position": "Dummy_2", 
         "HurtParticle_id": 0, 
         "HurtParticle_PlayTime": 0.0, 
         "HurtParticle_Position": "", 
-        "Offset": 0, 
+        "Offset": 0,
+		"HurtOffset": 0,	
         "Shake": 0, 
-        "Camera": 0
+        "Camera": 0,
+		"Move": 0
     }, 
     "302002": {
         "name": "猛啄", 
         "ICON": 3, 
-        "type": 1, 
+        "type": 2, 
         "desc": "前进到敌方位置，用嘴猛啄", 
         "animation": "attack3", 
         "damage": 396, 
@@ -103,9 +113,11 @@
         "HurtParticle_id": 411000, 
         "HurtParticle_PlayTime": 0.0111111111111111, 
         "HurtParticle_Position": "Bip01/Bip01_gupen/Bip01 Spine/Dummy_3", 
-        "Offset": 1, 
-        "Shake": 1, 
-        "Camera": 0
+        "Offset": 0,
+		"HurtOffset": 0,	
+        "Shake": 0.25, 
+        "Camera": 0,
+		"Move": 1
     }, 
     "303000": {
         "name": "鼻击", 
@@ -121,9 +133,11 @@
         "HurtParticle_id": 411000, 
         "HurtParticle_PlayTime": 0.04375, 
         "HurtParticle_Position": "Bip01/Bip01_gupen/Bip01 Spine/Dummy_3", 
-        "Offset": 1, 
+        "Offset": 0,
+		"HurtOffset": 0,	
         "Shake": 0, 
-        "Camera": 0
+        "Camera": 0,
+		"Move": 1
     }, 
     "303001": {
         "name": "地刺", 
@@ -139,9 +153,11 @@
         "HurtParticle_id": 411000, 
         "HurtParticle_PlayTime": 0.0, 
         "HurtParticle_Position": "Bip01/Bip01_gupen/Bip01 Spine/Dummy_3", 
-        "Offset": 2, 
+        "Offset": 0,
+		"HurtOffset": 0,	
         "Shake": 0, 
-        "Camera": 0
+        "Camera": 0,
+		"Move": 0
     }, 
     "303002": {
         "name": "头槌", 
@@ -157,9 +173,11 @@
         "HurtParticle_id": 411000, 
         "HurtParticle_PlayTime": 0.0416666666666667, 
         "HurtParticle_Position": "Bip01/Bip01_gupen/Bip01 Spine/Dummy_3", 
-        "Offset": 1, 
-        "Shake": 1, 
-        "Camera": 0
+        "Offset": 0,
+		"HurtOffset": 0,	
+        "Shake": 0.25, 
+        "Camera": 0,
+		"Move": 1
     }, 
     "304000": {
         "name": "甩尾", 
@@ -175,32 +193,36 @@
         "HurtParticle_id": 411000, 
         "HurtParticle_PlayTime": 0.0125, 
         "HurtParticle_Position": "Bip01/Bip01_gupen/Bip01 Spine/Dummy_3", 
-        "Offset": 1, 
+        "Offset": 0,
+		"HurtOffset": 0,	
         "Shake": 0, 
-        "Camera": 0
+        "Camera": 0,
+		"Move": 1
     }, 
     "304001": {
         "name": "护盾", 
         "ICON": 2, 
-        "type": 2, 
+        "type": 1, 
         "desc": "小龙空翻时，在身上释放buff，生成护盾。", 
         "animation": "attack2", 
         "damage": 0, 
         "heal": 0, 
         "SkillsParticle_id": 403000, 
         "SkillsParticle_PlayTime": 0.00208333333333333, 
-        "SkillsParticle_Position": "Bip01/Bip01_gupen/Bip01 Spine/Dummy_3", 
+        "SkillsParticle_Position": "DragonWhelpOutlandCute0_Mesh", 
         "HurtParticle_id": 0, 
         "HurtParticle_PlayTime": 0.0, 
         "HurtParticle_Position": "", 
-        "Offset": 0, 
+        "Offset": 5,
+		"HurtOffset": 0,	
         "Shake": 0, 
-        "Camera": 0
+        "Camera": 0,
+		"Move": 0
     }, 
     "304002": {
         "name": "吐息", 
         "ICON": 3, 
-        "type": 1, 
+        "type": 2, 
         "desc": "吸气时，小龙嘴部播放火焰特效", 
         "animation": "attack3", 
         "damage": 430, 
@@ -211,8 +233,10 @@
         "HurtParticle_id": 411000, 
         "HurtParticle_PlayTime": 0.00555555555555556, 
         "HurtParticle_Position": "Bip01/Bip01_gupen/Bip01 Spine/Dummy_3", 
-        "Offset": 0, 
-        "Shake": 1, 
-        "Camera": 0
+        "Offset": 0,
+		"HurtOffset": 10,
+        "Shake": 0.25, 
+        "Camera": 0,
+		"Move": 0
     }
 }

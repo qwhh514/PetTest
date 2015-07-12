@@ -552,6 +552,8 @@ public class NormalActor : MonoBehaviour
 			float yOffset = JsonDataParser.GetFloat (SkillJson [skillId], "Offset");
 			eff.transform.position = position + new Vector3(0.0f, yOffset, 0.0f);
 			eff.SetActive(true);
+			eff.SendMessage("SetTargetPosition", m_target.transform.position);
+			eff.SendMessage("SetOrigin", attackEff);
 		}
 
 		int damage = JsonDataParser.GetInt (SkillJson[skillId], "damage");
