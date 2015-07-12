@@ -178,7 +178,7 @@ public class GameLevel : MonoBehaviour {
 
 		BlurCamera(true);
 
-		LeanTween.scale(m_readygo, new Vector3(1.0f, 1.0f, 1.0f), 1.0f).setEase(LeanTweenType.easeInQuad).setOnComplete(
+		LeanTween.scale(m_readygo, new Vector3(0.8f, 0.8f, 0.8f), 1.0f).setEase(LeanTweenType.easeInQuad).setOnComplete(
 			() => {
 				LeanTween.alpha(m_readygo, 0.0f, 1.0f).setDestroyOnComplete(true).setOnComplete(StartLevel);
 			}

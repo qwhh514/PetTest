@@ -22,7 +22,7 @@ public class TouchObject : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-#if UNITY_EDITOR
+#if UNITY_EDITOR || UNITY_STANDALONE || UNITY_STANDALONE_WIN || UNITY_STANDALONE_OSX
 		if(Input.GetMouseButtonUp(0))
 		{
 			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -30,6 +30,7 @@ public class TouchObject : MonoBehaviour
 			
 			if (Physics.Raycast(ray, out hit))
 			{
+				m_action();
 				if (hit.transform.name == m_transform.name && m_action != null)
 				{
 					m_action();
