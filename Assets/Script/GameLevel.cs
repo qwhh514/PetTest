@@ -50,6 +50,9 @@ public class GameLevel : MonoBehaviour {
 	private Camera m_mainCamera;
 	private GameObject m_mainUICamera;
 
+	private GameObject m_leftHud;
+	private GameObject m_rightHud;
+
 	private UIProgressBar m_leftBloodBar;
 	private UILabel m_leftBlood;
 
@@ -58,6 +61,7 @@ public class GameLevel : MonoBehaviour {
 
 	private GameObject m_readygo;
 	private GameObject m_reslut;
+	private GameObject m_changePet;
 	private GameObject m_skillBtn;
 
 	public static GameLevel Singleton
@@ -83,6 +87,9 @@ public class GameLevel : MonoBehaviour {
 
 	private void Awake()
 	{
+		m_leftHud = GameObject.Find("Left_Hud");
+		m_rightHud = GameObject.Find("Right_Hud");
+
 		GameObject obj = GameObject.Find ("BloodBG_Left");
 		m_leftBloodBar = obj.GetComponent<UIProgressBar>();
 		m_leftBlood = obj.GetComponentInChildren<UILabel>();
@@ -96,6 +103,9 @@ public class GameLevel : MonoBehaviour {
 
 		m_reslut = GameObject.Find("LevelResult");
 		m_reslut.SetActive(false);
+
+		m_changePet = GameObject.Find("ChangePetPlane");
+		m_changePet.SetActive(false);
 		
 		m_leftPlayer = Player.Create;
 		m_leftPlayer.Side = E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT;
@@ -129,6 +139,24 @@ public class GameLevel : MonoBehaviour {
 
 	private void Start()
 	{
+		UIButton btn = GameObject.Find("Skip").GetComponent<UIButton>();
+		btn.isEnabled = false;
+
+		btn = GameObject.Find("GiveUp").GetComponent<UIButton>();
+		btn.isEnabled = false;
+
+		btn = GameObject.Find("Bag").GetComponent<UIButton>();
+		btn.isEnabled = false;
+
+		btn = GameObject.Find("ChangePet").GetComponent<UIButton>();
+		UIEventListener.Get(btn.gameObject).onClick += OpenChangePet;
+		btn.isEnabled = true;
+
+		GameObject btn_start = m_changePet.transform.FindChild("Btn_Change_OK").gameObject;
+		UIEventListener.Get(btn_start).onClick += CloseChangePet;
+		GameObject btn_cancel = m_changePet.transform.FindChild("Btn_Change_Cancel").gameObject;
+		UIEventListener.Get(btn_cancel).onClick += CloseChangePet;
+
 		BlurCamera(true);
 
 		LeanTween.scale(m_readygo, new Vector3(1.0f, 1.0f, 1.0f), 1.0f).setEase(LeanTweenType.easeInQuad).setOnComplete(
@@ -299,6 +327,59 @@ public class GameLevel : MonoBehaviour {
 			m_rightBloodBar.value = value;
 			m_rightBlood.text = curHp.ToString() + "/" + maxHp.ToString();
 		}
+	}
+
+	public void RefreshPetIcon(Player player)
+	{
+		if (player == null)
+		{
+			return;
+		}
+
+		E_PLAYER_SIDE side = player.Side;
+		GameObject hudObj = (side == E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT)? m_leftHud : m_rightHud;
+		if (hudObj != null)
+		{
+			ArrayList pets = player.Pets;
+			int count = (pets == null)? 0 : pets.Count;
+
+			for (int i = 0; i < 3; i++)
+			{
+				string iconName = "Icon" + i.ToString();
+				GameObject icon = hudObj.transform.FindChild(iconName).gameObject;
+				if (icon == null)
+				{
+					continue;
+				}
+
+				if (i < count)
+				{
+					icon.SetActive(true);
+
+					NormalActor pet = pets[i] as NormalActor;
+					string spriteName = "head_" + pet.Icon;
+					UISprite sprite = icon.GetComponent<UISprite>();
+					if (sprite != null)
+					{
+						sprite.spriteName = spriteName;
+					}
+				}
+				else
+				{
+					icon.SetActive(false);
+				}
+			}
+		}
+	}
+
+	private void OpenChangePet(GameObject go)
+	{
+		m_changePet.SetActive(true);
+	}
+
+	private void CloseChangePet(GameObject go)
+	{
+		m_changePet.SetActive(false);
 	}
 
 }
