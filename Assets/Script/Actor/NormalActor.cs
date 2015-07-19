@@ -100,10 +100,10 @@ public class NormalActor : MonoBehaviour
 	private Quaternion m_targetRotation;
 	private float m_fMoveSpeed;
 	private float m_fTurnSpeed;
-	float m_fMoveTime = 0.5f;
+	private float m_fMoveTime = 0.5f;
 	private bool m_bMoving;
 	private bool m_bResetRotationAfter;
-	float m_fTurnTimeScale = 0.25f;
+	private float m_fTurnTimeScale = 0.25f;
 
 	private UIDamageNum m_damageNum;
 	private UIHealNum m_healNum;
@@ -224,6 +224,27 @@ public class NormalActor : MonoBehaviour
 				SkillEffect.Add(hurtEffId, obj);
 			}
 		}
+	}
+
+	public string[] GetSkillIcons()
+	{
+		if (SkillJson == null || SkillJson.Length == 0)
+		{
+			return null;
+		}
+
+		string[] icons = new string[SkillJson.Length];
+		for (int i = 0; i < SkillJson.Length; i++)
+		{
+			JsonObject obj = SkillJson[i];
+			if (obj != null)
+			{
+				string iconName = JsonDataParser.GetString(obj, "ICON");
+				icons[i] = iconName;
+			}
+		}
+
+		return icons;
 	}
 
 	public void CastSkill(GameMessage msg)
@@ -485,6 +506,8 @@ public class NormalActor : MonoBehaviour
 			}
 		}
 		StartCoroutine (DelayToInvoke (moveTime, SkillBeginAfterMove));
+
+		GameLevel.Singleton.ShowSkillBar (false);
 	}
 
 	public static float GetBodySizeX(Transform obj)

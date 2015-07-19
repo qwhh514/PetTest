@@ -178,14 +178,16 @@ public class Player : Factory<Player>
 			m_curPet.gameObject.SetActive(true);
 			m_curPet.Target = m_opponent.CurPet;
 			GoToPlayGround ();
-
 		}
+
 		m_opponent.m_curPet.Target = m_curPet;
 		//被干死了不跳过回合
-		if (!force) {
+		if (!force)
+		{
 			GameLevel.Singleton.SwitchBout ();
 		}
 		GameLevel.Singleton.RefreshBloodBar(m_curPet, EventArgs.Empty);
+		GameLevel.Singleton.RefreshSkillIcon ();
 	}
 
 	public void SwitchPet(NormalActor pet)

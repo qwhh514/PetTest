@@ -1,7 +1,7 @@
 {
     "301000": {
         "name": "扫尾", 
-        "ICON": 1, 
+        "ICON": "", 
         "type": 1, 
         "desc": "利用转身甩尾，对单一敌人造成巨大伤害", 
         "animation": "attack1", 
@@ -21,7 +21,7 @@
     }, 
     "301001": {
         "name": "吐息", 
-        "ICON": 2, 
+        "ICON": "", 
         "type": 1, 
         "desc": "以敌方单位为中心实施核爆打击", 
         "animation": "attack2", 
@@ -41,7 +41,7 @@
     }, 
     "301002": {
         "name": "超▪吐息", 
-        "ICON": 3, 
+        "ICON": "", 
         "type": 1, 
         "desc": "以敌方单位为中心实施流星雨打击", 
         "animation": "attack3", 
@@ -61,7 +61,7 @@
     }, 
     "302000": {
         "name": "啄击", 
-        "ICON": 1, 
+        "ICON": "skill1_03", 
         "type": 1, 
         "desc": "前进到敌方位置，用嘴啄", 
         "animation": "attack1", 
@@ -81,7 +81,7 @@
     }, 
     "302001": {
         "name": "回复", 
-        "ICON": 2, 
+        "ICON": "skill2_01", 
         "type": 1, 
         "desc": "使用魔法给自己加血", 
         "animation": "attack2", 
@@ -101,7 +101,7 @@
     }, 
     "302002": {
         "name": "猛啄", 
-        "ICON": 3, 
+        "ICON": "skill1_01", 
         "type": 2, 
         "desc": "前进到敌方位置，用嘴猛啄", 
         "animation": "attack3", 
@@ -121,7 +121,7 @@
     }, 
     "303000": {
         "name": "鼻击", 
-        "ICON": 1, 
+        "ICON": "skill2_02", 
         "type": 1, 
         "desc": "前进到敌方位置，用鼻子进行甩动攻击", 
         "animation": "attack1", 
@@ -141,7 +141,7 @@
     }, 
     "303001": {
         "name": "地刺", 
-        "ICON": 2, 
+        "ICON": "skill1_02", 
         "type": 1, 
         "desc": "地刺从小象正前方，前进到敌方位置", 
         "animation": "attack2", 
@@ -161,7 +161,7 @@
     }, 
     "303002": {
         "name": "头槌", 
-        "ICON": 3, 
+        "ICON": "skill2_02", 
         "type": 1, 
         "desc": "前进到敌方位置，用头顶向敌方", 
         "animation": "attack3", 
@@ -181,7 +181,7 @@
     }, 
     "304000": {
         "name": "甩尾", 
-        "ICON": 1, 
+        "ICON": "skill0_03", 
         "type": 1, 
         "desc": "小龙甩尾时，尾部带出刀划过屏幕的效果", 
         "animation": "attack1", 
@@ -201,7 +201,7 @@
     }, 
     "304001": {
         "name": "护盾", 
-        "ICON": 2, 
+        "ICON": "skill0_02", 
         "type": 1, 
         "desc": "小龙空翻时，在身上释放buff，生成护盾。", 
         "animation": "attack2", 
@@ -221,7 +221,7 @@
     }, 
     "304002": {
         "name": "吐息", 
-        "ICON": 3, 
+        "ICON": "skill0_01", 
         "type": 2, 
         "desc": "吸气时，小龙嘴部播放火焰特效", 
         "animation": "attack3", 

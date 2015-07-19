@@ -47,8 +47,11 @@ public class GameLevel : MonoBehaviour {
 	private Player m_leftPlayer;
 	private Player m_rightPlayer;
 
+	private bool m_bShowSkill;
+
 	private BattleResult m_battleResult;
 
+	private E_PLAYER_SIDE m_preBout;
 	private E_PLAYER_SIDE m_curBout;
 	public E_PLAYER_SIDE Bout
 	{
@@ -66,6 +69,8 @@ public class GameLevel : MonoBehaviour {
 
 	private UIProgressBar m_rightBloodBar;
 	private UILabel m_rightBlood;
+
+//	private UIButton[] m_skillButons;
 
 	private GameObject m_readygo;
 	private GameObject m_reslut;
@@ -99,6 +104,8 @@ public class GameLevel : MonoBehaviour {
 
 	private void Awake()
 	{
+		m_bShowSkill = true;
+
 		m_leftHud = GameObject.Find("Left_Hud");
 		m_rightHud = GameObject.Find("Right_Hud");
 
@@ -134,14 +141,22 @@ public class GameLevel : MonoBehaviour {
 		m_leftPlayer.Opponent = m_rightPlayer;
 		m_rightPlayer.Opponent = m_leftPlayer;
 
+//		for (int i = 0; i < 3; i++)
+//		{
+//			string name = "Skill" + i.ToString();
+//			m_skillButons[0] = GameObject.Find(name).GetComponent<UIButton>();
+//		}
 
 		m_battleResult = BattleResult.BATTLE_RESULT_NONE;
+		m_preBout = E_PLAYER_SIDE.E_PLAYER_PLACE_NONE;
 		m_curBout = E_PLAYER_SIDE.E_PLAYER_PLACE_NONE;
 
 		m_mainCamera = Camera.main;
 		m_mainUICamera = GameObject.Find("UICamera_Main");
 
 		m_replacePet = null;
+
+		RefreshSkillIcon ();
 
 //		GameObject skill = GameObject.Find ("Skill0");
 //		UIButton button = skill.GetComponent<UIButton> ();
@@ -265,7 +280,7 @@ public class GameLevel : MonoBehaviour {
 
 	public void SwitchBout()
 	{
-		E_PLAYER_SIDE preBout = m_curBout;
+		E_PLAYER_SIDE m_preBout = m_curBout;
 		m_curBout = (m_curBout == E_PLAYER_SIDE.E_PLAYER_PLACE_NONE || m_curBout == E_PLAYER_SIDE.E_PLAYER_PLACE_RIGHT) ? E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT : E_PLAYER_SIDE.E_PLAYER_PLACE_RIGHT;
 		if (m_curBout == E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT && m_leftPlayer != null)
 		{
@@ -276,25 +291,32 @@ public class GameLevel : MonoBehaviour {
 			StartCoroutine(AutoSkill(m_rightPlayer.gameObject, 0.0f));
 		}
 
-		if (m_skillBtn != null)
+		ShowSkillBar (m_curBout == E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT);
+
+		m_leftPlayer.Skilled = false;
+		m_rightPlayer.Skilled = false;
+	}
+
+	public void ShowSkillBar(bool bShow)
+	{
+		if (m_bShowSkill != bShow && m_skillBtn != null)
 		{
 			Transform transform = GameObject.Find("SkillBtn").transform;
 			int count = transform.childCount;
 			for (int i = 0; i < count; i++)
 			{
 				GameObject obj = transform.GetChild(i).gameObject;
-				float offset = (m_curBout == E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT)? 0.5f : -0.5f;
-				offset = (preBout == E_PLAYER_SIDE.E_PLAYER_PLACE_NONE)? 0.0f : offset;
+				float offset = bShow? 0.5f : -0.5f;
+//				offset = (m_preBout == E_PLAYER_SIDE.E_PLAYER_PLACE_NONE)? 0.0f : offset;
 				Vector3 position = obj.transform.position;
 				Vector3 target = position + new Vector3(0.0f, offset, 0.0f);
-
-				TweenPosition tc = TweenPosition.Begin(obj, 0.3f, target, true);
+				
+				TweenPosition tc = TweenPosition.Begin(obj, 0.1f, target, true);
 				tc.method = UITweener.Method.Linear;
 			}
 		}
 
-		m_leftPlayer.Skilled = false;
-		m_rightPlayer.Skilled = false;
+		m_bShowSkill = bShow;
 	}
 
 	private IEnumerator AutoSkill(GameObject player, float delay)
@@ -556,6 +578,35 @@ public class GameLevel : MonoBehaviour {
 			{
 				sprite.spriteName = spriteName;
 			}
+		}
+	}
+
+	public void RefreshSkillIcon()
+	{
+		if (m_leftPlayer == null || m_leftPlayer.CurPet == null)
+		{
+			return;
+		}
+
+		string[] iconName = m_leftPlayer.CurPet.GetSkillIcons ();
+		if (iconName == null)
+		{
+			return;
+		}
+
+		for (int i = 0; i < iconName.Length; i++)
+		{
+			string name = "Skill" + i.ToString();
+			UIButton button = GameObject.Find(name).GetComponent<UIButton>();
+			if (button == null)
+			{
+				continue;
+			}
+
+			button.normalSprite = iconName[i];
+			button.hoverSprite = iconName[i];
+			button.pressedSprite = iconName[i];
+			button.disabledSprite = iconName[i];
 		}
 	}
 
