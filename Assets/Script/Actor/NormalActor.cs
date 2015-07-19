@@ -55,6 +55,14 @@ public class ActorSkill
 //[RequireComponent(typeof(Animator))]
 public class NormalActor : MonoBehaviour
 {
+	public void DestroyAllEff ()
+	{
+		Destroy (m_hurtEff);
+		Destroy (m_attackEff);
+		m_hurtEff = null;
+		m_attackEff = null;
+	}
+
 //	private Animator animator;
 	private Animation m_animation;
 	private string m_curAnim;
@@ -104,13 +112,25 @@ public class NormalActor : MonoBehaviour
 	private bool m_bMoving;
 	private bool m_bResetRotationAfter;
 	private float m_fTurnTimeScale = 0.25f;
+	private GameObject m_hurtEff = null;
+	private GameObject m_attackEff = null;
+
+	private bool m_bSwitchBout = false;
 
 	private UIDamageNum m_damageNum;
 	private UIHealNum m_healNum;
 
+	public float GetMoveTime()
+	{
+		return m_fMoveTime;
+	}
 	public bool Moving()
 	{
 		return m_bMoving;
+	}
+	public bool LogicalActive()
+	{
+		return !Moving() && m_HP > 0;
 	}
 	public int CurrentSkillId
 	{
@@ -422,6 +442,11 @@ public class NormalActor : MonoBehaviour
 
 			if(transform.position == m_targetPosition && transform.rotation == rollRotation)
 			{
+				if(m_bSwitchBout)
+				{
+					m_bSwitchBout = false;
+					StartCoroutine (SwitchBout (GetMoveTime()));
+				}
 				m_bMoving = false;
 				m_bResetRotationAfter = false;
 				m_curAnim = "idle1";
@@ -451,7 +476,7 @@ public class NormalActor : MonoBehaviour
 		StartCoroutine (DelayToInvoke (Mathf.Max (animTime, playedTimes), MoveBackToOrigin));
 	}
 
-	public void MoveTo (Vector3 targetPosition, float moveTime, bool resetOriginRotationAfter = false)
+	public void MoveTo (Vector3 targetPosition, float moveTime, bool resetOriginRotationAfter = false, bool switchBout = false)
 	{
 		m_targetPosition = targetPosition;
 		if (moveTime <= 0) {
@@ -472,13 +497,14 @@ public class NormalActor : MonoBehaviour
 		m_fTurnSpeed = 180.0f / (moveTime * m_fTurnTimeScale);
 		m_bMoving = true;
 		m_bResetRotationAfter = resetOriginRotationAfter;
+		m_bSwitchBout = switchBout;
 		//transform.position = Vector3.MoveTowards(transform.position, m_targetPosition, Time.deltaTime*m_fMoveSpeed);
 	}
 
 	public void ReleaseSkill(GameMessage msg)
 	{
 //		GameLevel.Singleton.SendGameMessage<GameObject>(transform.gameObject, GameActorMessage.GAM_ATTACK, -1, null);
-		int skillIdx = msg.Value;
+		int skillIdx = msg.Value; 
 		currentSkillIdx = (skillIdx >= 0) ? skillIdx : currentSkillIdx;
 		state = (int)ActorState.ACTORSTATE_ATTACK1 + currentSkillIdx;
 //		animator.SetInteger("ActorState", state);
@@ -543,7 +569,7 @@ public class NormalActor : MonoBehaviour
 		action (this, EventArgs.Empty);
 	}
 
-	IEnumerator SwitchBout(float delaySeconds)
+	public IEnumerator SwitchBout(float delaySeconds)
 	{
 		yield return new WaitForSeconds (delaySeconds);
 		GameLevel.Singleton.SwitchBout ();
@@ -554,7 +580,7 @@ public class NormalActor : MonoBehaviour
 		if (transform.position != m_originPosition) {
 			MoveTo (m_originPosition, m_fMoveTime, true);
 		}
-		float delay = 2.0f;
+		float delay = 0.0f;
 		if (transform.position != m_originPosition) {
 			delay += m_fMoveTime + m_fTurnTimeScale * m_fMoveTime;
 		} else if (transform.rotation != m_originRotation) {
@@ -572,7 +598,7 @@ public class NormalActor : MonoBehaviour
 		GameObject attackEff = null;
 		if (SkillEffect.TryGetValue(key, out attackEff))
 		{
-			GameObject eff = Instantiate(attackEff);
+			m_attackEff = Instantiate(attackEff);
 			Vector3 position = transform.position;
 			string boneName = JsonDataParser.GetString (SkillJson [skillId], "SkillsParticle_Position");
 			if(boneName != "")
@@ -580,20 +606,20 @@ public class NormalActor : MonoBehaviour
 				Transform bone = transform.Find (boneName);
 				if (bone != null)
 				{
-					eff.transform.SetParent(bone);
+					m_attackEff.transform.SetParent(bone);
 				}
 				else
 				{
-					eff.transform.SetParent(transform);
+					m_attackEff.transform.SetParent(transform);
 				}
-				position = eff.transform.parent.position;
+				position = m_attackEff.transform.parent.position;
 			}
-			eff.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
+			m_attackEff.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
 			float yOffset = JsonDataParser.GetFloat (SkillJson [skillId], "Offset");
-			eff.transform.position = position + new Vector3(0.0f, yOffset, 0.0f);
-			eff.SetActive(true);
-			eff.SendMessage("SetTargetPosition", m_target.transform.position);
-			eff.SendMessage("SetOrigin", attackEff);
+			m_attackEff.transform.position = position + new Vector3(0.0f, yOffset, 0.0f);
+			m_attackEff.SetActive(true);
+			m_attackEff.SendMessage("SetTargetPosition", m_target.transform.position);
+			m_attackEff.SendMessage("SetOrigin", attackEff);
 		}
 
 		int damage = JsonDataParser.GetInt (SkillJson[skillId], "damage");
@@ -625,7 +651,7 @@ public class NormalActor : MonoBehaviour
 		GameObject hurtEff = null;
 		if (SkillEffect.TryGetValue(key, out hurtEff))
 		{
-			GameObject eff = Instantiate(hurtEff);
+			m_hurtEff = Instantiate(hurtEff);
 			Vector3 position = transform.position;
 			string boneName = JsonDataParser.GetString (skillInfo, "HurtParticle_Position");
 			if(boneName != "")
@@ -633,19 +659,19 @@ public class NormalActor : MonoBehaviour
 				Transform bone = transform.Find (boneName);
 				if (bone != null)
 				{
-					eff.transform.SetParent(bone);
+					m_hurtEff.transform.SetParent(bone);
 				}
 				else
 				{
-					eff.transform.SetParent(transform);
+					m_hurtEff.transform.SetParent(transform);
 				}
-				position = eff.transform.parent.position;
+				position = m_hurtEff.transform.parent.position;
 			}
 
-			eff.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
+			m_hurtEff.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
 			float yOffset = JsonDataParser.GetFloat (skillInfo, "HurtOffset");
-			eff.transform.position = position + new Vector3(0.0f, yOffset, 0.0f);
-			eff.SetActive(true);
+			m_hurtEff.transform.position = position + new Vector3(0.0f, yOffset, 0.0f);
+			m_hurtEff.SetActive(true);
 		}
 
 		int hurtHP = JsonDataParser.GetInt (skillInfo, "damage");
@@ -679,6 +705,7 @@ public class NormalActor : MonoBehaviour
 
 		float delay = m_animation ["die"].length;
 		StartCoroutine (onDeadEnd(delay));
+		GameLevel.Singleton.BulletTime (0.2f, 5.0f, gameObject);
 	}
 
 	IEnumerator onDeadEnd(float delay)
@@ -687,6 +714,8 @@ public class NormalActor : MonoBehaviour
 		if (m_master != null)
 		{
 			m_master.SwitchPet(true);
+			GameLevel.Singleton.m_rainEff.SetActive(true);
+			GameLevel.Singleton.m_targetIntensity = 1.0f;
 		}
 	}
 

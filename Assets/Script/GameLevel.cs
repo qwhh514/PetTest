@@ -2,7 +2,7 @@
 using UnityEngine;
 using System;
 using System.Collections;
-
+using StaticDefine;
 using UnityStandardAssets.ImageEffects;
 
 public enum GameActorMessage
@@ -77,6 +77,7 @@ public class GameLevel : MonoBehaviour {
 	private GameObject m_changePet;
 	private GameObject m_skillBtn;
 
+	///public CameraController m_cameraController;
 	private CameraShake m_cameraShake;
 
 	private NormalActor m_replacePet;
@@ -102,8 +103,17 @@ public class GameLevel : MonoBehaviour {
 		m_instance = this;
 	}
 
+	public GameObject m_rainEff = null;
+
+	public float m_originIntensity;
+
+	public float m_targetIntensity;
+
 	private void Awake()
 	{
+		//Light light = GameObject.Find("Light")
+		m_originIntensity = GameObject.Find("Light").GetComponent<Light> ().intensity;
+		m_targetIntensity = m_originIntensity;
 		m_bShowSkill = true;
 
 		m_leftHud = GameObject.Find("Left_Hud");
@@ -119,6 +129,9 @@ public class GameLevel : MonoBehaviour {
 		
 		m_readygo = GameObject.Find("ReadyGo");
 		m_skillBtn = GameObject.Find ("SkillBtn");
+
+		//m_cameraController = CameraController.Create;
+		//m_cameraController.SetCamera(Camera.main.transform);
 
 		m_cameraShake = CameraShake.Create;
 		m_cameraShake.SetTargetObj(Camera.main.transform);
@@ -152,6 +165,16 @@ public class GameLevel : MonoBehaviour {
 		m_curBout = E_PLAYER_SIDE.E_PLAYER_PLACE_NONE;
 
 		m_mainCamera = Camera.main;
+
+		GameObject eff = null;
+		eff = AssetManager.Singleton.LoadAsset<GameObject>(FilePath.PARTICLE_PATH + "3D_Rain_02.prefab");
+		m_rainEff = Instantiate(eff);	
+		m_rainEff.transform.SetParent(m_mainCamera.transform);
+		m_rainEff.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
+		//float yOffset = JsonDataParser.GetFloat (skillInfo, "HurtOffset");
+		//m_hurtEff.transform.position = position + new Vector3(0.0f, yOffset, 0.0f);
+		m_rainEff.SetActive(false);
+
 		m_mainUICamera = GameObject.Find("UICamera_Main");
 
 		m_replacePet = null;
@@ -253,7 +276,7 @@ public class GameLevel : MonoBehaviour {
 
 	public void PetSkill(GameObject button)
 	{
-		if (m_leftPlayer.CurPet.Moving ()) {
+		if (!m_leftPlayer.CurPet.LogicalActive ()) {
 			return;
 		}
 
@@ -327,6 +350,17 @@ public class GameLevel : MonoBehaviour {
 
 	void Update()
 	{
+		GameObject.Find ("Light").GetComponent<Light>().intensity = Mathf.Lerp(GameObject.Find ("Light").GetComponent<Light>().intensity, m_targetIntensity, Time.deltaTime);
+		if (m_fBulletTime > 0) {
+			m_fBulletTime -= Time.fixedDeltaTime;
+			Time.timeScale = m_fBulletTimeScale;
+			if(m_fBulletTime <= 0)
+			{
+				Time.timeScale = 1.0f;
+				CameraManager.Singleton.StopMainCamera();
+				CameraManager.Singleton.RestoreCameraSettings ();
+			}
+		}
 		if (m_leftPlayer.CurPet == null)
 		{
 			m_battleResult = BattleResult.BATTLE_RESULT_LOSR;
@@ -461,7 +495,7 @@ public class GameLevel : MonoBehaviour {
 			{
 				state = "icon_no";
 			}
-			else if (pet != m_replacePet)
+			else if (pet == m_replacePet)
 			{
 				state = "icon_change";
 			}
@@ -549,6 +583,28 @@ public class GameLevel : MonoBehaviour {
 		m_changePet.SetActive(false);
 		BlurCamera (false);
 		m_replacePet = null;
+	}
+
+	float m_fBulletTime = 0f;
+	float m_fBulletTimeScale = 0f;
+
+	public void BulletTime(float timeScale, float time, GameObject focusObj = null)
+	{
+		m_fBulletTime = time;
+		m_fBulletTimeScale = timeScale;
+		if (!focusObj)
+			return;
+		//m_cameraController.Focus (time, focusObj);
+		CameraManager.Singleton.RunMainCamera();
+		CameraManager.Singleton.BackupCameraSettings ();
+		Vector3 offset= new Vector3(0f, 2.0f, 0f);
+		CameraManager.Singleton.LookTarget(focusObj.transform, offset);
+		Vector3 distance = CameraManager.Singleton.GetDistanceFromCamera(focusObj.transform.position);
+		CameraManager.Singleton.m_vec3Distancetarget = distance;
+		
+		CameraManager.Singleton.RotateCameraToY(-10.0f, 100.0f);
+		CameraManager.Singleton.RotateSpeedX = 50.0f;
+		CameraManager.Singleton.ZoomIn(30.0f, 100.0f, true);
 	}
 
 	private void OpenResult()

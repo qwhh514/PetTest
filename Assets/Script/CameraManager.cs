@@ -173,9 +173,12 @@ public class CameraManager : GameSingleton<CameraManager>
 		return (cameraPos - point);
 	}
 
-    public void LookTarget(Transform traget)
+	Vector3 m_offset = Vector3.zero;
+
+    public void LookTarget(Transform traget, Vector3 offset)
     {
         m_transTarget = traget;
+		m_offset = offset;
     }
 
 // 	public void LookTargetWithZoom(Transform _target, int _zoomspeed, int _fov, float _delay, bool isStatic = false)
@@ -294,16 +297,16 @@ public class CameraManager : GameSingleton<CameraManager>
             return;
         }
 
-        Vector3 targetPosition;
+        Vector3 targetPosition = m_offset;
         if(m_bIsBossCamera)
         {
-            targetPosition = new Vector3(m_transTarget.position.x + (m_transBoss.position.x - m_transTarget.position.x) * 0.3f,
+            targetPosition += new Vector3(m_transTarget.position.x + (m_transBoss.position.x - m_transTarget.position.x) * 0.3f,
                                                         0.0f,
                                                         m_transTarget.position.z + (m_transBoss.position.z - m_transTarget.position.z) * 0.3f);
         }
         else
         {
-            targetPosition = m_transTarget.position;
+            targetPosition += m_transTarget.position;
         }
 
         //Ðý×ª
@@ -348,7 +351,7 @@ public class CameraManager : GameSingleton<CameraManager>
             //TODO GAMEDEBUG?
             Vector3 chaposition = targetPosition + m_vec3Distancetarget;
             chaposition = RotatePointAroundPivot(chaposition, targetPosition, Quaternion.Euler(angleY, angleX, 0.0f));
-            m_transMainCamera.position = Vector3.Lerp(m_transMainCamera.position, chaposition, Time.deltaTime * m_nMovespeed);
+			m_transMainCamera.position = Vector3.Lerp(m_transMainCamera.position, chaposition, Time.deltaTime * m_nMovespeed);
             
             if (m_bRotateX || m_bRotateY)
             {
@@ -541,6 +544,42 @@ public class CameraManager : GameSingleton<CameraManager>
         m_bRotateY = true;
         
     }
+
+	float m_fBackupOrthographicSize;
+
+	float m_fBackupFieldOfView;
+
+	Vector3 m_backupPos;
+
+	Quaternion m_backupRotation;
+
+	public void BackupCameraSettings()
+	{
+		if (m_mainCamera.orthographic)
+		{
+			m_fBackupOrthographicSize = m_mainCamera.orthographicSize;
+		}
+		else
+		{
+			m_fBackupFieldOfView = m_mainCamera.fieldOfView;
+		}
+		m_backupPos = m_mainCamera.transform.position;
+		m_backupRotation = m_mainCamera.transform.rotation;
+	}
+
+	public void RestoreCameraSettings()
+	{
+		if (m_mainCamera.orthographic)
+		{
+			m_mainCamera.orthographicSize = m_fBackupOrthographicSize;
+		}
+		else
+		{
+			m_mainCamera.fieldOfView = m_fBackupFieldOfView;
+		}
+		m_mainCamera.transform.position = m_backupPos;
+		m_mainCamera.transform.rotation = m_backupRotation;
+	}
 
     public void ZoomIn(float fFov, float fZoomSpeed = CameraSetting.FOV_SPEED, bool bSetCurrent = false)
 	{

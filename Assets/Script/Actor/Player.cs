@@ -141,7 +141,7 @@ public class Player : Factory<Player>
 		}
 	}
 
-	public void GoToPlayGround ()
+	public void GoToPlayGround (bool switchBout = false)
 	{
 		Vector3 tar = m_curPet.transform.position;
 		if (m_eSide == E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT) {
@@ -150,7 +150,7 @@ public class Player : Factory<Player>
 		else if (m_eSide == E_PLAYER_SIDE.E_PLAYER_PLACE_RIGHT) {
 			m_curPet.transform.position = m_curPet.transform.position + new Vector3 (-9, 0, 0);
 		}
-		m_curPet.MoveTo (tar, 0.5f);
+		m_curPet.MoveTo (tar, m_curPet.GetMoveTime(), false, switchBout);
 
 		GameLevel.Singleton.RefreshPetIcon (this);
 	}
@@ -159,6 +159,7 @@ public class Player : Factory<Player>
 	{
 		if (m_curPet != null)
 		{
+			m_curPet.DestroyAllEff();
 			m_curPet.gameObject.SetActive(false);
 		}
 
@@ -199,6 +200,7 @@ public class Player : Factory<Player>
 
 		if (m_curPet != null)
 		{
+			m_curPet.DestroyAllEff();
 			m_curPet.gameObject.SetActive(false);
 		}
 		
@@ -208,13 +210,15 @@ public class Player : Factory<Player>
 		{
 			m_curPet.gameObject.SetActive(true);
 			m_curPet.Target = m_opponent.CurPet;
-			GoToPlayGround ();
+			GoToPlayGround (true);
 			
 		}
 
 		m_opponent.m_curPet.Target = m_curPet;
-		GameLevel.Singleton.SwitchBout ();
+		//StartCoroutine (m_curPet.SwitchBout (m_curPet.GetMoveTime()));
+		//GameLevel.Singleton.SwitchBout ();
 		GameLevel.Singleton.RefreshBloodBar(m_curPet, EventArgs.Empty);
+		GameLevel.Singleton.RefreshSkillIcon ();
 	}
 
 	public void ReleaseSkill(GameMessage msg)

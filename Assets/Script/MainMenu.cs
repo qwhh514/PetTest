@@ -37,7 +37,7 @@ public class MainMenu : MonoBehaviour
 		m_menuItem.Add (item);
 
 		CameraManager.Singleton.RunMainCamera();
-		CameraManager.Singleton.LookTarget(item.transform);
+		CameraManager.Singleton.LookTarget(item.transform, new Vector3(0,0,0));
 		Vector3 distance = CameraManager.Singleton.GetDistanceFromCamera(item.transform.position);
 		CameraManager.Singleton.m_vec3Distancetarget = distance;
 

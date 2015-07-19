@@ -48,11 +48,12 @@ public class CameraShake  : Factory<CameraShake>{
 			camTransform.localPosition = originalPos + Random.insideUnitSphere * shakeAmount;
 			
 			shake -= Time.deltaTime * decreaseFactor;
-		}
-		else
-		{
-			shake = 0f;
-			camTransform.localPosition = originalPos;
+
+			if (shake <= 0)
+			{
+				shake = 0f;
+				camTransform.localPosition = originalPos;
+			}
 		}
 	}
 }
