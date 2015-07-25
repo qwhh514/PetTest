@@ -57,9 +57,12 @@ public class NormalActor : MonoBehaviour
 {
 	public void DestroyAllEff ()
 	{
-		Destroy (m_hurtEff);
+		for (int i = 0; i < m_hurtEff.Count; i++)
+		{
+			Destroy (m_hurtEff[i]);
+		}
 		Destroy (m_attackEff);
-		m_hurtEff = null;
+		m_hurtEff.Clear();
 		m_attackEff = null;
 	}
 
@@ -112,7 +115,7 @@ public class NormalActor : MonoBehaviour
 	private bool m_bMoving;
 	private bool m_bResetRotationAfter;
 	private float m_fTurnTimeScale = 0.25f;
-	private GameObject m_hurtEff = null;
+	private List<GameObject> m_hurtEff = null;
 	private GameObject m_attackEff = null;
 
 	private bool m_bSwitchBout = false;
@@ -166,6 +169,8 @@ public class NormalActor : MonoBehaviour
 
 		m_damageNum = null;
 		m_healNum = null;
+
+		m_hurtEff = null;
 	}
 
 	void Awake ()
@@ -188,6 +193,8 @@ public class NormalActor : MonoBehaviour
 		m_fTurnSpeed = 0;
 		m_bResetRotationAfter = false;
 		m_bMoving = false;
+
+		m_hurtEff = new List<GameObject>();
 	}
 
 	// Use this for initialization
@@ -395,14 +402,22 @@ public class NormalActor : MonoBehaviour
 		//StartCoroutine (SwitchBout(0.0f));
 	}
 
-	void OnMouseDown()  
+	public void BeCatch()
 	{
-//		state = 1;
-//		animator.SetInteger("ActorState", state);
-//		GameLevel.Singleton.SendGameMessage<GameObject>(transform.gameObject, GameActorMessage.GAM_ATTACK, currentSkillIdx, null);
-//		currentSkillIdx++;
-//		currentSkillIdx = currentSkillIdx % SkillNum;
-	} 
+		m_damageNum.AddDamageNum(m_HP);
+		m_HP = 0;
+		GameLevel.Singleton.RefreshBloodBar(this, EventArgs.Empty);
+		StartCoroutine(DelayToInvoke (0.0f, onDead));
+	}
+
+//	void OnMouseDown()  
+//	{
+////		state = 1;
+////		animator.SetInteger("ActorState", state);
+////		GameLevel.Singleton.SendGameMessage<GameObject>(transform.gameObject, GameActorMessage.GAM_ATTACK, currentSkillIdx, null);
+////		currentSkillIdx++;
+////		currentSkillIdx = currentSkillIdx % SkillNum;
+//	} 
 	
 	// Update is called once per frame
 	void Update ()
@@ -656,7 +671,7 @@ public class NormalActor : MonoBehaviour
 		GameObject hurtEff = null;
 		if (SkillEffect.TryGetValue(key, out hurtEff))
 		{
-			m_hurtEff = Instantiate(hurtEff);
+			GameObject hurtEffIns = Instantiate(hurtEff);
 			Vector3 position = transform.position;
 			string boneName = JsonDataParser.GetString (skillInfo, "HurtParticle_Position");
 			if(boneName != "")
@@ -664,19 +679,20 @@ public class NormalActor : MonoBehaviour
 				Transform bone = transform.Find (boneName);
 				if (bone != null)
 				{
-					m_hurtEff.transform.SetParent(bone);
+					hurtEffIns.transform.SetParent(bone);
 				}
 				else
 				{
-					m_hurtEff.transform.SetParent(transform);
+					hurtEffIns.transform.SetParent(transform);
 				}
-				position = m_hurtEff.transform.parent.position;
+				position = hurtEffIns.transform.parent.position;
 			}
 
-			m_hurtEff.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
+			hurtEffIns.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
 			float yOffset = JsonDataParser.GetFloat (skillInfo, "HurtOffset");
-			m_hurtEff.transform.position = position + new Vector3(0.0f, yOffset, 0.0f);
-			m_hurtEff.SetActive(true);
+			hurtEffIns.transform.position = position + new Vector3(0.0f, yOffset, 0.0f);
+			hurtEffIns.SetActive(true);
+			m_hurtEff.Add(hurtEffIns);
 		}
 
 		int hurtHP = JsonDataParser.GetInt (skillInfo, "damage");

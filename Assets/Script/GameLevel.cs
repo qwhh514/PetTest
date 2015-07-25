@@ -83,6 +83,8 @@ public class GameLevel : MonoBehaviour
 	private CameraShake m_cameraShake;
 
 	private NormalActor m_replacePet;
+	
+	private GameObject m_cageGO;
 
 	public static GameLevel Singleton
 	{
@@ -157,10 +159,6 @@ public class GameLevel : MonoBehaviour
 //			m_skillButons[0] = GameObject.Find(name).GetComponent<UIButton>();
 //		}
 
-		m_battleResult = BattleResult.BATTLE_RESULT_NONE;
-		m_preBout = E_PLAYER_SIDE.E_PLAYER_PLACE_NONE;
-		m_curBout = E_PLAYER_SIDE.E_PLAYER_PLACE_NONE;
-
 		m_mainCamera = Camera.main;
 
 		GameObject eff = null;
@@ -206,6 +204,10 @@ public class GameLevel : MonoBehaviour
 
 		m_reslut.SetActive(false);
 		m_changePet.SetActive(false);
+
+		m_cageGO = AssetManager.Singleton.LoadAsset<GameObject>(FilePath.PREFAB_PATH + "cage.prefab");
+		m_cageGO.transform.localScale = Vector3.zero;
+		m_cageGO.SetActive(false);
 	}
 
 	private void Start()
@@ -215,30 +217,43 @@ public class GameLevel : MonoBehaviour
 
 	private void ResetGame()
 	{
+		m_targetIntensity = m_originIntensity;
+		
 		m_bShowSkill = true;
 		m_bGiveupGame = false;
 		m_replacePet = null;
+
+		m_battleResult = BattleResult.BATTLE_RESULT_NONE;
+		m_preBout = E_PLAYER_SIDE.E_PLAYER_PLACE_NONE;
+		m_curBout = E_PLAYER_SIDE.E_PLAYER_PLACE_NONE;
 
 		if (m_rainEff != null)
 		{
 			m_rainEff.SetActive(false);
 		}
 
-//		if (m_leftPlayer != null)
-//		{
-//			m_leftPlayer.Reset();
-//		}
-//		if (m_rightPlayer != null)
-//		{
-//			m_rightPlayer.Reset();
-//		}
+		if (m_leftPlayer != null)
+		{
+			m_leftPlayer.Reset();
+		}
+		if (m_rightPlayer != null)
+		{
+			m_rightPlayer.Reset();
+		}
 
 		RefreshSkillIcon ();
 		BlurCamera(true);
 
-		LeanTween.scale(m_readygo, new Vector3(0.8f, 0.8f, 0.8f), 1.0f).setEase(LeanTweenType.easeInQuad).setOnComplete(
+		m_cageGO.transform.localScale = Vector3.zero;
+		m_cageGO.SetActive(false);
+
+		m_readygo.SetActive(true);
+		LeanTween.scale(m_readygo, 0.8f * Vector3.one, 1.0f).setEase(LeanTweenType.easeInQuad).setOnComplete(
 			() => {
-				LeanTween.scale(m_readygo, new Vector3(0.0f, 0.0f, 0.0f), 0.3f).setEase(LeanTweenType.easeInQuad).setOnComplete(StartLevel);
+				m_readygo.transform.localScale = Vector3.zero;
+				m_readygo.SetActive(false);
+				StartLevel();
+//				LeanTween.scale(m_readygo, Vector3.zero, 0.3f).setEase(LeanTweenType.easeInQuad).setOnComplete(StartLevel);
 			}
 		);
 	}
@@ -572,6 +587,10 @@ public class GameLevel : MonoBehaviour
 
 	private void CatchEnemyPet(GameObject go)
 	{
+		if (m_leftPlayer != null && m_cageGO != null)
+		{
+			m_leftPlayer.CatchOpponent(m_cageGO);
+		}
 	}
 
 	private void OpenChangePet(GameObject go)

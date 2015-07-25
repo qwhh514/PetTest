@@ -86,18 +86,36 @@ public class Player : Factory<Player>
 			return;
 		}
 
+		Vector3 origin = Vector3.zero;
+		Vector3 position = Vector3.zero;
+		Vector3 opposite = Vector3.zero;
+		
+		if (m_eSide == E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT)
+		{
+			position = origin + new Vector3(9, 0, -6);
+			opposite = origin + new Vector3(-9, 0, -6);
+		}
+		else if (m_eSide == E_PLAYER_SIDE.E_PLAYER_PLACE_RIGHT)
+		{
+			position = origin + new Vector3(-9, 0, -6);
+			opposite = origin + new Vector3(9, 0, -6);
+		}
+
+		Quaternion quat = Quaternion.identity;
+		quat.SetLookRotation (opposite - position);
+
 		for (int i = 0; i < m_pets.Count; i++)
 		{
 			NormalActor pet = m_pets[i] as NormalActor;
 			if (pet != null)
 			{
+				pet.transform.rotation = quat;
+				pet.transform.position = position;
 				pet.Reset();
 			}
 		}
 
-		m_curPet = m_pets[0] as NormalActor;
-		m_curPet.gameObject.SetActive(true);
-		GoToPlayGround();
+		SwitchPet(true);
 	}
 
 	public void SetPets(string[] petId, EventHandler handle)
@@ -125,7 +143,6 @@ public class Player : Factory<Player>
 
 		Quaternion quat = Quaternion.identity;
 		quat.SetLookRotation (opposite - position);
-		
 
 		JsonObject petInfo = null;
 		JsonObject petJson = DataManager.Singleton.GetData ("pet.json");
@@ -271,6 +288,65 @@ public class Player : Factory<Player>
 		if (m_curPet != null)
 		{
 			m_curPet.BeHeal(msg);
+		}
+	}
+
+	public void CatchOpponent(GameObject cage)
+	{
+		if (cage == null || m_opponent == null || m_opponent.CurPet == null)
+		{
+			return;
+		}
+
+		NormalActor pet = m_opponent.CurPet;
+
+		GameObject cageIns = Instantiate(cage);
+		cageIns.transform.SetParent(pet.transform);
+		cageIns.SetActive(true);
+		cageIns.transform.position = pet.transform.position + 8 * Vector3.up;
+		LeanTween.scale(cageIns, 0.5f * Vector3.one, 0.6f).setEase(LeanTweenType.easeInQuad).setOnComplete
+		(
+			() => {
+				LeanTween.moveLocal(cageIns, 0.6f * Vector3.up, 0.3f).setEase(LeanTweenType.easeInQuad).setOnComplete
+				(
+					() => {
+						CatchResult(cageIns);
+					}
+				);
+			}
+		);
+
+	}
+
+	private void CatchResult(GameObject cage)
+	{
+		NormalActor pet = m_opponent.CurPet;
+		float percent = (float)pet.HP / (float)pet.MaxHP;
+
+		int num = 0;
+		if (percent >= 0.15f && percent < 0.3f)
+		{
+			num = UnityEngine.Random.Range(0, 2);
+		}
+		else if (percent < 0.15f)
+		{
+			num = UnityEngine.Random.Range(0, 5);
+		}
+		bool result = (num != 0);
+
+		if (result)
+		{
+			pet.BeCatch();
+		}
+		else
+		{
+			LeanTween.alpha(cage, 0.0f, 0.1f).setLoopType(LeanTweenType.easeOutBounce).setLoopCount(3)
+				.setDestroyOnComplete(true).setOnComplete
+				(
+					() => {
+						GameLevel.Singleton.SwitchBout();
+					}
+				);
 		}
 	}
 
