@@ -104,6 +104,7 @@ public class Player : Factory<Player>
 		Quaternion quat = Quaternion.identity;
 		quat.SetLookRotation (opposite - position);
 
+		m_curPet = null;
 		for (int i = 0; i < m_pets.Count; i++)
 		{
 			NormalActor pet = m_pets[i] as NormalActor;
@@ -112,10 +113,13 @@ public class Player : Factory<Player>
 				pet.transform.rotation = quat;
 				pet.transform.position = position;
 				pet.Reset();
+
+				if (m_curPet == null && pet.HP > 0)
+				{
+					m_curPet = pet;
+				}
 			}
 		}
-
-		SwitchPet(true);
 	}
 
 	public void SetPets(string[] petId, EventHandler handle)
@@ -221,7 +225,7 @@ public class Player : Factory<Player>
 			GoToPlayGround ();
 		}
 
-		m_opponent.m_curPet.Target = m_curPet;
+		m_opponent.CurPet.Target = m_curPet;
 		//被干死了不跳过回合
 		if (!force)
 		{
@@ -336,7 +340,7 @@ public class Player : Factory<Player>
 
 		if (result)
 		{
-			pet.BeCatch();
+			pet.BeCatch(cage);
 		}
 		else
 		{

@@ -2,6 +2,7 @@
 using UnityEngine;
 using System;
 using System.Collections;
+
 using StaticDefine;
 using UnityStandardAssets.ImageEffects;
 
@@ -232,14 +233,11 @@ public class GameLevel : MonoBehaviour
 			m_rainEff.SetActive(false);
 		}
 
-		if (m_leftPlayer != null)
-		{
-			m_leftPlayer.Reset();
-		}
-		if (m_rightPlayer != null)
-		{
-			m_rightPlayer.Reset();
-		}
+		m_leftPlayer.Reset();
+		m_rightPlayer.Reset();
+
+		m_leftPlayer.SwitchPet(true);
+		m_rightPlayer.SwitchPet(true);
 
 		RefreshSkillIcon ();
 		BlurCamera(true);
@@ -265,8 +263,23 @@ public class GameLevel : MonoBehaviour
 
 	private void BlurCamera(bool blur)
 	{
-		m_mainCamera.gameObject.GetComponent<BlurOptimized>().enabled = blur;
-		m_mainUICamera.GetComponent<BlurOptimized>().enabled = blur;
+		BlurOptimized blurScript = null;
+		if (m_mainCamera != null)
+		{
+			blurScript = m_mainCamera.gameObject.GetComponent<BlurOptimized>();
+			if (blurScript != null)
+			{
+				blurScript.enabled = blur;
+			}
+		}
+		if (m_mainUICamera != null)
+		{
+			blurScript = m_mainUICamera.gameObject.GetComponent<BlurOptimized>();
+			if (blurScript != null)
+			{
+				blurScript.enabled = blur;
+			}
+		}
 	}
 
 	public void OnSpawnActor(uint key, GameObject obj)

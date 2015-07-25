@@ -55,16 +55,6 @@ public class ActorSkill
 //[RequireComponent(typeof(Animator))]
 public class NormalActor : MonoBehaviour
 {
-	public void DestroyAllEff ()
-	{
-		for (int i = 0; i < m_hurtEff.Count; i++)
-		{
-			Destroy (m_hurtEff[i]);
-		}
-		Destroy (m_attackEff);
-		m_hurtEff.Clear();
-		m_attackEff = null;
-	}
 
 //	private Animator animator;
 	private Animation m_animation;
@@ -115,9 +105,12 @@ public class NormalActor : MonoBehaviour
 	private bool m_bMoving;
 	private bool m_bResetRotationAfter;
 	private float m_fTurnTimeScale = 0.25f;
+
 	private List<GameObject> m_hurtEff = null;
 	private GameObject m_attackEff = null;
+	private GameObject m_cageGO = null;
 
+	private bool m_bIsBeCatch = false;
 	private bool m_bSwitchBout = false;
 
 	private UIDamageNum m_damageNum;
@@ -154,6 +147,11 @@ public class NormalActor : MonoBehaviour
 	{
 		get { return m_target; }
 		set { m_target = value; }
+	}
+
+	public bool BeCatch
+	{
+		get { return m_bIsBeCatch; }
 	}
 
 	protected NormalActor()
@@ -194,6 +192,7 @@ public class NormalActor : MonoBehaviour
 		m_bResetRotationAfter = false;
 		m_bMoving = false;
 
+		m_bIsBeCatch = false;
 		m_hurtEff = new List<GameObject>();
 	}
 
@@ -205,6 +204,22 @@ public class NormalActor : MonoBehaviour
 	public void Reset()
 	{
 		m_HP = m_MaxHP;
+		m_bIsBeCatch = false;
+	}
+
+	public void DestroyAllEff ()
+	{
+		for (int i = 0; i < m_hurtEff.Count; i++)
+		{
+			Destroy (m_hurtEff[i]);
+		}
+		m_hurtEff.Clear();
+		
+		Destroy (m_attackEff);
+		m_attackEff = null;
+		
+		Destroy (m_cageGO);
+		m_cageGO = null;
 	}
 
 	public void Setup(Player master, int hp, string[] skillIds)
@@ -402,8 +417,9 @@ public class NormalActor : MonoBehaviour
 		//StartCoroutine (SwitchBout(0.0f));
 	}
 
-	public void BeCatch()
+	public void BeCatch(GameObject cage)
 	{
+		m_cageGO = cage;
 		m_damageNum.AddDamageNum(m_HP);
 		m_HP = 0;
 		GameLevel.Singleton.RefreshBloodBar(this, EventArgs.Empty);
