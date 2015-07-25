@@ -39,7 +39,8 @@ class SortPet : IComparer
 	}
 }
 
-public class GameLevel : MonoBehaviour {
+public class GameLevel : MonoBehaviour
+{
 
 	private static GameLevel m_instance = null;
 	
@@ -49,6 +50,7 @@ public class GameLevel : MonoBehaviour {
 
 	private bool m_bShowSkill;
 
+	private bool m_bGiveupGame;
 	private BattleResult m_battleResult;
 
 	private E_PLAYER_SIDE m_preBout;
@@ -114,7 +116,6 @@ public class GameLevel : MonoBehaviour {
 		//Light light = GameObject.Find("Light")
 		m_originIntensity = GameObject.Find("Light").GetComponent<Light> ().intensity;
 		m_targetIntensity = m_originIntensity;
-		m_bShowSkill = true;
 
 		m_leftHud = GameObject.Find("Left_Hud");
 		m_rightHud = GameObject.Find("Right_Hud");
@@ -136,12 +137,8 @@ public class GameLevel : MonoBehaviour {
 		m_cameraShake = CameraShake.Create;
 		m_cameraShake.SetTargetObj(Camera.main.transform);
 
-
 		m_reslut = GameObject.Find("LevelResult");
-		m_reslut.SetActive(false);
-
 		m_changePet = GameObject.Find("ChangePetPlane");
-		m_changePet.SetActive(false);
 		
 		m_leftPlayer = Player.Create;
 		m_leftPlayer.Side = E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT;
@@ -173,52 +170,75 @@ public class GameLevel : MonoBehaviour {
 		m_rainEff.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
 		//float yOffset = JsonDataParser.GetFloat (skillInfo, "HurtOffset");
 		//m_hurtEff.transform.position = position + new Vector3(0.0f, yOffset, 0.0f);
-		m_rainEff.SetActive(false);
 
 		m_mainUICamera = GameObject.Find("UICamera_Main");
 
-		m_replacePet = null;
+		GameObject buttonGO = null;
+		for (int i = 0; i < 3; i++)
+		{
+			string name = "Skill" + i.ToString();
+			buttonGO = GameObject.Find(name);
+			UIEventListener.Get(buttonGO).onClick += PetSkill;
+		}
+		
+		buttonGO = GameObject.Find("Skip");
+		UIEventListener.Get(buttonGO).onClick += SkipBout;
+		UIButton btn = buttonGO.GetComponent<UIButton>();
+		
+		buttonGO = GameObject.Find("GiveUp");
+		UIEventListener.Get(buttonGO).onClick += GiveupGame;
+		
+		buttonGO = GameObject.Find("Catch");
+		UIEventListener.Get(buttonGO).onClick += CatchEnemyPet;
+		
+		buttonGO = GameObject.Find("ChangePet");
+		UIEventListener.Get(buttonGO).onClick += OpenChangePet;
+		
+		buttonGO = GameObject.Find("Btn_Change_OK");
+		UIEventListener.Get(buttonGO).onClick += CloseChangePet;
+		buttonGO = GameObject.Find("Btn_Change_Cancel");
+		UIEventListener.Get(buttonGO).onClick += CloseChangePet;
 
-		RefreshSkillIcon ();
+		buttonGO = GameObject.Find("RetryGame");
+		UIEventListener.Get(buttonGO).onClick += RetryGame;
+		buttonGO = GameObject.Find("BackToMenu");
+		UIEventListener.Get(buttonGO).onClick += BackMainMenu;
 
-//		GameObject skill = GameObject.Find ("Skill0");
-//		UIButton button = skill.GetComponent<UIButton> ();
-//		button.enabled = true;
-//
-//		skill = GameObject.Find ("Skill1");
-//		button = skill.GetComponent<UIButton> ();
-//		button.enabled = true;
-//
-//		skill = GameObject.Find ("Skill2");
-//		button = skill.GetComponent<UIButton> ();
-//		button.enabled = true;
+		m_reslut.SetActive(false);
+		m_changePet.SetActive(false);
 	}
 
 	private void Start()
 	{
-		UIButton btn = GameObject.Find("Skip").GetComponent<UIButton>();
-		btn.isEnabled = false;
+		ResetGame();
+	}
 
-		btn = GameObject.Find("GiveUp").GetComponent<UIButton>();
-		btn.isEnabled = false;
+	private void ResetGame()
+	{
+		m_bShowSkill = true;
+		m_bGiveupGame = false;
+		m_replacePet = null;
 
-		btn = GameObject.Find("Bag").GetComponent<UIButton>();
-		btn.isEnabled = false;
+		if (m_rainEff != null)
+		{
+			m_rainEff.SetActive(false);
+		}
 
-		btn = GameObject.Find("ChangePet").GetComponent<UIButton>();
-		UIEventListener.Get(btn.gameObject).onClick += OpenChangePet;
-		btn.isEnabled = true;
+//		if (m_leftPlayer != null)
+//		{
+//			m_leftPlayer.Reset();
+//		}
+//		if (m_rightPlayer != null)
+//		{
+//			m_rightPlayer.Reset();
+//		}
 
-		GameObject btn_start = m_changePet.transform.FindChild("Btn_Change_OK").gameObject;
-		UIEventListener.Get(btn_start).onClick += CloseChangePet;
-		GameObject btn_cancel = m_changePet.transform.FindChild("Btn_Change_Cancel").gameObject;
-		UIEventListener.Get(btn_cancel).onClick += CloseChangePet;
-
+		RefreshSkillIcon ();
 		BlurCamera(true);
 
 		LeanTween.scale(m_readygo, new Vector3(0.8f, 0.8f, 0.8f), 1.0f).setEase(LeanTweenType.easeInQuad).setOnComplete(
 			() => {
-				LeanTween.alpha(m_readygo, 0.0f, 1.0f).setDestroyOnComplete(true).setOnComplete(StartLevel);
+				LeanTween.scale(m_readygo, new Vector3(0.0f, 0.0f, 0.0f), 0.3f).setEase(LeanTweenType.easeInQuad).setOnComplete(StartLevel);
 			}
 		);
 	}
@@ -370,7 +390,7 @@ public class GameLevel : MonoBehaviour {
 			m_battleResult = BattleResult.BATTLE_RESULT_WIN;
 		}
 
-		if (m_battleResult != BattleResult.BATTLE_RESULT_NONE)
+		if (m_bGiveupGame || m_battleResult != BattleResult.BATTLE_RESULT_NONE)
 		{
 			OpenResult();
 		}
@@ -540,6 +560,20 @@ public class GameLevel : MonoBehaviour {
 		}
 	}
 
+	private void SkipBout(GameObject go)
+	{
+		SwitchBout();
+	}
+
+	private void GiveupGame(GameObject go)
+	{
+		m_bGiveupGame = true;
+	}
+
+	private void CatchEnemyPet(GameObject go)
+	{
+	}
+
 	private void OpenChangePet(GameObject go)
 	{
 		BlurCamera (true);
@@ -637,6 +671,12 @@ public class GameLevel : MonoBehaviour {
 		}
 	}
 
+	private void CloseResult()
+	{
+		m_reslut.SetActive(false);
+		BlurCamera(false);
+	}
+
 	public void RefreshSkillIcon()
 	{
 		if (m_leftPlayer == null || m_leftPlayer.CurPet == null)
@@ -664,6 +704,12 @@ public class GameLevel : MonoBehaviour {
 			button.pressedSprite = iconName[i];
 			button.disabledSprite = iconName[i];
 		}
+	}
+
+	private void RetryGame(GameObject go)
+	{
+		CloseResult();
+		ResetGame();
 	}
 
 	private void BackMainMenu(GameObject go)

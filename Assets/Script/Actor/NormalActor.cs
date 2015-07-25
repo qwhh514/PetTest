@@ -195,6 +195,11 @@ public class NormalActor : MonoBehaviour
 	{
 	}
 
+	public void Reset()
+	{
+		m_HP = m_MaxHP;
+	}
+
 	public void Setup(Player master, int hp, string[] skillIds)
 	{
 		m_master = master;

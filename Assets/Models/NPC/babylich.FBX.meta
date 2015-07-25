@@ -1,0 +1,1850 @@
+fileFormatVersion: 2
+guid: 17b34a4b9ae0e894a806b5907abbb117
+timeCreated: 1437760082
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Above
+    100002: //RootNode
+    100004: BabyLich0_Mesh
+    100006: BabyLich1_Mesh
+    100008: BabyLich2_Mesh
+    100010: BabyLich3_Mesh
+    100012: BabyLich4_Mesh
+    100014: BabyLich_Bone00
+    100016: BabyLich_Bone01_Root
+    100018: BabyLich_Bone02_SpineLow
+    100020: BabyLich_Bone03_Waist
+    100022: BabyLich_Bone04
+    100024: BabyLich_Bone05
+    100026: BabyLich_Bone06
+    100028: BabyLich_Bone07
+    100030: BabyLich_Bone08
+    100032: BabyLich_Bone10
+    100034: BabyLich_Bone100
+    100036: BabyLich_Bone101
+    100038: BabyLich_Bone102
+    100040: BabyLich_Bone103
+    100042: BabyLich_Bone104
+    100044: BabyLich_Bone105
+    100046: BabyLich_Bone106
+    100048: BabyLich_Bone107_ThumbL
+    100050: BabyLich_Bone108
+    100052: BabyLich_Bone109
+    100054: BabyLich_Bone11
+    100056: BabyLich_Bone110
+    100058: BabyLich_Bone111_ThumbR
+    100060: BabyLich_Bone112
+    100062: BabyLich_Bone113
+    100064: BabyLich_Bone114
+    100066: BabyLich_Bone115
+    100068: BabyLich_Bone116
+    100070: BabyLich_Bone117
+    100072: BabyLich_Bone118
+    100074: BabyLich_Bone119
+    100076: BabyLich_Bone12
+    100078: BabyLich_Bone120
+    100080: BabyLich_Bone121
+    100082: BabyLich_Bone122
+    100084: BabyLich_Bone123
+    100086: BabyLich_Bone124
+    100088: BabyLich_Bone125
+    100090: BabyLich_Bone126
+    100092: BabyLich_Bone127
+    100094: BabyLich_Bone128
+    100096: BabyLich_Bone129
+    100098: BabyLich_Bone13
+    100100: BabyLich_Bone130
+    100102: BabyLich_Bone131
+    100104: BabyLich_Bone132
+    100106: BabyLich_Bone133
+    100108: BabyLich_Bone134
+    100110: BabyLich_Bone135
+    100112: BabyLich_Bone136
+    100114: BabyLich_Bone137
+    100116: BabyLich_Bone138
+    100118: BabyLich_Bone139
+    100120: BabyLich_Bone14
+    100122: BabyLich_Bone140
+    100124: BabyLich_Bone141
+    100126: BabyLich_Bone142
+    100128: BabyLich_Bone143
+    100130: BabyLich_Bone144
+    100132: BabyLich_Bone145
+    100134: BabyLich_Bone146
+    100136: BabyLich_Bone147
+    100138: BabyLich_Bone148
+    100140: BabyLich_Bone149
+    100142: BabyLich_Bone15
+    100144: BabyLich_Bone150
+    100146: BabyLich_Bone151
+    100148: BabyLich_Bone152
+    100150: BabyLich_Bone153
+    100152: BabyLich_Bone154
+    100154: BabyLich_Bone155
+    100156: BabyLich_Bone156
+    100158: BabyLich_Bone157
+    100160: BabyLich_Bone158
+    100162: BabyLich_Bone159
+    100164: BabyLich_Bone16
+    100166: BabyLich_Bone160
+    100168: BabyLich_Bone161
+    100170: BabyLich_Bone162
+    100172: BabyLich_Bone163__Name
+    100174: BabyLich_Bone164
+    100176: BabyLich_Bone165
+    100178: BabyLich_Bone166
+    100180: BabyLich_Bone167
+    100182: BabyLich_Bone168
+    100184: BabyLich_Bone169
+    100186: BabyLich_Bone17
+    100188: BabyLich_Bone170
+    100190: BabyLich_Bone171
+    100192: BabyLich_Bone172
+    100194: BabyLich_Bone173
+    100196: BabyLich_Bone174
+    100198: BabyLich_Bone175
+    100200: BabyLich_Bone176
+    100202: BabyLich_Bone177
+    100204: BabyLich_Bone178
+    100206: BabyLich_Bone179_$CCH
+    100208: BabyLich_Bone18
+    100210: BabyLich_Bone180__Breath
+    100212: BabyLich_Bone181
+    100214: BabyLich_Bone182
+    100216: BabyLich_Bone183_$BTH
+    100218: BabyLich_Bone184_$CHD
+    100220: BabyLich_Bone185
+    100222: BabyLich_Bone186
+    100224: BabyLich_Bone187
+    100226: BabyLich_Bone188
+    100228: BabyLich_Bone189
+    100230: BabyLich_Bone19
+    100232: BabyLich_Bone190_$CSL
+    100234: BabyLich_Bone191_$CSR
+    100236: BabyLich_Bone20
+    100238: BabyLich_Bone21
+    100240: BabyLich_Bone22
+    100242: BabyLich_Bone23
+    100244: BabyLich_Bone24
+    100246: BabyLich_Bone25
+    100248: BabyLich_Bone26_Head
+    100250: BabyLich_Bone27
+    100252: BabyLich_Bone28
+    100254: BabyLich_Bone29
+    100256: BabyLich_Bone30
+    100258: BabyLich_Bone31
+    100260: BabyLich_Bone32
+    100262: BabyLich_Bone33
+    100264: BabyLich_Bone34
+    100266: BabyLich_Bone35
+    100268: BabyLich_Bone36
+    100270: BabyLich_Bone37
+    100272: BabyLich_Bone38
+    100274: BabyLich_Bone39
+    100276: BabyLich_Bone40
+    100278: BabyLich_Bone41
+    100280: BabyLich_Bone42
+    100282: BabyLich_Bone43
+    100284: BabyLich_Bone44
+    100286: BabyLich_Bone45
+    100288: BabyLich_Bone46
+    100290: BabyLich_Bone47
+    100292: BabyLich_Bone48
+    100294: BabyLich_Bone49
+    100296: BabyLich_Bone50
+    100298: BabyLich_Bone51
+    100300: BabyLich_Bone52
+    100302: BabyLich_Bone53
+    100304: BabyLich_Bone54
+    100306: BabyLich_Bone55_Jaw
+    100308: BabyLich_Bone56
+    100310: BabyLich_Bone57
+    100312: BabyLich_Bone58
+    100314: BabyLich_Bone59
+    100316: BabyLich_Bone60
+    100318: BabyLich_Bone61
+    100320: BabyLich_Bone62
+    100322: BabyLich_Bone63
+    100324: BabyLich_Bone64
+    100326: BabyLich_Bone65
+    100328: BabyLich_Bone66
+    100330: BabyLich_Bone67
+    100332: BabyLich_Bone68
+    100334: BabyLich_Bone69
+    100336: BabyLich_Bone70
+    100338: BabyLich_Bone71
+    100340: BabyLich_Bone72
+    100342: BabyLich_Bone73
+    100344: BabyLich_Bone74
+    100346: BabyLich_Bone75
+    100348: BabyLich_Bone76
+    100350: BabyLich_Bone77
+    100352: BabyLich_Bone78
+    100354: BabyLich_Bone79
+    100356: BabyLich_Bone80
+    100358: BabyLich_Bone81
+    100360: BabyLich_Bone82
+    100362: BabyLich_Bone83
+    100364: BabyLich_Bone84
+    100366: BabyLich_Bone85
+    100368: BabyLich_Bone86
+    100370: BabyLich_Bone87
+    100372: BabyLich_Bone88
+    100374: BabyLich_Bone89
+    100376: BabyLich_Bone9
+    100378: BabyLich_Bone90
+    100380: BabyLich_Bone91
+    100382: BabyLich_Bone92
+    100384: BabyLich_Bone93
+    100386: BabyLich_Bone94
+    100388: BabyLich_Bone95
+    100390: BabyLich_Bone96
+    100392: BabyLich_Bone97
+    100394: BabyLich_Bone98
+    100396: BabyLich_Bone99
+    100398: Base
+    100400: Front Hit Region
+    100402: Head Region
+    100404: Left Palm
+    100406: Mouth
+    100408: Pre-Cast 1 L
+    100410: Pre-Cast 1 R
+    100412: Rear Hit Region
+    100414: Right Palm
+    100416: Spell Impact
+    400000: Above
+    400002: //RootNode
+    400004: BabyLich0_Mesh
+    400006: BabyLich1_Mesh
+    400008: BabyLich2_Mesh
+    400010: BabyLich3_Mesh
+    400012: BabyLich4_Mesh
+    400014: BabyLich_Bone00
+    400016: BabyLich_Bone01_Root
+    400018: BabyLich_Bone02_SpineLow
+    400020: BabyLich_Bone03_Waist
+    400022: BabyLich_Bone04
+    400024: BabyLich_Bone05
+    400026: BabyLich_Bone06
+    400028: BabyLich_Bone07
+    400030: BabyLich_Bone08
+    400032: BabyLich_Bone10
+    400034: BabyLich_Bone100
+    400036: BabyLich_Bone101
+    400038: BabyLich_Bone102
+    400040: BabyLich_Bone103
+    400042: BabyLich_Bone104
+    400044: BabyLich_Bone105
+    400046: BabyLich_Bone106
+    400048: BabyLich_Bone107_ThumbL
+    400050: BabyLich_Bone108
+    400052: BabyLich_Bone109
+    400054: BabyLich_Bone11
+    400056: BabyLich_Bone110
+    400058: BabyLich_Bone111_ThumbR
+    400060: BabyLich_Bone112
+    400062: BabyLich_Bone113
+    400064: BabyLich_Bone114
+    400066: BabyLich_Bone115
+    400068: BabyLich_Bone116
+    400070: BabyLich_Bone117
+    400072: BabyLich_Bone118
+    400074: BabyLich_Bone119
+    400076: BabyLich_Bone12
+    400078: BabyLich_Bone120
+    400080: BabyLich_Bone121
+    400082: BabyLich_Bone122
+    400084: BabyLich_Bone123
+    400086: BabyLich_Bone124
+    400088: BabyLich_Bone125
+    400090: BabyLich_Bone126
+    400092: BabyLich_Bone127
+    400094: BabyLich_Bone128
+    400096: BabyLich_Bone129
+    400098: BabyLich_Bone13
+    400100: BabyLich_Bone130
+    400102: BabyLich_Bone131
+    400104: BabyLich_Bone132
+    400106: BabyLich_Bone133
+    400108: BabyLich_Bone134
+    400110: BabyLich_Bone135
+    400112: BabyLich_Bone136
+    400114: BabyLich_Bone137
+    400116: BabyLich_Bone138
+    400118: BabyLich_Bone139
+    400120: BabyLich_Bone14
+    400122: BabyLich_Bone140
+    400124: BabyLich_Bone141
+    400126: BabyLich_Bone142
+    400128: BabyLich_Bone143
+    400130: BabyLich_Bone144
+    400132: BabyLich_Bone145
+    400134: BabyLich_Bone146
+    400136: BabyLich_Bone147
+    400138: BabyLich_Bone148
+    400140: BabyLich_Bone149
+    400142: BabyLich_Bone15
+    400144: BabyLich_Bone150
+    400146: BabyLich_Bone151
+    400148: BabyLich_Bone152
+    400150: BabyLich_Bone153
+    400152: BabyLich_Bone154
+    400154: BabyLich_Bone155
+    400156: BabyLich_Bone156
+    400158: BabyLich_Bone157
+    400160: BabyLich_Bone158
+    400162: BabyLich_Bone159
+    400164: BabyLich_Bone16
+    400166: BabyLich_Bone160
+    400168: BabyLich_Bone161
+    400170: BabyLich_Bone162
+    400172: BabyLich_Bone163__Name
+    400174: BabyLich_Bone164
+    400176: BabyLich_Bone165
+    400178: BabyLich_Bone166
+    400180: BabyLich_Bone167
+    400182: BabyLich_Bone168
+    400184: BabyLich_Bone169
+    400186: BabyLich_Bone17
+    400188: BabyLich_Bone170
+    400190: BabyLich_Bone171
+    400192: BabyLich_Bone172
+    400194: BabyLich_Bone173
+    400196: BabyLich_Bone174
+    400198: BabyLich_Bone175
+    400200: BabyLich_Bone176
+    400202: BabyLich_Bone177
+    400204: BabyLich_Bone178
+    400206: BabyLich_Bone179_$CCH
+    400208: BabyLich_Bone18
+    400210: BabyLich_Bone180__Breath
+    400212: BabyLich_Bone181
+    400214: BabyLich_Bone182
+    400216: BabyLich_Bone183_$BTH
+    400218: BabyLich_Bone184_$CHD
+    400220: BabyLich_Bone185
+    400222: BabyLich_Bone186
+    400224: BabyLich_Bone187
+    400226: BabyLich_Bone188
+    400228: BabyLich_Bone189
+    400230: BabyLich_Bone19
+    400232: BabyLich_Bone190_$CSL
+    400234: BabyLich_Bone191_$CSR
+    400236: BabyLich_Bone20
+    400238: BabyLich_Bone21
+    400240: BabyLich_Bone22
+    400242: BabyLich_Bone23
+    400244: BabyLich_Bone24
+    400246: BabyLich_Bone25
+    400248: BabyLich_Bone26_Head
+    400250: BabyLich_Bone27
+    400252: BabyLich_Bone28
+    400254: BabyLich_Bone29
+    400256: BabyLich_Bone30
+    400258: BabyLich_Bone31
+    400260: BabyLich_Bone32
+    400262: BabyLich_Bone33
+    400264: BabyLich_Bone34
+    400266: BabyLich_Bone35
+    400268: BabyLich_Bone36
+    400270: BabyLich_Bone37
+    400272: BabyLich_Bone38
+    400274: BabyLich_Bone39
+    400276: BabyLich_Bone40
+    400278: BabyLich_Bone41
+    400280: BabyLich_Bone42
+    400282: BabyLich_Bone43
+    400284: BabyLich_Bone44
+    400286: BabyLich_Bone45
+    400288: BabyLich_Bone46
+    400290: BabyLich_Bone47
+    400292: BabyLich_Bone48
+    400294: BabyLich_Bone49
+    400296: BabyLich_Bone50
+    400298: BabyLich_Bone51
+    400300: BabyLich_Bone52
+    400302: BabyLich_Bone53
+    400304: BabyLich_Bone54
+    400306: BabyLich_Bone55_Jaw
+    400308: BabyLich_Bone56
+    400310: BabyLich_Bone57
+    400312: BabyLich_Bone58
+    400314: BabyLich_Bone59
+    400316: BabyLich_Bone60
+    400318: BabyLich_Bone61
+    400320: BabyLich_Bone62
+    400322: BabyLich_Bone63
+    400324: BabyLich_Bone64
+    400326: BabyLich_Bone65
+    400328: BabyLich_Bone66
+    400330: BabyLich_Bone67
+    400332: BabyLich_Bone68
+    400334: BabyLich_Bone69
+    400336: BabyLich_Bone70
+    400338: BabyLich_Bone71
+    400340: BabyLich_Bone72
+    400342: BabyLich_Bone73
+    400344: BabyLich_Bone74
+    400346: BabyLich_Bone75
+    400348: BabyLich_Bone76
+    400350: BabyLich_Bone77
+    400352: BabyLich_Bone78
+    400354: BabyLich_Bone79
+    400356: BabyLich_Bone80
+    400358: BabyLich_Bone81
+    400360: BabyLich_Bone82
+    400362: BabyLich_Bone83
+    400364: BabyLich_Bone84
+    400366: BabyLich_Bone85
+    400368: BabyLich_Bone86
+    400370: BabyLich_Bone87
+    400372: BabyLich_Bone88
+    400374: BabyLich_Bone89
+    400376: BabyLich_Bone9
+    400378: BabyLich_Bone90
+    400380: BabyLich_Bone91
+    400382: BabyLich_Bone92
+    400384: BabyLich_Bone93
+    400386: BabyLich_Bone94
+    400388: BabyLich_Bone95
+    400390: BabyLich_Bone96
+    400392: BabyLich_Bone97
+    400394: BabyLich_Bone98
+    400396: BabyLich_Bone99
+    400398: Base
+    400400: Front Hit Region
+    400402: Head Region
+    400404: Left Palm
+    400406: Mouth
+    400408: Pre-Cast 1 L
+    400410: Pre-Cast 1 R
+    400412: Rear Hit Region
+    400414: Right Palm
+    400416: Spell Impact
+    4300000: BabyLich0_Mesh
+    4300002: BabyLich1_Mesh
+    4300004: BabyLich2_Mesh
+    4300006: BabyLich3_Mesh
+    4300008: BabyLich4_Mesh
+    7400000: talk1
+    7400002: talk2
+    7400004: talk3
+    9500000: //RootNode
+    13700000: BabyLich0_Mesh
+    13700002: BabyLich1_Mesh
+    13700004: BabyLich2_Mesh
+    13700006: BabyLich3_Mesh
+    13700008: BabyLich4_Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: talk1
+      takeName: Take 001
+      firstFrame: 3
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BabyLich0_Mesh
+        weight: 1
+      - path: BabyLich1_Mesh
+        weight: 1
+      - path: BabyLich2_Mesh
+        weight: 1
+      - path: BabyLich3_Mesh
+        weight: 1
+      - path: BabyLich4_Mesh
+        weight: 1
+      - path: BabyLich_Bone00
+        weight: 1
+      - path: BabyLich_Bone00/BabyLich_Bone170
+        weight: 1
+      - path: BabyLich_Bone01_Root
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone04
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone16
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head/BabyLich_Bone41
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head/BabyLich_Bone55_Jaw
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head/BabyLich_Bone55_Jaw/BabyLich_Bone69
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head/BabyLich_Bone180__Breath
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head/BabyLich_Bone180__Breath/Mouth
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head/BabyLich_Bone181
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head/BabyLich_Bone183_$BTH
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head/BabyLich_Bone184_$CHD
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone56
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone56/BabyLich_Bone70
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone71
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone89
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone101
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone107_ThumbL
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone107_ThumbL/BabyLich_Bone119
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone107_ThumbL/BabyLich_Bone131
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone107_ThumbL/BabyLich_Bone131/BabyLich_Bone147
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone108
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone108/BabyLich_Bone120
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone108/BabyLich_Bone132
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone108/BabyLich_Bone132/BabyLich_Bone148
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone109
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone109/BabyLich_Bone121
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone109/BabyLich_Bone133
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone109/BabyLich_Bone133/BabyLich_Bone149
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone110
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone110/BabyLich_Bone122
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone110/BabyLich_Bone134
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone110/BabyLich_Bone134/BabyLich_Bone150
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone187
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone187/Left
+          Palm
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone188
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone188/Pre-Cast
+          1 L
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone190_$CSL
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone72
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone90
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone102
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone111_ThumbR
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone111_ThumbR/BabyLich_Bone123
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone111_ThumbR/BabyLich_Bone135
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone111_ThumbR/BabyLich_Bone135/BabyLich_Bone151
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone112
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone112/BabyLich_Bone124
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone112/BabyLich_Bone136
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone112/BabyLich_Bone136/BabyLich_Bone152
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone113
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone113/BabyLich_Bone125
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone113/BabyLich_Bone137
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone113/BabyLich_Bone137/BabyLich_Bone153
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone114
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone114/BabyLich_Bone126
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone114/BabyLich_Bone138
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone114/BabyLich_Bone138/BabyLich_Bone154
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone186
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone186/Right
+          Palm
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone189
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone189/Pre-Cast
+          1 R
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone191_$CSR
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone59
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone59/BabyLich_Bone73
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone182
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone28
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone28/BabyLich_Bone42
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone29
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone29/BabyLich_Bone43
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone30
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone30/BabyLich_Bone44
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone31
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone31/BabyLich_Bone45
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone32
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone32/BabyLich_Bone46
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone33
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone33/BabyLich_Bone47
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone34
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone34/BabyLich_Bone48
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone35
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone35/BabyLich_Bone49
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone36
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone36/BabyLich_Bone50
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone37
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone37/BabyLich_Bone51
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone38
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone38/BabyLich_Bone52
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone39
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone39/BabyLich_Bone53
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone171
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone171/Front
+          Hit Region
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone172
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone172/Rear
+          Hit Region
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone173
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone173/Spell
+          Impact
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone174
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone175
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone176
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone177
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone178
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone179_$CCH
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone07
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone07/BabyLich_Bone17
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone08
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone08/BabyLich_Bone18
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone9
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone9/BabyLich_Bone19
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone10
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone10/BabyLich_Bone20
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone11
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone11/BabyLich_Bone21
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone12
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone12/BabyLich_Bone22
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone13
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone13/BabyLich_Bone23
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone14
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone14/BabyLich_Bone24
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone05
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone25
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone54
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone60
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone60/BabyLich_Bone74
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone75
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone91
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone97
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone97/BabyLich_Bone103
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone97/BabyLich_Bone115
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone97/BabyLich_Bone115/BabyLich_Bone127
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone97/BabyLich_Bone115/BabyLich_Bone139
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone97/BabyLich_Bone115/BabyLich_Bone139/BabyLich_Bone155
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone97/BabyLich_Bone115/BabyLich_Bone140
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone97/BabyLich_Bone115/BabyLich_Bone140/BabyLich_Bone156
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone92
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone98
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone98/BabyLich_Bone104
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone98/BabyLich_Bone116
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone98/BabyLich_Bone116/BabyLich_Bone128
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone98/BabyLich_Bone116/BabyLich_Bone141
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone98/BabyLich_Bone116/BabyLich_Bone141/BabyLich_Bone157
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone98/BabyLich_Bone116/BabyLich_Bone142
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone98/BabyLich_Bone116/BabyLich_Bone142/BabyLich_Bone158
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone93
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone99
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone99/BabyLich_Bone105
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone99/BabyLich_Bone117
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone99/BabyLich_Bone117/BabyLich_Bone129
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone99/BabyLich_Bone117/BabyLich_Bone143
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone99/BabyLich_Bone117/BabyLich_Bone143/BabyLich_Bone159
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone99/BabyLich_Bone117/BabyLich_Bone144
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone99/BabyLich_Bone117/BabyLich_Bone144/BabyLich_Bone160
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone94
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone100
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone100/BabyLich_Bone106
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone100/BabyLich_Bone118
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone100/BabyLich_Bone118/BabyLich_Bone130
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone100/BabyLich_Bone118/BabyLich_Bone145
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone100/BabyLich_Bone118/BabyLich_Bone145/BabyLich_Bone161
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone100/BabyLich_Bone118/BabyLich_Bone146
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone100/BabyLich_Bone118/BabyLich_Bone146/BabyLich_Bone162
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone185
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone62
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone62/BabyLich_Bone76
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone63
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone63/BabyLich_Bone77
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone64
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone64/BabyLich_Bone78
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone65
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone65/BabyLich_Bone79
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone66
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone66/BabyLich_Bone80
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone67
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone67/BabyLich_Bone81
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone68
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone68/BabyLich_Bone82
+        weight: 1
+      - path: BabyLich_Bone163__Name
+        weight: 1
+      - path: BabyLich_Bone163__Name/Head Region
+        weight: 1
+      - path: BabyLich_Bone164
+        weight: 1
+      - path: BabyLich_Bone164/Base
+        weight: 1
+      - path: BabyLich_Bone165
+        weight: 1
+      - path: BabyLich_Bone165/Above
+        weight: 1
+      - path: BabyLich_Bone166
+        weight: 1
+      - path: BabyLich_Bone167
+        weight: 1
+      - path: BabyLich_Bone168
+        weight: 1
+      - path: BabyLich_Bone169
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: talk2
+      takeName: Take 001
+      firstFrame: 1765
+      lastFrame: 1855
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BabyLich0_Mesh
+        weight: 1
+      - path: BabyLich1_Mesh
+        weight: 1
+      - path: BabyLich2_Mesh
+        weight: 1
+      - path: BabyLich3_Mesh
+        weight: 1
+      - path: BabyLich4_Mesh
+        weight: 1
+      - path: BabyLich_Bone00
+        weight: 1
+      - path: BabyLich_Bone00/BabyLich_Bone170
+        weight: 1
+      - path: BabyLich_Bone01_Root
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone04
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone16
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head/BabyLich_Bone41
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head/BabyLich_Bone55_Jaw
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head/BabyLich_Bone55_Jaw/BabyLich_Bone69
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head/BabyLich_Bone180__Breath
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head/BabyLich_Bone180__Breath/Mouth
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head/BabyLich_Bone181
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head/BabyLich_Bone183_$BTH
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head/BabyLich_Bone184_$CHD
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone56
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone56/BabyLich_Bone70
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone71
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone89
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone101
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone107_ThumbL
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone107_ThumbL/BabyLich_Bone119
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone107_ThumbL/BabyLich_Bone131
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone107_ThumbL/BabyLich_Bone131/BabyLich_Bone147
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone108
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone108/BabyLich_Bone120
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone108/BabyLich_Bone132
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone108/BabyLich_Bone132/BabyLich_Bone148
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone109
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone109/BabyLich_Bone121
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone109/BabyLich_Bone133
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone109/BabyLich_Bone133/BabyLich_Bone149
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone110
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone110/BabyLich_Bone122
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone110/BabyLich_Bone134
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone110/BabyLich_Bone134/BabyLich_Bone150
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone187
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone187/Left
+          Palm
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone188
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone188/Pre-Cast
+          1 L
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone190_$CSL
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone72
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone90
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone102
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone111_ThumbR
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone111_ThumbR/BabyLich_Bone123
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone111_ThumbR/BabyLich_Bone135
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone111_ThumbR/BabyLich_Bone135/BabyLich_Bone151
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone112
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone112/BabyLich_Bone124
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone112/BabyLich_Bone136
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone112/BabyLich_Bone136/BabyLich_Bone152
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone113
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone113/BabyLich_Bone125
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone113/BabyLich_Bone137
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone113/BabyLich_Bone137/BabyLich_Bone153
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone114
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone114/BabyLich_Bone126
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone114/BabyLich_Bone138
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone114/BabyLich_Bone138/BabyLich_Bone154
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone186
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone186/Right
+          Palm
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone189
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone189/Pre-Cast
+          1 R
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone191_$CSR
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone59
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone59/BabyLich_Bone73
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone182
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone28
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone28/BabyLich_Bone42
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone29
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone29/BabyLich_Bone43
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone30
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone30/BabyLich_Bone44
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone31
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone31/BabyLich_Bone45
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone32
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone32/BabyLich_Bone46
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone33
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone33/BabyLich_Bone47
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone34
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone34/BabyLich_Bone48
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone35
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone35/BabyLich_Bone49
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone36
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone36/BabyLich_Bone50
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone37
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone37/BabyLich_Bone51
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone38
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone38/BabyLich_Bone52
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone39
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone39/BabyLich_Bone53
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone171
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone171/Front
+          Hit Region
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone172
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone172/Rear
+          Hit Region
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone173
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone173/Spell
+          Impact
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone174
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone175
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone176
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone177
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone178
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone179_$CCH
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone07
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone07/BabyLich_Bone17
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone08
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone08/BabyLich_Bone18
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone9
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone9/BabyLich_Bone19
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone10
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone10/BabyLich_Bone20
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone11
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone11/BabyLich_Bone21
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone12
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone12/BabyLich_Bone22
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone13
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone13/BabyLich_Bone23
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone14
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone14/BabyLich_Bone24
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone05
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone25
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone54
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone60
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone60/BabyLich_Bone74
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone75
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone91
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone97
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone97/BabyLich_Bone103
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone97/BabyLich_Bone115
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone97/BabyLich_Bone115/BabyLich_Bone127
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone97/BabyLich_Bone115/BabyLich_Bone139
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone97/BabyLich_Bone115/BabyLich_Bone139/BabyLich_Bone155
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone97/BabyLich_Bone115/BabyLich_Bone140
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone97/BabyLich_Bone115/BabyLich_Bone140/BabyLich_Bone156
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone92
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone98
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone98/BabyLich_Bone104
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone98/BabyLich_Bone116
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone98/BabyLich_Bone116/BabyLich_Bone128
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone98/BabyLich_Bone116/BabyLich_Bone141
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone98/BabyLich_Bone116/BabyLich_Bone141/BabyLich_Bone157
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone98/BabyLich_Bone116/BabyLich_Bone142
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone98/BabyLich_Bone116/BabyLich_Bone142/BabyLich_Bone158
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone93
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone99
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone99/BabyLich_Bone105
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone99/BabyLich_Bone117
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone99/BabyLich_Bone117/BabyLich_Bone129
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone99/BabyLich_Bone117/BabyLich_Bone143
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone99/BabyLich_Bone117/BabyLich_Bone143/BabyLich_Bone159
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone99/BabyLich_Bone117/BabyLich_Bone144
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone99/BabyLich_Bone117/BabyLich_Bone144/BabyLich_Bone160
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone94
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone100
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone100/BabyLich_Bone106
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone100/BabyLich_Bone118
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone100/BabyLich_Bone118/BabyLich_Bone130
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone100/BabyLich_Bone118/BabyLich_Bone145
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone100/BabyLich_Bone118/BabyLich_Bone145/BabyLich_Bone161
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone100/BabyLich_Bone118/BabyLich_Bone146
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone100/BabyLich_Bone118/BabyLich_Bone146/BabyLich_Bone162
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone185
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone62
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone62/BabyLich_Bone76
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone63
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone63/BabyLich_Bone77
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone64
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone64/BabyLich_Bone78
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone65
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone65/BabyLich_Bone79
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone66
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone66/BabyLich_Bone80
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone67
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone67/BabyLich_Bone81
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone68
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone68/BabyLich_Bone82
+        weight: 1
+      - path: BabyLich_Bone163__Name
+        weight: 1
+      - path: BabyLich_Bone163__Name/Head Region
+        weight: 1
+      - path: BabyLich_Bone164
+        weight: 1
+      - path: BabyLich_Bone164/Base
+        weight: 1
+      - path: BabyLich_Bone165
+        weight: 1
+      - path: BabyLich_Bone165/Above
+        weight: 1
+      - path: BabyLich_Bone166
+        weight: 1
+      - path: BabyLich_Bone167
+        weight: 1
+      - path: BabyLich_Bone168
+        weight: 1
+      - path: BabyLich_Bone169
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: talk3
+      takeName: Take 001
+      firstFrame: 2085
+      lastFrame: 2182
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BabyLich0_Mesh
+        weight: 1
+      - path: BabyLich1_Mesh
+        weight: 1
+      - path: BabyLich2_Mesh
+        weight: 1
+      - path: BabyLich3_Mesh
+        weight: 1
+      - path: BabyLich4_Mesh
+        weight: 1
+      - path: BabyLich_Bone00
+        weight: 1
+      - path: BabyLich_Bone00/BabyLich_Bone170
+        weight: 1
+      - path: BabyLich_Bone01_Root
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone04
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone16
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head/BabyLich_Bone41
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head/BabyLich_Bone55_Jaw
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head/BabyLich_Bone55_Jaw/BabyLich_Bone69
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head/BabyLich_Bone180__Breath
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head/BabyLich_Bone180__Breath/Mouth
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head/BabyLich_Bone181
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head/BabyLich_Bone183_$BTH
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone26_Head/BabyLich_Bone184_$CHD
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone56
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone56/BabyLich_Bone70
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone71
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone89
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone101
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone107_ThumbL
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone107_ThumbL/BabyLich_Bone119
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone107_ThumbL/BabyLich_Bone131
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone107_ThumbL/BabyLich_Bone131/BabyLich_Bone147
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone108
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone108/BabyLich_Bone120
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone108/BabyLich_Bone132
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone108/BabyLich_Bone132/BabyLich_Bone148
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone109
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone109/BabyLich_Bone121
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone109/BabyLich_Bone133
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone109/BabyLich_Bone133/BabyLich_Bone149
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone110
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone110/BabyLich_Bone122
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone110/BabyLich_Bone134
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone110/BabyLich_Bone134/BabyLich_Bone150
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone187
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone187/Left
+          Palm
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone188
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone188/Pre-Cast
+          1 L
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone57/BabyLich_Bone83/BabyLich_Bone95/BabyLich_Bone190_$CSL
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone72
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone90
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone102
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone111_ThumbR
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone111_ThumbR/BabyLich_Bone123
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone111_ThumbR/BabyLich_Bone135
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone111_ThumbR/BabyLich_Bone135/BabyLich_Bone151
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone112
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone112/BabyLich_Bone124
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone112/BabyLich_Bone136
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone112/BabyLich_Bone136/BabyLich_Bone152
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone113
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone113/BabyLich_Bone125
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone113/BabyLich_Bone137
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone113/BabyLich_Bone137/BabyLich_Bone153
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone114
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone114/BabyLich_Bone126
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone114/BabyLich_Bone138
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone114/BabyLich_Bone138/BabyLich_Bone154
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone186
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone186/Right
+          Palm
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone189
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone189/Pre-Cast
+          1 R
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone58/BabyLich_Bone84/BabyLich_Bone96/BabyLich_Bone191_$CSR
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone59
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone59/BabyLich_Bone73
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone27/BabyLich_Bone182
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone28
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone28/BabyLich_Bone42
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone29
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone29/BabyLich_Bone43
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone30
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone30/BabyLich_Bone44
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone31
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone31/BabyLich_Bone45
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone32
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone32/BabyLich_Bone46
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone33
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone33/BabyLich_Bone47
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone34
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone34/BabyLich_Bone48
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone35
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone35/BabyLich_Bone49
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone36
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone36/BabyLich_Bone50
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone37
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone37/BabyLich_Bone51
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone38
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone38/BabyLich_Bone52
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone39
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone39/BabyLich_Bone53
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone171
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone171/Front
+          Hit Region
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone172
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone172/Rear
+          Hit Region
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone173
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone173/Spell
+          Impact
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone174
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone175
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone176
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone177
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone178
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone06/BabyLich_Bone179_$CCH
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone07
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone07/BabyLich_Bone17
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone08
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone08/BabyLich_Bone18
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone9
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone9/BabyLich_Bone19
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone10
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone10/BabyLich_Bone20
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone11
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone11/BabyLich_Bone21
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone12
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone12/BabyLich_Bone22
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone13
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone13/BabyLich_Bone23
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone14
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone02_SpineLow/BabyLich_Bone14/BabyLich_Bone24
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone05
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone25
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone54
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone60
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone60/BabyLich_Bone74
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone75
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone91
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone97
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone97/BabyLich_Bone103
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone97/BabyLich_Bone115
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone97/BabyLich_Bone115/BabyLich_Bone127
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone97/BabyLich_Bone115/BabyLich_Bone139
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone97/BabyLich_Bone115/BabyLich_Bone139/BabyLich_Bone155
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone97/BabyLich_Bone115/BabyLich_Bone140
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone85/BabyLich_Bone97/BabyLich_Bone115/BabyLich_Bone140/BabyLich_Bone156
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone92
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone98
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone98/BabyLich_Bone104
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone98/BabyLich_Bone116
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone98/BabyLich_Bone116/BabyLich_Bone128
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone98/BabyLich_Bone116/BabyLich_Bone141
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone98/BabyLich_Bone116/BabyLich_Bone141/BabyLich_Bone157
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone98/BabyLich_Bone116/BabyLich_Bone142
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone86/BabyLich_Bone98/BabyLich_Bone116/BabyLich_Bone142/BabyLich_Bone158
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone93
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone99
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone99/BabyLich_Bone105
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone99/BabyLich_Bone117
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone99/BabyLich_Bone117/BabyLich_Bone129
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone99/BabyLich_Bone117/BabyLich_Bone143
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone99/BabyLich_Bone117/BabyLich_Bone143/BabyLich_Bone159
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone99/BabyLich_Bone117/BabyLich_Bone144
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone87/BabyLich_Bone99/BabyLich_Bone117/BabyLich_Bone144/BabyLich_Bone160
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone94
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone100
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone100/BabyLich_Bone106
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone100/BabyLich_Bone118
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone100/BabyLich_Bone118/BabyLich_Bone130
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone100/BabyLich_Bone118/BabyLich_Bone145
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone100/BabyLich_Bone118/BabyLich_Bone145/BabyLich_Bone161
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone100/BabyLich_Bone118/BabyLich_Bone146
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone88/BabyLich_Bone100/BabyLich_Bone118/BabyLich_Bone146/BabyLich_Bone162
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone61/BabyLich_Bone185
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone62
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone62/BabyLich_Bone76
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone63
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone63/BabyLich_Bone77
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone64
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone64/BabyLich_Bone78
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone65
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone65/BabyLich_Bone79
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone66
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone66/BabyLich_Bone80
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone67
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone67/BabyLich_Bone81
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone68
+        weight: 1
+      - path: BabyLich_Bone01_Root/BabyLich_Bone03_Waist/BabyLich_Bone15/BabyLich_Bone40/BabyLich_Bone68/BabyLich_Bone82
+        weight: 1
+      - path: BabyLich_Bone163__Name
+        weight: 1
+      - path: BabyLich_Bone163__Name/Head Region
+        weight: 1
+      - path: BabyLich_Bone164
+        weight: 1
+      - path: BabyLich_Bone164/Base
+        weight: 1
+      - path: BabyLich_Bone165
+        weight: 1
+      - path: BabyLich_Bone165/Above
+        weight: 1
+      - path: BabyLich_Bone166
+        weight: 1
+      - path: BabyLich_Bone167
+        weight: 1
+      - path: BabyLich_Bone168
+        weight: 1
+      - path: BabyLich_Bone169
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

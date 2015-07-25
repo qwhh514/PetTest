@@ -79,6 +79,27 @@ public class Player : Factory<Player>
 	{
 	}
 
+	public void Reset()
+	{
+		if (m_pets == null || m_pets.Count <= 0)
+		{
+			return;
+		}
+
+		for (int i = 0; i < m_pets.Count; i++)
+		{
+			NormalActor pet = m_pets[i] as NormalActor;
+			if (pet != null)
+			{
+				pet.Reset();
+			}
+		}
+
+		m_curPet = m_pets[0] as NormalActor;
+		m_curPet.gameObject.SetActive(true);
+		GoToPlayGround();
+	}
+
 	public void SetPets(string[] petId, EventHandler handle)
 	{
 		if (petId == null || petId.Length <= 0)
@@ -144,10 +165,12 @@ public class Player : Factory<Player>
 	public void GoToPlayGround (bool switchBout = false)
 	{
 		Vector3 tar = m_curPet.transform.position;
-		if (m_eSide == E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT) {
+		if (m_eSide == E_PLAYER_SIDE.E_PLAYER_PLACE_LEFT)
+		{
 			m_curPet.transform.position = m_curPet.transform.position + new Vector3 (9, 0, 0);
 		}
-		else if (m_eSide == E_PLAYER_SIDE.E_PLAYER_PLACE_RIGHT) {
+		else if (m_eSide == E_PLAYER_SIDE.E_PLAYER_PLACE_RIGHT)
+		{
 			m_curPet.transform.position = m_curPet.transform.position + new Vector3 (-9, 0, 0);
 		}
 		m_curPet.MoveTo (tar, m_curPet.GetMoveTime(), false, switchBout);
@@ -211,7 +234,6 @@ public class Player : Factory<Player>
 			m_curPet.gameObject.SetActive(true);
 			m_curPet.Target = m_opponent.CurPet;
 			GoToPlayGround (true);
-			
 		}
 
 		m_opponent.m_curPet.Target = m_curPet;
