@@ -149,7 +149,7 @@ public class NormalActor : MonoBehaviour
 		set { m_target = value; }
 	}
 
-	public bool BeCatch
+	public bool BeCatched
 	{
 		get { return m_bIsBeCatch; }
 	}
