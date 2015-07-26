@@ -21,6 +21,8 @@ public class MainMenu : MonoBehaviour
 	private GameObject m_upgradeBuild = null;
 	private GameObject m_shop = null;
 
+	private GameObject m_maskBG = null;
+
 	private Dictionary<string, GameObject> m_menuItem = new Dictionary<string, GameObject>();
 	private Dictionary<string, GameObject> m_buildItem = new Dictionary<string, GameObject>();
 
@@ -38,6 +40,9 @@ public class MainMenu : MonoBehaviour
 
 		m_mainCamera = Camera.main;
 		m_mainUICamera = GameObject.Find("UICamera_Main");
+
+		m_maskBG = GameObject.Find ("MaskBG");
+		m_maskBG.SetActive (false);
 
 		m_levelObj = GameObject.Find("SelectLevel");
 
@@ -205,6 +210,7 @@ public class MainMenu : MonoBehaviour
 	{
 		if (m_upgradeBuild != null)
 		{
+			m_maskBG.SetActive(true);
 			BlurCamera(true);
 			m_upgradeBuild.SetActive(true);
 		}
@@ -214,6 +220,7 @@ public class MainMenu : MonoBehaviour
 	{
 		if (m_upgradeBuild != null)
 		{
+			m_maskBG.SetActive(false);
 			BlurCamera(false);
 			m_upgradeBuild.SetActive(false);
 		}
@@ -232,6 +239,7 @@ public class MainMenu : MonoBehaviour
 
 		LeanTween.scale (shopIns, 2.0f * Vector3.one, 1.0f).setEase(LeanTweenType.easeOutBounce).setDestroyOnComplete (true).setOnComplete(
 			() => {
+				m_maskBG.SetActive(false);
 				BlurCamera(false);
 				m_menuItem["Shop"].SetActive(true);
 				m_buildItem["Build_Shop"].SetActive(false);
@@ -248,6 +256,7 @@ public class MainMenu : MonoBehaviour
 	{
 		if (m_shop != null)
 		{
+			m_maskBG.SetActive(true);
 			BlurCamera(true);
 			m_shop.SetActive(true);
 		}
@@ -255,6 +264,7 @@ public class MainMenu : MonoBehaviour
 	
 	private void CloseShop(GameObject go)
 	{
+		m_maskBG.SetActive(false);
 		BlurCamera(false);
 		if (m_shop != null)
 		{
@@ -276,6 +286,7 @@ public class MainMenu : MonoBehaviour
 
 		LeanTween.scale (petIns, 8.0f * Vector3.one, 3.0f).setEase(LeanTweenType.easeOutBounce).setDestroyOnComplete (true).setOnComplete(
 			() => {
+				m_maskBG.SetActive(false);
 				BlurCamera(false);
 			}
 		);
