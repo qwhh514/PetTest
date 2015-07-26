@@ -81,7 +81,8 @@ public class MainMenu : MonoBehaviour
 			UIEventListener.Get(button).onClick += UpgradeBuild;
 		}
 
-		m_shop = GameObject.Find("Shop");
+		m_shop = GameObject.Find("ShopFrame");
+		Transform button1 = m_shop.transform.FindChild ("btn_cancel");
 		btn_cancel = m_shop.transform.FindChild("btn_cancel").gameObject;
 		UIEventListener.Get(btn_cancel).onClick += CloseShop;
 		m_shop.SetActive(false);
