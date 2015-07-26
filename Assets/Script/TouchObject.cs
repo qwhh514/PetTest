@@ -5,8 +5,9 @@ using System.Collections;
 
 public class TouchObject : MonoBehaviour
 {
+	private GameObject m_gameobject = null;
 	private Transform m_transform = null;
-	public Action m_action;
+	public Action<GameObject> m_action;
 
 	void Awake()
 	{
@@ -16,6 +17,7 @@ public class TouchObject : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
+		m_gameobject = gameObject;
 		m_transform = transform;
 	}
 	
@@ -30,10 +32,10 @@ public class TouchObject : MonoBehaviour
 			
 			if (Physics.Raycast(ray, out hit))
 			{
-				m_action();
+//				m_action(m_gameobject);
 				if (hit.transform.name == m_transform.name && m_action != null)
 				{
-					m_action();
+					m_action(m_gameobject);
 				}
 			}
 		}
