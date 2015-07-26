@@ -205,6 +205,7 @@ public class NormalActor : MonoBehaviour
 	{
 		m_HP = m_MaxHP;
 		m_bIsBeCatch = false;
+		gameObject.SetActive (false);
 	}
 
 	public void DestroyAllEff ()
@@ -515,7 +516,8 @@ public class NormalActor : MonoBehaviour
 	public void MoveTo (Vector3 targetPosition, float moveTime, bool resetOriginRotationAfter = false, bool switchBout = false)
 	{
 		m_targetPosition = targetPosition;
-		if (moveTime <= 0) {
+		if (moveTime <= 0)
+		{
 			if(transform.position != m_targetPosition)
 			{
 				transform.rotation = Quaternion.LookRotation((m_targetPosition - transform.position), Vector3.up);
@@ -528,6 +530,7 @@ public class NormalActor : MonoBehaviour
 			m_bMoving = false;
 			return;
 		}
+
 		float distance = (m_targetPosition - transform.position).magnitude;
 		m_fMoveSpeed = distance / moveTime;
 		m_fTurnSpeed = 180.0f / (moveTime * m_fTurnTimeScale);

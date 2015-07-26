@@ -110,8 +110,8 @@ public class Player : Factory<Player>
 			NormalActor pet = m_pets[i] as NormalActor;
 			if (pet != null)
 			{
-				pet.transform.rotation = quat;
 				pet.transform.position = position;
+				pet.transform.rotation = quat;
 				pet.Reset();
 
 				if (m_curPet == null && pet.HP > 0)
@@ -194,6 +194,8 @@ public class Player : Factory<Player>
 		{
 			m_curPet.transform.position = m_curPet.transform.position + new Vector3 (-9, 0, 0);
 		}
+
+		m_curPet.gameObject.SetActive (true);
 		m_curPet.MoveTo (tar, m_curPet.GetMoveTime(), false, switchBout);
 
 		GameLevel.Singleton.RefreshPetIcon (this);
