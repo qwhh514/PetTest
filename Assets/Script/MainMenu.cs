@@ -22,16 +22,32 @@ public class MainMenu : MonoBehaviour
 	private GameObject m_shop = null;
 
 	private GameObject m_maskBG = null;
+	private GameObject m_screenTap = null;
 
 	private Dictionary<string, GameObject> m_menuItem = new Dictionary<string, GameObject>();
 	private Dictionary<string, GameObject> m_buildItem = new Dictionary<string, GameObject>();
 
+	private GameObject Compound = null;
+	private GameObject Sprite_Compound_Master = null;
+	private GameObject[] Sprite_Compounds = null;
+	
+	private GameObject Btn_Compound = null;
+	private GameObject[] Btn_Compounds = null;
+
+	private GameObject m_particle = null;
+
+	private GameObject m_shopIns = null;
+	private GameObject m_compoundModel = null;
+	private GameObject m_petIns = null;
+
 	private bool m_bInit = false;
+	private bool m_bInMain = true;
 
 	// Use this for initialization
 	void Start ()
 	{
 		m_bInit = false;
+		m_bInMain = true;
 
 		DataManager.Singleton.Initialize ();
 		m_logoObj = GameObject.Find ("logo");
@@ -44,6 +60,9 @@ public class MainMenu : MonoBehaviour
 		m_maskBG = GameObject.Find ("MaskBG");
 		m_maskBG.SetActive (false);
 
+		m_screenTap = GameObject.Find ("ScreenTap");
+		m_screenTap.SetActive(false);
+		
 		m_levelObj = GameObject.Find("SelectLevel");
 
 		GameObject btn_start = m_levelObj.transform.FindChild("btn_ok").gameObject;
@@ -99,6 +118,35 @@ public class MainMenu : MonoBehaviour
 //			GameObject button = petButton.FindChild("Btn_Buy").gameObject;
 			UIEventListener.Get(petButton).onClick += BuyPet;
 		}
+
+		Compound = GameObject.Find("Compound");
+
+		Sprite_Compound_Master = GameObject.Find("Sprite_Compound_Master");
+		Sprite_Compound_Master.transform.localScale = Vector3.zero;
+		Sprite_Compound_Master.SetActive(false);
+		Sprite_Compounds = new GameObject[5];
+		
+		for (int i = 0; i < Sprite_Compounds.Length; i++)
+		{
+			string name = "Sprite_Compound" + i.ToString();
+			Sprite_Compounds[i] = GameObject.Find(name);
+			Sprite_Compounds[i].transform.localScale = Vector3.zero;
+			Sprite_Compounds[i].SetActive(false);
+		}
+		
+		Btn_Compound = GameObject.Find("Btn_Compound");
+		Btn_Compound.SetActive(false);
+		UIEventListener.Get(Btn_Compound).onClick += CompoundPet;
+		
+		Btn_Compounds = new GameObject[7];
+		for (int i = 0; i < Btn_Compounds.Length; i++)
+		{
+			string name = "Btn_Compound" + i.ToString();
+			Btn_Compounds[i] = GameObject.Find(name);
+			UIEventListener.Get(Btn_Compounds[i]).onClick += SelectCompound;
+		}
+
+		Compound.SetActive (false);
 
 		item = GameObject.Find ("BattleHall");
 		CameraManager.Singleton.RunMainCamera();
@@ -172,6 +220,11 @@ public class MainMenu : MonoBehaviour
 
 	private void BuildingClick(GameObject go)
 	{
+		if (!m_bInMain)
+		{
+			return;
+		}
+
 		if (go.name == "BattleHall" && m_levelObj != null)
 		{
 			OpenLevel(go);
@@ -180,9 +233,10 @@ public class MainMenu : MonoBehaviour
 		{
 			OpenShop(go);
 		}
-//		else if (go.name == "Compose" && m_levelObj != null)
-//		{
-//		}
+		else if (go.name == "Compose" && m_levelObj != null)
+		{
+			OpenCompound(go);
+		}
 	}
 
 	private void OpenLevel(GameObject go)
@@ -208,6 +262,11 @@ public class MainMenu : MonoBehaviour
 
 	private void OpenBuild(GameObject go)
 	{
+		if (!m_bInMain)
+		{
+			return;
+		}
+
 		if (m_upgradeBuild != null)
 		{
 			m_maskBG.SetActive(true);
@@ -218,36 +277,61 @@ public class MainMenu : MonoBehaviour
 	
 	private void CloseBuild(GameObject go)
 	{
+		if (m_particle != null)
+		{
+			m_particle.SetActive(false);
+		}
+		Destroy(m_particle);
+
+		if (m_shopIns != null)
+		{
+			m_shopIns.SetActive(false);
+		}
+		Destroy (m_shopIns);
+
+		m_screenTap.SetActive(false);
+		m_maskBG.SetActive(false);
+		BlurCamera(false);
+
 		if (m_upgradeBuild != null)
 		{
-			m_maskBG.SetActive(false);
-			BlurCamera(false);
 			m_upgradeBuild.SetActive(false);
 		}
 	}
 
 	private void UpgradeBuild(GameObject go)
 	{
-		GameObject shopGO = AssetManager.Singleton.LoadAsset<GameObject> (FilePath.PREFAB_PATH + "shop.prefab");
-		GameObject shopIns = Instantiate (shopGO);
-		shopIns.layer = LayerMask.NameToLayer ("MenuModel");
-		shopIns.transform.position = new Vector3 (0.0f, -20.0f, 0.0f);
-		shopIns.transform.localScale = Vector3.zero;
+		GameObject obj = AssetManager.Singleton.LoadAsset<GameObject> (FilePath.PREFAB_PATH + "shop.prefab");
+		m_shopIns = Instantiate (obj);
+		m_shopIns.transform.position = new Vector3 (5.0f, -20.0f, 0.0f);
+		m_shopIns.transform.localScale = Vector3.zero;
+
+		obj = AssetManager.Singleton.LoadAsset<GameObject>(FilePath.PARTICLE_PATH + "2D_Star_01.prefab");
+		m_particle = Instantiate(obj);
+		m_particle.transform.position = m_mainUICamera.transform.position;
 
 		int layer = LayerMask.NameToLayer ("MenuModel");
-		SetGameObjecLayer (shopIns, layer);
+		SetGameObjecLayer (m_shopIns, layer);
 
-		LeanTween.scale (shopIns, 2.0f * Vector3.one, 1.0f).setEase(LeanTweenType.easeOutBounce).setDestroyOnComplete (true).setOnComplete(
+		layer = LayerMask.NameToLayer ("UI");
+		SetGameObjecLayer (m_particle, layer);
+
+		LeanTween.scale (m_shopIns, 2.0f * Vector3.one, 1.0f).setEase(LeanTweenType.easeOutBounce).setOnComplete
+		(
 			() => {
-				m_maskBG.SetActive(false);
-				BlurCamera(false);
+//				m_maskBG.SetActive(false);
+//				BlurCamera(false);
 				m_menuItem["Shop"].SetActive(true);
 				m_buildItem["Build_Shop"].SetActive(false);
+
+				m_screenTap.SetActive(true);
+				UIEventListener.Get(m_screenTap).onClick += CloseBuild;
 			}
 		);
 	
 		if (m_upgradeBuild != null)
 		{
+			m_maskBG.SetActive(false);
 			m_upgradeBuild.SetActive(false);
 		}
 	}
@@ -264,6 +348,19 @@ public class MainMenu : MonoBehaviour
 	
 	private void CloseShop(GameObject go)
 	{
+		if (m_particle != null)
+		{
+			m_particle.SetActive(false);
+		}
+		Destroy (m_particle);
+
+		if (m_petIns != null)
+		{
+			m_petIns.SetActive(false);
+		}
+		Destroy (m_petIns);
+
+		m_screenTap.SetActive(false);
 		m_maskBG.SetActive(false);
 		BlurCamera(false);
 		if (m_shop != null)
@@ -274,27 +371,171 @@ public class MainMenu : MonoBehaviour
 
 	private void BuyPet(GameObject go)
 	{
-		GameObject petGO = AssetManager.Singleton.LoadAsset<GameObject> (FilePath.PREFAB_PATH + "Dragon.prefab");
-		GameObject petIns = Instantiate (petGO);
-		petIns.transform.position = new Vector3 (0.0f, -40.0f, 0.0f);
-		petIns.transform.localScale = Vector3.one;
-		petIns.transform.Rotate (new Vector3(0.0f, -30.0f, 0.0f));
-		petIns.GetComponent<Animation> ().Play("idle1");
+		GameObject obj = AssetManager.Singleton.LoadAsset<GameObject> (FilePath.PREFAB_PATH + "Dragon.prefab");
+		m_petIns = Instantiate (obj);
+		m_petIns.transform.position = new Vector3 (0.0f, -60.0f, 0.0f);
+		m_petIns.transform.localScale = Vector3.one;
+		m_petIns.transform.Rotate (new Vector3(-15.0f, -50.0f, 15.0f));
+		m_petIns.GetComponent<Animation> ().Play("idle1");
+
+		obj = AssetManager.Singleton.LoadAsset<GameObject>(FilePath.PARTICLE_PATH + "2D_Star_01.prefab");
+		m_particle = Instantiate(obj);
+		m_particle.transform.position = m_mainUICamera.transform.position;
 
 		int layer = LayerMask.NameToLayer ("MenuModel");
-		SetGameObjecLayer (petIns, layer);
+		SetGameObjecLayer (m_petIns, layer);
 
-		LeanTween.scale (petIns, 8.0f * Vector3.one, 3.0f).setEase(LeanTweenType.easeOutBounce).setDestroyOnComplete (true).setOnComplete(
+		layer = LayerMask.NameToLayer ("UI");
+		SetGameObjecLayer (m_particle, layer);
+
+		LeanTween.scale (m_petIns, 8.0f * Vector3.one, 3.0f).setEase(LeanTweenType.easeOutBounce).setOnComplete
+		(
 			() => {
-				m_maskBG.SetActive(false);
-				BlurCamera(false);
+//				m_maskBG.SetActive(false);
+//				BlurCamera(false);
+				m_screenTap.SetActive(true);
+				UIEventListener.Get(m_screenTap).onClick += CloseShop;
 			}
 		);
 
 		if (m_shop != null)
 		{
+			m_maskBG.SetActive(false);
 			m_shop.SetActive(false);
 		}
+	}
+
+	private void OpenCompound(GameObject go)
+	{
+		if (Compound != null)
+		{
+			m_maskBG.SetActive(true);
+			BlurCamera(true);
+			Compound.SetActive (true);
+		}
+	}
+	
+	public void CloseCompound(GameObject go)
+	{
+		if (m_particle != null)
+		{
+			m_particle.SetActive(false);
+		}
+		Destroy (m_particle);
+
+		if (m_compoundModel != null)
+		{
+			m_compoundModel.SetActive(false);
+		}
+		Destroy (m_compoundModel);
+
+		m_screenTap.SetActive(false);
+		m_maskBG.SetActive(false);
+		BlurCamera(false);
+
+		if (Compound != null)
+		{
+			Compound.SetActive (false);
+		}
+	}
+	
+	private void SelectCompound(GameObject go)
+	{
+		string btnName = go.name;
+		int compoundIdx = -1;
+		
+		switch(btnName)
+		{
+			case "Btn_Compound1": compoundIdx = 0; break;
+			case "Btn_Compound2": compoundIdx = 1; break;
+			case "Btn_Compound4": compoundIdx = 2; break;
+			case "Btn_Compound5": compoundIdx = 3; break;
+			case "Btn_Compound6": compoundIdx = 4; break;
+			default: break;
+		}
+		
+		GameObject compoundItem = (compoundIdx >= 0 && compoundIdx < Sprite_Compounds.Length)? Sprite_Compounds[compoundIdx] : null;
+		if (compoundItem != null)
+		{
+			compoundItem.SetActive(true);
+			compoundItem.transform.localScale = 1.2f * Vector3.one;
+			
+			LeanTween.scale(compoundItem, 0.9f * Vector3.one, 0.6f).setEase(LeanTweenType.easeOutBounce).setOnComplete
+			(
+				() => {
+					bool bCanCompound = true;
+					for (int i = 0; i < Sprite_Compounds.Length; i++)
+					{
+						if (!Sprite_Compounds[i].activeSelf)
+						{
+							bCanCompound = false;
+							break;
+						}
+					}
+					
+					if (bCanCompound)
+					{
+						Sprite_Compound_Master.SetActive(true);
+						Sprite_Compound_Master.transform.localScale = 1.5f * Vector3.one;
+						LeanTween.scale(Sprite_Compound_Master, 1.2f * Vector3.one, 0.6f).setEase(LeanTweenType.easeOutBounce).setOnComplete
+						(
+							() => {
+								Btn_Compound.SetActive(true);
+							}
+						);
+					}
+				}
+			);
+		}
+	}
+	
+	private void CompoundPet(GameObject go)
+	{
+		Vector3 destPos = Sprite_Compound_Master.transform.position;
+		for (int i = 0; i < Sprite_Compounds.Length; i++)
+		{
+			GameObject sprite = Sprite_Compounds[i];
+			LeanTween.move(sprite, destPos, 0.6f).setEase(LeanTweenType.easeInOutQuad).setOnComplete
+			(
+				() => {
+					sprite.SetActive(false);
+				}
+			);
+		}
+		
+		LeanTween.delayedCall(0.6f, () => {
+			GameObject obj = AssetManager.Singleton.LoadAsset<GameObject>(FilePath.PREFAB_PATH + "Boss_E.prefab");
+			m_compoundModel = Instantiate(obj);
+
+			m_compoundModel.transform.position = new Vector3(0.0f, -30.0f, 0.0f);
+			m_compoundModel.transform.localScale = Vector3.zero;
+			m_compoundModel.transform.Rotate (new Vector3(-30.0f, -45.0f, 15.0f));
+
+			GameObject Model_Camera = GameObject.Find("Model_Camera");
+			obj = AssetManager.Singleton.LoadAsset<GameObject>(FilePath.PARTICLE_PATH + "2D_Star_01.prefab");
+			m_particle = Instantiate(obj);
+			m_particle.transform.position = m_mainUICamera.transform.position;
+
+			int layer = LayerMask.NameToLayer ("MenuModel");
+			SetGameObjecLayer (m_compoundModel, layer);
+
+			layer = LayerMask.NameToLayer("UI");
+			SetGameObjecLayer (m_particle, layer);
+
+			if (Compound != null)
+			{
+				m_maskBG.SetActive(false);
+				Compound.SetActive (false);
+			}
+
+			LeanTween.scale(m_compoundModel, 16.0f * Vector3.one, 1.6f).setEase(LeanTweenType.easeOutBounce).setOnComplete
+			(
+				() => {
+					m_screenTap.SetActive(true);
+					UIEventListener.Get(m_screenTap).onClick += CloseCompound;
+				}
+			);
+		});
 	}
 
 	private void SetGameObjecLayer(GameObject go, int layer)
@@ -330,6 +571,8 @@ public class MainMenu : MonoBehaviour
 				blurScript.enabled = blur;
 			}
 		}
+
+		m_bInMain = !blur;
 	}
 
 }
