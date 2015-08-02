@@ -432,6 +432,7 @@ ModelImporter:
     7400002: talk2
     7400004: talk3
     9500000: //RootNode
+    11100000: //RootNode
     13700000: BabyLich0_Mesh
     13700002: BabyLich1_Mesh
     13700004: BabyLich2_Mesh
@@ -458,11 +459,11 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 3
       lastFrame: 100
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
-      loop: 0
+      loop: 1
       loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
@@ -909,11 +910,11 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 1765
       lastFrame: 1855
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
-      loop: 0
+      loop: 1
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -1360,11 +1361,11 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 2085
       lastFrame: 2182
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
-      loop: 0
+      loop: 1
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -1843,7 +1844,7 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

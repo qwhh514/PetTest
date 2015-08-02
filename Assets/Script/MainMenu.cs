@@ -32,6 +32,7 @@ public class MainMenu : MonoBehaviour
 	private GameObject[] Sprite_Compounds = null;
 	
 	private GameObject Btn_Compound = null;
+	private GameObject Btn_Compound_Cancel = null;
 	private GameObject[] Btn_Compounds = null;
 
 	private GameObject m_particle = null;
@@ -42,6 +43,10 @@ public class MainMenu : MonoBehaviour
 
 	private bool m_bInit = false;
 	private bool m_bInMain = true;
+
+	private GameObject m_NPCModel = null;
+	private GameObject m_NPCObj = null;
+	private UILabel m_NPCLabel = null;
 
 	// Use this for initialization
 	void Start ()
@@ -137,7 +142,10 @@ public class MainMenu : MonoBehaviour
 		Btn_Compound = GameObject.Find("Btn_Compound");
 		Btn_Compound.SetActive(false);
 		UIEventListener.Get(Btn_Compound).onClick += CompoundPet;
-		
+
+		Btn_Compound_Cancel = Compound.transform.FindChild ("Btn_cancel").gameObject;
+		UIEventListener.Get(Btn_Compound_Cancel).onClick += CloseCompound;
+
 		Btn_Compounds = new GameObject[7];
 		for (int i = 0; i < Btn_Compounds.Length; i++)
 		{
@@ -147,6 +155,13 @@ public class MainMenu : MonoBehaviour
 		}
 
 		Compound.SetActive (false);
+
+		m_NPCModel = GameObject.Find ("NPC_Lich");
+		m_NPCModel.SetActive (false);
+
+		m_NPCLabel = GameObject.Find ("NPC_Label").GetComponent<UILabel>();
+		m_NPCObj = GameObject.Find ("NPC_Talk");
+		m_NPCObj.SetActive (false);
 
 		item = GameObject.Find ("BattleHall");
 		CameraManager.Singleton.RunMainCamera();
@@ -272,6 +287,13 @@ public class MainMenu : MonoBehaviour
 			m_maskBG.SetActive(true);
 			BlurCamera(true);
 			m_upgradeBuild.SetActive(true);
+
+			m_NPCModel.SetActive(true);
+			Animation anim = m_NPCModel.GetComponent<Animation>();
+			anim.Play("talk2");
+
+			m_NPCObj.SetActive(true);
+			m_NPCLabel.text = "在这里可以建筑你的要塞,从商店开始吧！";
 		}
 	}
 	
@@ -331,6 +353,8 @@ public class MainMenu : MonoBehaviour
 	
 		if (m_upgradeBuild != null)
 		{
+			m_NPCModel.SetActive(false);
+			m_NPCObj.SetActive(false);
 			m_maskBG.SetActive(false);
 			m_upgradeBuild.SetActive(false);
 		}
@@ -340,6 +364,13 @@ public class MainMenu : MonoBehaviour
 	{
 		if (m_shop != null)
 		{
+			m_NPCModel.SetActive(true);
+			Animation anim = m_NPCModel.GetComponent<Animation>();
+			anim.Play("talk2");
+			
+			m_NPCObj.SetActive(true);
+			m_NPCLabel.text = "在这里可以够买你的宠物,从小龙开始吧！";
+
 			m_maskBG.SetActive(true);
 			BlurCamera(true);
 			m_shop.SetActive(true);
@@ -400,6 +431,8 @@ public class MainMenu : MonoBehaviour
 
 		if (m_shop != null)
 		{
+			m_NPCModel.SetActive(false);
+			m_NPCObj.SetActive(false);
 			m_maskBG.SetActive(false);
 			m_shop.SetActive(false);
 		}
